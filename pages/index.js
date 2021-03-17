@@ -9,7 +9,7 @@ import {
     WidgetRegForm,
     reduxWrapper,
     configure,
-    WidgetFeaturedPresenters,
+    WidgetPresenters,
     WidgetSchedule,
     MyHead
   } from 'eventjuicer-site-components';
@@ -50,8 +50,9 @@ import {
       }}
     />
 
-    <WidgetFeaturedPresenters 
+    <WidgetPresenters 
       setting="featured_presenters" 
+      link={(item) => `/speakers/${item.id}` }
     />
   
     <WidgetRoleButtons 

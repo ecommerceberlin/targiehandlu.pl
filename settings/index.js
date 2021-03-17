@@ -22,8 +22,15 @@ const settings =  {
             label: "virtual.presenters.title",
             secondaryLabel: "virtual.presenters.description"
         },
-        filter: [["featured", 1]],
-        link: false
+        filter: [["featured", 1]]
+    },
+
+
+    presenters: {
+        wrapperProps:{
+            label: "virtual.presenters.title",
+            secondaryLabel: "virtual.presenters.description"
+        },
     },
 
     stages : {
@@ -63,6 +70,9 @@ const settings =  {
             placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
         }
     },
+
+
+    
 
     streaming_registration: {
 
@@ -308,6 +318,7 @@ const settings =  {
               name: 'general',
               items: [
                 {name: 'home', to: '/'},
+                {name: 'speakers', to: '/speakers'},
               ]
             },
             // {

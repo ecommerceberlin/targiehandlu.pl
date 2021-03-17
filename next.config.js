@@ -12,7 +12,6 @@ const withTM = require('next-transpile-modules')(['eventjuicer-site-components']
     i18n: {
       locales: ['en','pl'],
       defaultLocale: 'pl',  
-
       domains: [
       {
         domain: 'targiehandlu.pl',
@@ -23,6 +22,13 @@ const withTM = require('next-transpile-modules')(['eventjuicer-site-components']
         defaultLocale: 'en',
       }],
     },
+
+    async rewrites() { return [{
+      source: '/presenters',
+      destination: '/speakers',
+    },
+    ]},
+
 
   
   });
