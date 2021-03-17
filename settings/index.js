@@ -31,7 +31,7 @@ const settings =  {
             label: "virtual.presenters.title",
             secondaryLabel: "virtual.presenters.description"
         },
-        og_template: "tehonline_template_speaker"
+        og_template: "tehonline_template_speaker2"
     },
 
     stages : {
