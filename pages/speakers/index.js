@@ -16,9 +16,10 @@ import {
   
   const PagePresenters = () => (
     <>
-    <WidgetPresenters setting="presenters" link={(item) => `/speakers/${item.id}` } />
+
+    <WidgetPresenters setting="virtual_speakers" link={(item) => `/speakers/${item.id}` } />
   
-    <WidgetVideoWithEventInfo />
+    <WidgetVideoWithEventInfo setting="heroStreaming" />
   
     <WidgetRegForm setting="streaming_registration" />
   

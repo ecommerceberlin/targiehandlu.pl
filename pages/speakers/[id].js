@@ -3,12 +3,12 @@ import {
     WidgetRegForm,
     WidgetPresenter,
     WidgetPresenters,
-    // WidgetSchedule,
     WidgetVideoWithEventInfo,
     // WidgetRoleButtons,
     reduxWrapper,
     configure,
-    HeadSpeaker
+    HeadSpeaker,
+    WidgetSchedule
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
@@ -19,16 +19,18 @@ import {
 
   const PageSpeaker = ({id}) => (<>
 
-      <HeadSpeaker id={id} path="/speakers">{(data)=><Head>{data}</Head> }</HeadSpeaker>
-
+      <HeadSpeaker setting="virtual_speakers" id={id} path="/speakers">{(data)=><Head>{data}</Head> }</HeadSpeaker>
       <WidgetPresenter id={id} path="/speakers" />
-
-      <WidgetVideoWithEventInfo />
-
       <WidgetRegForm setting="streaming_registration" />
-
-      <WidgetPresenters setting="presenters" link={(item) => `/speakers/${item.id}` } />
-
+      <WidgetVideoWithEventInfo setting="heroStreaming" />
+      <WidgetSchedule 
+        wrapperProps={{
+          label: "virtual.schedule.title", 
+          secondaryLabel: "virtual.schedule.description"
+        }}
+      />
+      <WidgetPresenters setting="virtual_featured_presenters" link={(item) => `/speakers/${item.id}` } />
+      <WidgetRegForm setting="streaming_registration" />
 
   </>
 )

@@ -17,7 +17,7 @@ const settings =  {
     },
 
 
-    featured_presenters: {
+    virtual_featured_presenters: {
         wrapperProps:{
             label: "virtual.presenters.title",
             secondaryLabel: "virtual.presenters.description"
@@ -26,11 +26,12 @@ const settings =  {
     },
 
 
-    presenters: {
+    virtual_speakers: {
         wrapperProps:{
             label: "virtual.presenters.title",
             secondaryLabel: "virtual.presenters.description"
         },
+        og_template: "tehonline_template_speaker"
     },
 
     stages : {
@@ -93,7 +94,9 @@ const settings =  {
         start : ['email', 'fname'],
         ticket_id : 1888,
         email_template : "pl-livestream-registration",
-        right: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615497181/tehonline_reg.jpg"
+        right: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615497181/tehonline_reg.jpg",
+        rightShadowed: true
+
     },
 
     schedule: {

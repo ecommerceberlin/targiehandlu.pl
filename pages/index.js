@@ -51,7 +51,7 @@ import {
     />
 
     <WidgetPresenters 
-      setting="featured_presenters" 
+      setting="virtual_featured_presenters" 
       link={(item) => `/speakers/${item.id}` }
     />
   
