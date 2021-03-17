@@ -42,6 +42,7 @@ return (  <Wrapper first label="">{
 
     const ogImage = getPresenterOgImage(presenter, "tehonline_template_speaker2"); 
     const fbImage = getPresenterFbAd(presenter, "tehonline_template_speaker_square3");
+    const fbImage2 = getPresenterFbAd(presenter, "tehonline_template_speaker_square4");
 
     const linkParams = {
       href: `/speakers/${presenter.id}`
@@ -82,6 +83,12 @@ return (  <Wrapper first label="">{
 
            <Box mt={3}><img
             src={fbImage}
+            alt=""
+            style={{ marginTop: 10, maxHeight: 200 }}
+          /></Box>
+
+           <Box mt={3}><img
+            src={fbImage2}
             alt=""
             style={{ marginTop: 10, maxHeight: 200 }}
           /></Box>
