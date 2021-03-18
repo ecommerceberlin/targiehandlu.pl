@@ -9,6 +9,7 @@ import {
   useDatasource,
   getPresenterOgImage,
   getPresenterFbAd,
+  getComplexImage,
   getSpeakerName,
   get as _get,
   Divider,
@@ -43,6 +44,10 @@ return (  <Wrapper first label="">{
     const ogImage = getPresenterOgImage(presenter, "tehonline_template_speaker2"); 
     const fbImage = getPresenterFbAd(presenter, "tehonline_template_speaker_square3");
     const fbImage2 = getPresenterFbAd(presenter, "tehonline_template_speaker_square4");
+    const fbImageV = getComplexImage(presenter, "tehonline_template_speaker_vertical", {
+      avatar: {size: 700},
+      logotype: {width: 700, height: 400, top: 400}
+    });
 
     const linkParams = {
       href: `/speakers/${presenter.id}`
@@ -89,6 +94,13 @@ return (  <Wrapper first label="">{
 
            <Box mt={3}><img
             src={fbImage2}
+            alt=""
+            style={{ marginTop: 10, maxHeight: 200 }}
+          /></Box>
+
+
+             <Box mt={3}><img
+            src={fbImageV}
             alt=""
             style={{ marginTop: 10, maxHeight: 200 }}
           /></Box>
