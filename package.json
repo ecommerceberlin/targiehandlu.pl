@@ -27,7 +27,7 @@
   "homepage": "https://github.com/targiehandlu/site#readme",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
-    "eventjuicer-site-components": "3.2.17",
+    "eventjuicer-site-components": "3.2.18",
     "next": "10.0.6",
     "next-transpile-modules": "^6.3.0",
     "react": "^17.0.1",
