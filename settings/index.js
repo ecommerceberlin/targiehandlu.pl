@@ -321,9 +321,19 @@ const settings =  {
               name: 'general',
               items: [
                 {name: 'home', to: '/'},
-                {name: 'speakers', to: '/speakers'},
               ]
             },
+
+            {
+                name: 'virtual',
+                items: [
+                  {name: 'register', to: '/virtual'},
+                  {name: 'schedule', to: '/schedule'},
+                  {name: 'speakers', to: '/speakers'},
+                ]
+            },
+
+
             // {
             //   name: 'visitors',
             //   items: [

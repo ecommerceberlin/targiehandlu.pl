@@ -2,32 +2,52 @@ import React from 'react'
 
 import {
     connect,
-    WidgetVisitor,
-    WidgetFeaturedExhibitors,
-    WidgetPresenter,
+    reduxWrapper,
+    configure,
+
+    WidgetRegForm,
+    // WidgetFeaturedExhibitors,
     WidgetSchedule,
     WidgetVideoWithEventInfo,
-    WidgetRoleButtons,
-    reduxWrapper,
-    configure
+    // WidgetRoleButtons,
+    MyHead
   } from 'eventjuicer-site-components';
-  
-  const settings = require('../settings').default;
 
+  import Head from 'next/head'
+
+  const settings = require('../settings').default;
 
   const PageSchedule = () => (
 
     <>
 
-    <WidgetSchedule />
+      <MyHead 
+      image="https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615494821/tehonline.jpg" 
+      titleLabel="virtual.opengraph.name" 
+      descriptionLabel="virtual.opengraph.description"
+    >{(data)=><Head>{data}</Head>}</MyHead>
 
-    <WidgetVideoWithEventInfo />
 
-    {/* <WidgetVisitor label="visitors.register_alt" />
+      <WidgetSchedule 
+      wrapperProps={{
+      label: "virtual.schedule.title", 
+      secondaryLabel: "virtual.schedule.description"
+      }}
+      />
 
-    <WidgetRoleButtons />
+      <WidgetVideoWithEventInfo setting="heroStreaming" />
 
-    <WidgetFeaturedExhibitors label="exhibitors.list_featured" /> */}
+
+      <WidgetRegForm
+      setting="streaming_registration"
+      wrapperProps={{ 
+      label:"virtual.register.title",
+      secondaryLabel: null
+      }}
+      legend="streaming.how_to_register"
+      />
+
+
   </>
   )
 
@@ -36,15 +56,12 @@ import {
 export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
 
 
-    await configure(props, {
+    return await configure(props, {
       settings : settings,
-      preload : ["presenters"]
+      preload : ["presenters"],
+      cache: 10
     })
 
-    return {
-      revalidate : 10
-    }
-  
   })
   
   
