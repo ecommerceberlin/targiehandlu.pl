@@ -43,28 +43,28 @@ const settings =  {
             title: "streaming.chat.title"
         },
         A: {
-            stream: "https://youtu.be/pxRMgHXYg-M",
+            stream: "https://www.youtube.com/watch?v=UxyY8glptos",
             discord: "803790592768212992",
             restricted: true,
             sponsor: null,
             placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
         },
         B: {
-            stream: "https://youtu.be/g9p2ujU72dU",
+            stream: "https://www.youtube.com/watch?v=UxyY8glptos",
             discord : "803790612171718667",
             restricted: true,
             sponsor: null,
             placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
         },
         C: {
-            stream: "https://youtu.be/2BTwXU3jdOY",
+            stream: "https://www.youtube.com/watch?v=UxyY8glptos",
             discord: "803790872390926366",
             restricted: true,
             sponsor: null,
             placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
         },
         D: {
-            stream: "https://youtu.be/i_ierICqE60",
+            stream: "https://www.youtube.com/watch?v=UxyY8glptos",
             discord: "803934176075841597",
             restricted: true,
             sponsor: null,
@@ -317,13 +317,7 @@ const settings =  {
     ui : {
 
         menuItems : [
-            {
-              name: 'general',
-              items: [
-                {name: 'home', to: '/'},
-              ]
-            },
-
+           
             {
                 name: 'virtual',
                 items: [
@@ -353,7 +347,15 @@ const settings =  {
                 // {name: 'premium-services', to: '/premium'},
                 // {name: 'faq', to: '/faq'},
               ]
+            },
+
+            {
+                name: 'general',
+                items: [
+                  {name: 'home', to: '/'},
+                ]
             }
+  
         ]
     },
 
