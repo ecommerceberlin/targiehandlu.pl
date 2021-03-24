@@ -32,7 +32,19 @@ import {
       descriptionLabel="virtual.opengraph.description"
     >{(data)=><Head>{data}</Head>}</MyHead>
 
-    {/* <WidgetStage stage="A" /> */}
+    <WidgetStage stage="A" />
+
+ <WidgetSchedule 
+      wrapperProps={{
+        label: "virtual.schedule.title", 
+        secondaryLabel: "virtual.schedule.description"
+      }}
+    />
+
+     <WidgetPresenters 
+      setting="virtual_featured_presenters" 
+      link={(item) => `/speakers/${item.id}` }
+    />
 
     <WidgetVideoWithEventInfo setting="heroStreaming" />
 
@@ -46,17 +58,9 @@ import {
       legend="streaming.how_to_register"
     />
   
-    <WidgetSchedule 
-      wrapperProps={{
-        label: "virtual.schedule.title", 
-        secondaryLabel: "virtual.schedule.description"
-      }}
-    />
+   
 
-    <WidgetPresenters 
-      setting="virtual_featured_presenters" 
-      link={(item) => `/speakers/${item.id}` }
-    />
+   
   
     <WidgetRoleButtons 
       setting="rolebuttonsVirtual" 

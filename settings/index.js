@@ -53,7 +53,7 @@ const settings =  {
         stages: {
             A: {
                 embed: "player",
-                url: "https://www.youtube.com/embed/UxyY8glptos",
+                url: "https://youtu.be/fih7dfpLr2g",
                 discord: "803790592768212992",
                 restricted: true,
                 sponsor: null,
@@ -61,7 +61,7 @@ const settings =  {
             },
             B: {
                 embed: "player",
-                url: "https://www.youtube.com/embed/UxyY8glptos",
+                url: "https://youtu.be/PUEL2MCzxMI",
                 discord : "803790612171718667",
                 restricted: true,
                 sponsor: null,
@@ -69,7 +69,7 @@ const settings =  {
             },
             C: {
                 embed: "player",
-                url: "https://www.youtube.com/embed/UxyY8glptos",
+                url: "https://youtu.be/vr_9O5nqwgw",
                 discord: "803790872390926366",
                 restricted: true,
                 sponsor: null,
@@ -77,7 +77,7 @@ const settings =  {
             },
             D: {
                 embed: "player",
-                url: "https://www.youtube.com/embed/UxyY8glptos",
+                url: "https://youtu.be/EwQ02-nA7NQ",
                 discord: "803934176075841597",
                 restricted: true,
                 sponsor: null,
