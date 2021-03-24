@@ -34,41 +34,55 @@ const settings =  {
         og_template: "tehonline_template_speaker2"
     },
 
-    stages : {
+    streaming : {
         regform: "streaming_registration",
         api: "https://proxy.eventjuicer.com/api/schedule",
         discordProps: {
             avatars: false,
             join: "https://discord.gg/u3Fv9VJGU5",
-            title: "streaming.chat.title"
+            title: "streaming.chat.title",
+            showTime: false
         },
-        A: {
-            stream: "https://www.youtube.com/embed/UxyY8glptos",
-            discord: "803790592768212992",
-            restricted: true,
-            sponsor: null,
-            placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
+        playerProps: {
+            controls: true, 
+            playing: true,  
+            loop: true,
+            width: "100%",
+            height: "100%"
         },
-        B: {
-            stream: "https://www.youtube.com/embed/UxyY8glptos",
-            discord : "803790612171718667",
-            restricted: true,
-            sponsor: null,
-            placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
-        },
-        C: {
-            stream: "https://www.youtube.com/embed/UxyY8glptos",
-            discord: "803790872390926366",
-            restricted: true,
-            sponsor: null,
-            placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
-        },
-        D: {
-            stream: "https://www.youtube.com/embed/UxyY8glptos",
-            discord: "803934176075841597",
-            restricted: true,
-            sponsor: null,
-            placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1614810311/stillphoto.jpg"
+        stages: {
+            A: {
+                embed: "player",
+                url: "https://www.youtube.com/embed/UxyY8glptos",
+                discord: "803790592768212992",
+                restricted: true,
+                sponsor: null,
+                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
+            },
+            B: {
+                embed: "player",
+                url: "https://www.youtube.com/embed/UxyY8glptos",
+                discord : "803790612171718667",
+                restricted: true,
+                sponsor: null,
+                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
+            },
+            C: {
+                embed: "player",
+                url: "https://www.youtube.com/embed/UxyY8glptos",
+                discord: "803790872390926366",
+                restricted: true,
+                sponsor: null,
+                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
+            },
+            D: {
+                embed: "player",
+                url: "https://www.youtube.com/embed/UxyY8glptos",
+                discord: "803934176075841597",
+                restricted: true,
+                sponsor: null,
+                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
+            }
         }
     },
 

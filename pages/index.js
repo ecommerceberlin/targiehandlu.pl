@@ -11,7 +11,8 @@ import {
     configure,
     WidgetPresenters,
     WidgetSchedule,
-    MyHead
+    MyHead,
+    WidgetStage
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
@@ -30,6 +31,8 @@ import {
       titleLabel="virtual.opengraph.name" 
       descriptionLabel="virtual.opengraph.description"
     >{(data)=><Head>{data}</Head>}</MyHead>
+
+    {/* <WidgetStage stage="A" /> */}
 
     <WidgetVideoWithEventInfo setting="heroStreaming" />
 
