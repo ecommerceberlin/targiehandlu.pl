@@ -2,82 +2,51 @@ import React from 'react'
 
 import {
     connect,
-    WidgetVideoWithEventInfo,
-    // WidgetFeaturedCompanies,
-    // WidgetAllExhibitorsColumnList,
-    WidgetRoleButtons,
-    WidgetRegForm,
     reduxWrapper,
     configure,
-    WidgetPresenters,
-    WidgetSchedule,
-    MyHead,
-    WidgetStage
+    WidgetSalesMap,
+    WidgetIconGrid,
+    WidgetVideoWithEventInfo,
+    //WidgetAllExhibitorsAvatarlist,
+    WidgetFeaturedCompanies,
+    WidgetAllExhibitorsColumnList,
+    WidgetFaq
   } from 'eventjuicer-site-components';
-  
-  import Head from 'next/head'
-
   
   import settings from '../settings'
   
+  const PageExhibit = () => (
   
-  const PageIndex = (props) => (
-  
-     
-    <React.Fragment>
-  
-    <MyHead 
-      image="https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615494821/tehonline.jpg" 
-      titleLabel="virtual.opengraph.name" 
-      descriptionLabel="virtual.opengraph.description"
-    >{(data)=><Head>{data}</Head>}</MyHead>
+   <>
 
-    <WidgetStage stage="A" />
+    <WidgetVideoWithEventInfo setting="heroExpo" />
 
- <WidgetSchedule 
-      wrapperProps={{
-        label: "virtual.schedule.title", 
-        secondaryLabel: "virtual.schedule.description"
-      }}
+    <WidgetSalesMap
+      label="exhibitors.map.title"
+      secondaryLabel="exhibitors.map.opensales"
     />
 
-     <WidgetPresenters 
-      setting="virtual_featured_presenters" 
-      link={(item) => `/speakers/${item.id}` }
-    />
+    <WidgetFeaturedCompanies />
 
-    <WidgetVideoWithEventInfo setting="heroStreaming" />
-
-
-   <WidgetRegForm
-      setting="streaming_registration"
-      wrapperProps={{ 
-        label:"virtual.register.title",
-        secondaryLabel: null
-      }}
-      legend="streaming.how_to_register"
-    />
+    <WidgetIconGrid setting="exhibitors.benefits" />
   
-   
+    <WidgetFaq setting="exhibitors.faq" /> 
 
-   
+    {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
   
-    <WidgetRoleButtons 
-      setting="rolebuttonsVirtual" 
-    />
-
-    </React.Fragment>
-   
-  ) 
+    <WidgetAllExhibitorsColumnList />
+  
+  </>
+  
+  )
   
   export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
   
     return await configure(props, {
-      settings: settings,
-      preload: ['allexhibitors', 'companies', 'presenters']
+      settings : settings,
+      preload : ['exhibitors', 'allexhibitors']
     })
-    
+  
   })
   
-  export default connect()(PageIndex);
-  
+  export default connect()(PageExhibit);

@@ -16,7 +16,6 @@ const settings =  {
     
     },
 
-
     virtual_featured_presenters: {
         wrapperProps:{
             label: "virtual.presenters.title",
@@ -54,7 +53,7 @@ const settings =  {
             A: {
                 embed: "player",
                 url: "https://youtu.be/fih7dfpLr2g",
-                discord: "803790592768212992",
+                discord: null,
                 restricted: true,
                 sponsor: null,
                 placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
@@ -62,7 +61,7 @@ const settings =  {
             B: {
                 embed: "player",
                 url: "https://youtu.be/PUEL2MCzxMI",
-                discord : "803790612171718667",
+                discord: null,
                 restricted: true,
                 sponsor: null,
                 placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
@@ -70,7 +69,7 @@ const settings =  {
             C: {
                 embed: "player",
                 url: "https://youtu.be/vr_9O5nqwgw",
-                discord: "803790872390926366",
+                discord: null,
                 restricted: true,
                 sponsor: null,
                 placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
@@ -78,7 +77,7 @@ const settings =  {
             D: {
                 embed: "player",
                 url: "https://youtu.be/EwQ02-nA7NQ",
-                discord: "803934176075841597",
+                discord: null,
                 restricted: true,
                 sponsor: null,
                 placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
@@ -332,14 +331,14 @@ const settings =  {
 
         menuItems : [
            
-            {
-                name: 'virtual',
-                items: [
-                  {name: 'register', to: '/virtual'},
-                  {name: 'schedule', to: '/schedule'},
-                  {name: 'speakers', to: '/speakers'},
-                ]
-            },
+            // {
+            //     name: 'virtual',
+            //     items: [
+            //       {name: 'register', to: '/virtual'},
+            //       {name: 'schedule', to: '/schedule'},
+            //       {name: 'speakers', to: '/speakers'},
+            //     ]
+            // },
 
 
             // {
@@ -380,6 +379,33 @@ const settings =  {
     },
 
     exhibitors : {
+        faq: {
+
+            wrapperProps: {
+                label: "exhibitors.faq.name"
+            },
+            baseLabel: "exhibitors.faq.become",
+            showTitle: false,
+            items: [
+              {
+                label: 'included_services',
+                important: true,
+                buttons: [],
+              },
+              {
+                baseLabel: 'exhibitors.faq.before_event',
+                label: 'additional_paid_services',
+              },
+              { label: 'payment' },
+              { label: 'onboarding' },
+              { label: 'resignation' },
+              { label: 'promo_benefits' },
+              {
+                baseLabel: 'exhibitors.faq.before_event',
+                label: 'public_profile',
+              },
+            ]
+        },
         ogTemplate: "template_teh19_exhibitor_",
         benefits : {
             baseLabel: "exhibitors.benefits",
@@ -480,9 +506,9 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o. Sp. k.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811967834',
-        event_name : 'TARGI EHANDLU',
+        event_name : '20. Targi eHandlu',
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '10 czerwca  2021',
+        event_date : '20 października  2021',
         event_hours : '10:00-17:00',
 
     },
