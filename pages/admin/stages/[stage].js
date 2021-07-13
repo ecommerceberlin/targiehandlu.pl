@@ -19,9 +19,9 @@ export async function getStaticPaths() {
   };
 }
 
-export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
   
-  return await configure(store, {
+  return await configure(props, {
     settings : settings,
     preload : ['presenters']
   })
