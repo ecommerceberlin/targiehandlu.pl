@@ -37,15 +37,7 @@ import {
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 
-
-      <WidgetRegForm
-      setting="streaming_registration"
-      wrapperProps={{ 
-      label:"virtual.register.title",
-      secondaryLabel: null
-      }}
-      legend="streaming.how_to_register"
-      />
+      <WidgetRegForm setting="visitor.register" />
 
 
   </>
