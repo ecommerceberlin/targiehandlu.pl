@@ -67,7 +67,7 @@ return (  <Wrapper first label=""><Grid container spacing={0}>{
 
   return (
 
-   <Grid item xl={3} lg={3} md={3}>
+   <Grid key={presenter.id} item xl={3} lg={3} md={3}>
    
    <Avatar variant="square" src={ resizeCloudinaryImage(logotype, 600, 300) } classes={{
            root: classes.avatarContainerFluid,
