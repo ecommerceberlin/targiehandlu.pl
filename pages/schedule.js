@@ -21,21 +21,21 @@ import {
 
     <>
 
-      <MyHead 
+      {/* <MyHead 
       image="https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615494821/tehonline.jpg" 
       titleLabel="virtual.opengraph.name" 
       descriptionLabel="virtual.opengraph.description"
-    >{(data)=><Head>{data}</Head>}</MyHead>
+    >{(data)=><Head>{data}</Head>}</MyHead> */}
 
 
-      <WidgetSchedule 
+      {/* <WidgetSchedule 
       wrapperProps={{
       label: "virtual.schedule.title", 
       secondaryLabel: "virtual.schedule.description"
       }}
-      />
+      /> */}
 
-      <WidgetVideoWithEventInfo setting="heroStreaming" />
+      <WidgetVideoWithEventInfo setting="heroExpo" />
 
 
       <WidgetRegForm

@@ -86,7 +86,26 @@ const settings =  {
     },
 
 
-    
+    exhibitor_registration: {
+
+        wrapperProps: {
+            label : null,
+            secondaryLabel: null,
+            dense: true,
+            first: false
+        },
+        legend: "streaming.restricted",
+        fields : [
+          {name: "email", required: true},
+          {name: "fname", required: true},
+          {name: "lname", required: true},
+          {name: "cname2", required: true},
+          {name: "position", required: true},
+        ],
+        start : [],
+        email_template : "pl-livestream-registration",
+        right: null,
+    },
 
     streaming_registration: {
 
@@ -168,7 +187,7 @@ const settings =  {
 
         videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/v1534454501/video_presenter_blak.mp4",
         background : "https://res.cloudinary.com/eventjuicer/image/upload/v1534542530/poster_presenter_blak.jpg",
-        overlay : "red",
+        overlay : "black",
         template : "heroGold",
         heading : "event.claim",
         subheading : "event.description",
@@ -199,6 +218,9 @@ const settings =  {
     },
 
     bookingmap : {
+        wrapperProps: {
+            legend: "video.booking.title"
+        },
         height : 400,
         steps : [
             "choose_booth",
@@ -208,16 +230,6 @@ const settings =  {
         ],
         allowedGroupIds : [309, 310, 311, 312, 313, 314, 315],
         disabledTicketIds : [],
-        styles : {
-            // light : null,
-            // standard : 310,
-            // hot : 311,
-            // superhot : 312,
-            // ultra : 313,
-            // grand : 314,
-            // stage : 315,
-            // networking : 316
-        },
         boothStyleMapping: {
             309: "light",
             310: "standard",
@@ -228,6 +240,61 @@ const settings =  {
             315: "stage",
             316: "networking",
             321: "boothSold"
+        },
+        benefits: {
+            335: [
+                {
+                    icon : "Done", 
+                    primary : "standardtime"
+                },
+            ],
+            336: [
+            {
+                icon : "Done", 
+                primary : "extratime"
+            },
+            {
+                icon : "Done", 
+                primary : "sponsorbranding"
+            },
+            {
+                icon : "Done", 
+                primary : "socialmedia"
+            },
+            {
+                icon : "Done", 
+                primary : "mailing"
+            },
+            ],
+            337: [{
+                icon : "Done", 
+                primary : "watermark"
+            },
+            {
+                icon : "Done", 
+                primary : "headlinebranding"
+            },
+            {
+                icon : "Done", 
+                primary : "mailing"
+            },
+            {
+                icon : "Done", 
+                primary : "exclusive"
+            },
+            {
+                icon : "Done", 
+                primary : "socialmedia"
+            },
+            {
+                icon : "Done", 
+                primary : "studio"
+            },
+            {
+                icon : "Done", 
+                primary : "portal"
+            },
+            ]
         },
         api : "https://stoiska.targiehandlu.pl/preorder"
     },
@@ -341,16 +408,16 @@ const settings =  {
             // },
 
 
-            // {
-            //   name: 'visitors',
-            //   items: [
-            //     {name: 'visit', to: '/visit'},
-            //     // {name: 'schedule', to: '/schedule'},
-            //     // {name: 'presenters', to: '/presenters'},
-            //     // {name: 'exhibitors', to: '/exhibitors'},
-            //     // {name: 'offers', to: '/offers'}
-            //   ]
-            // },
+            {
+              name: 'visitors',
+              items: [
+                {name: 'visit', to: '/visit'},
+                // {name: 'schedule', to: '/schedule'},
+                // {name: 'presenters', to: '/presenters'},
+                // {name: 'exhibitors', to: '/exhibitors'},
+                // {name: 'offers', to: '/offers'}
+              ]
+            },
             {
               name: 'exhibitors',
               items: [
@@ -377,6 +444,7 @@ const settings =  {
         ticketgroups : [331]
 
     },
+
 
     exhibitors : {
         faq: {
@@ -455,9 +523,9 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 1730,
+            ticket_id : 1949,
             email_template : "pl-visitors-registration",
-            background : "/lanyard.jpg",
+            right : "/lanyard.jpg",
 
         },
 

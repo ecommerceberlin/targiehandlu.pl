@@ -4,7 +4,9 @@ import {
     connect,
     reduxWrapper,
     configure,
-    WidgetVideoWithEventInfo
+    WidgetVideoWithEventInfo,
+    WidgetVisitor,
+    WidgetIconGrid
   } from 'eventjuicer-site-components';
   
   //import FeaturedPresenters from '../src/FeaturedPresenters';
@@ -17,7 +19,7 @@ import {
         
          <WidgetVideoWithEventInfo setting="heroExpo" />
 
-          {/* <WidgetVisitor label="visitors.register_alt" first /> */}
+          <WidgetVisitor setting="visitor.register" />
   
           {/* <WidgetSchedule /> */}
   
@@ -28,9 +30,9 @@ import {
   
           {/* <WidgetPresenters /> */}
   
-          {/* <WidgetIconGrid setting="visitor.benefits" /> */}
+          <WidgetIconGrid setting="visitor.benefits" />
   
-          {/* <WidgetVisitor label="visitors.register" /> */}
+          <WidgetVisitor setting="visitor.register" />
   
           {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
   
