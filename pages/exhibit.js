@@ -21,10 +21,7 @@ import {
   
    <>
 
-    <WidgetSalesMap
-      label="exhibitors.map.title"
-      secondaryLabel="exhibitors.map.opensales"
-    />
+    <WidgetSalesMap />
 
     <WidgetFeaturedCompanies />
 

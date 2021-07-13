@@ -4,12 +4,14 @@ import {
     connect,
     reduxWrapper,
     configure,
+
     WidgetSalesMap,
     WidgetIconGrid,
     WidgetVideoWithEventInfo,
     //WidgetAllExhibitorsAvatarlist,
     WidgetFeaturedCompanies,
     WidgetAllExhibitorsColumnList,
+    Wrapper,
     WidgetFaq
   } from 'eventjuicer-site-components';
   
@@ -19,19 +21,20 @@ import {
   
    <>
 
-    <WidgetVideoWithEventInfo setting="heroExpo" />
-
-    <WidgetSalesMap />
+    <WidgetSalesMap setting="bookingmap2020" />
 
     <WidgetFeaturedCompanies />
 
     <WidgetIconGrid setting="exhibitors.benefits" />
   
-    <WidgetFaq setting="exhibitors.faq" /> 
-
+   <WidgetFaq setting="exhibitors.faq" /> 
+  
     {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
   
     <WidgetAllExhibitorsColumnList />
+
+    <WidgetVideoWithEventInfo setting="heroExpo" />
+
   
   </>
   

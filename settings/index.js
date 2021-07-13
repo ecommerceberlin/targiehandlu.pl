@@ -217,9 +217,39 @@ const settings =  {
         ]
     },
 
+    bookingmap2020 : {
+        wrapperProps: {
+            label: "exhibitors.map.comeback.title",
+            secondaryLabel: "exhibitors.map.comeback.description"
+        },
+        height : 400,
+        steps : [
+            "choose_booth",
+            "confirm",
+            "pay",
+            "access"
+        ],
+        allowedGroupIds : [310, 311, 312, 313, 314],
+        disabledTicketIds : [],
+        boothStyleMapping: {
+            309: "light",
+            310: "standard",
+            311: "hot",
+            312: "superHot",
+            313: "ultra",
+            314: "grand",
+            315: "stage",
+            316: "networking",
+            321: "boothSold", //last minute / buffer
+            338: "boothSold" //test
+        },
+        api : "https://stoiska.targiehandlu.pl/preorder"
+    },
+
     bookingmap : {
         wrapperProps: {
-            legend: "video.booking.title"
+            label: "exhibitors.map.title",
+            secondaryLabel: "exhibitors.map.opensales"
         },
         height : 400,
         steps : [
@@ -242,6 +272,8 @@ const settings =  {
             321: "boothSold", //last minute / buffer
             338: "boothSold" //test
         },
+        api : "https://stoiska.targiehandlu.pl/preorder",
+
         benefits: {
             335: [
                 {
@@ -297,7 +329,7 @@ const settings =  {
             },
             ]
         },
-        api : "https://stoiska.targiehandlu.pl/preorder"
+       
     },
 
 

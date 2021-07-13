@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/targiehandlu/site.git"
+    "url": "git+https://github.com/ecommerceberlin/targiehandlu.pl.git"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -23,12 +23,12 @@
   "author": "adam zygadlewicz <adam.zygadlewicz@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/targiehandlu/site/issues"
+    "url": "https://github.com/ecommerceberlin/targiehandlu.pl/issues"
   },
-  "homepage": "https://github.com/targiehandlu/site#readme",
+  "homepage": "https://github.com/ecommerceberlin/targiehandlu.pl#readme",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
-    "eventjuicer-site-components": "4.0.4",
+    "eventjuicer-site-components": "4.0.5",
     "next": "11.0.1",
     "next-transpile-modules": "^8.0.0",
     "react": "^17.0.2",
