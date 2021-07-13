@@ -228,8 +228,8 @@ const settings =  {
             "pay",
             "access"
         ],
-        allowedGroupIds : [309, 310, 311, 312, 313, 314, 315],
-        disabledTicketIds : [],
+        allowedGroupIds : [310, 311, 312, 313, 314],
+        disabledTicketIds : [1935,1945,1944,1943],
         boothStyleMapping: {
             309: "light",
             310: "standard",
@@ -239,7 +239,8 @@ const settings =  {
             314: "grand",
             315: "stage",
             316: "networking",
-            321: "boothSold"
+            321: "boothSold", //last minute / buffer
+            338: "boothSold" //test
         },
         benefits: {
             335: [
