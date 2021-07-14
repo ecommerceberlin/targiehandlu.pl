@@ -251,7 +251,7 @@ const settings =  {
             "access"
         ],
         allowedGroupIds : [310, 311, 312, 313, 314],
-        disabledTicketIds : [1935,1945,1944,1943],
+        disabledTicketIds : [1935,1945,1944,1943,1942],
         boothStyleMapping: {
             309: "light",
             310: "standard",
