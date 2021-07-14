@@ -1,3 +1,56 @@
+const standardBenefits =    [{
+    icon : "Space", 
+    primary : "space"
+    },
+    {
+    icon : "Furniture",
+    primary : "furniture"
+    },
+    {
+    icon : "Electricity", 
+    primary : "electricity"
+    },
+    {
+    icon : "Catering", 
+    primary : "catering"
+    },
+    {
+    icon : "Ids",
+    primary : "ids"
+    },
+    {
+    icon : "Catalogue",
+    primary : "profile"
+    }]
+
+const premiumBenefits =    [{
+    icon : "Space", 
+    primary : "space2"
+    },
+    {
+    icon : "Furniture",
+    primary : "furniture2"
+    },
+    {
+    icon : "Electricity", 
+    primary : "electricity"
+    },
+    {
+    icon : "Catering", 
+    primary : "catering"
+    },
+    {
+    icon : "Ids",
+    primary : "ids"
+    },
+    {
+    icon : "Catalogue",
+    primary : "profile"
+}]
+
+
+ 
+
 
 
 const settings =  {
@@ -16,76 +69,7 @@ const settings =  {
     
     },
 
-    virtual_featured_presenters: {
-        wrapperProps:{
-            label: "virtual.presenters.title",
-            secondaryLabel: "virtual.presenters.description"
-        },
-        filter: [["featured", 1]]
-    },
-
-
-    virtual_speakers: {
-        wrapperProps:{
-            label: "virtual.presenters.title",
-            secondaryLabel: "virtual.presenters.description"
-        },
-        og_template: "tehonline_template_speaker2"
-    },
-
-    streaming : {
-        regform: "streaming_registration",
-        api: "https://proxy.eventjuicer.com/api/schedule",
-        discordProps: {
-            avatars: false,
-            join: "https://discord.gg/u3Fv9VJGU5",
-            title: "streaming.chat.title",
-            showTime: false
-        },
-        playerProps: {
-            controls: true, 
-            playing: true,  
-            loop: true,
-            width: "100%",
-            height: "100%"
-        },
-        stages: {
-            A: {
-                embed: "player",
-                url: "https://youtu.be/fih7dfpLr2g",
-                discord: null,
-                restricted: true,
-                sponsor: null,
-                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
-            },
-            B: {
-                embed: "player",
-                url: "https://youtu.be/PUEL2MCzxMI",
-                discord: null,
-                restricted: true,
-                sponsor: null,
-                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
-            },
-            C: {
-                embed: "player",
-                url: "https://youtu.be/vr_9O5nqwgw",
-                discord: null,
-                restricted: true,
-                sponsor: null,
-                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
-            },
-            D: {
-                embed: "player",
-                url: "https://youtu.be/EwQ02-nA7NQ",
-                discord: null,
-                restricted: true,
-                sponsor: null,
-                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
-            }
-        }
-    },
-
-
+   
     exhibitor_registration: {
 
         wrapperProps: {
@@ -243,7 +227,15 @@ const settings =  {
             321: "boothSold", //last minute / buffer
             338: "boothSold" //test
         },
-        api : "https://stoiska.targiehandlu.pl/preorder"
+        api : "https://stoiska.targiehandlu.pl/preorder",
+
+        benefits: {
+            310: standardBenefits,
+            311: standardBenefits,
+            312: standardBenefits,
+            313: standardBenefits,
+            314: premiumBenefits,
+        },
     },
 
     bookingmap : {
@@ -275,61 +267,13 @@ const settings =  {
         api : "https://stoiska.targiehandlu.pl/preorder",
 
         benefits: {
-            335: [
-                {
-                    icon : "Done", 
-                    primary : "standardtime"
-                },
-            ],
-            336: [
-            {
-                icon : "Done", 
-                primary : "extratime"
-            },
-            {
-                icon : "Done", 
-                primary : "sponsorbranding"
-            },
-            {
-                icon : "Done", 
-                primary : "socialmedia"
-            },
-            {
-                icon : "Done", 
-                primary : "mailing"
-            },
-            ],
-            337: [{
-                icon : "Done", 
-                primary : "watermark"
-            },
-            {
-                icon : "Done", 
-                primary : "headlinebranding"
-            },
-            {
-                icon : "Done", 
-                primary : "mailing"
-            },
-            {
-                icon : "Done", 
-                primary : "exclusive"
-            },
-            {
-                icon : "Done", 
-                primary : "socialmedia"
-            },
-            {
-                icon : "Done", 
-                primary : "studio"
-            },
-            {
-                icon : "Done", 
-                primary : "portal"
-            },
-            ]
+            310: standardBenefits,
+            311: standardBenefits,
+            312: standardBenefits,
+            313: standardBenefits,
+            314: premiumBenefits,
         },
-       
+   
     },
 
 
@@ -778,10 +722,52 @@ const settings =  {
                 // }
 
             ]
+        },
+    },
+    virtual_featured_presenters: {
+        wrapperProps:{
+            label: "virtual.presenters.title",
+            secondaryLabel: "virtual.presenters.description"
+        },
+        filter: [["featured", 1]]
+    },
+
+
+    virtual_speakers: {
+        wrapperProps:{
+            label: "virtual.presenters.title",
+            secondaryLabel: "virtual.presenters.description"
+        },
+        og_template: "tehonline_template_speaker2"
+    },
+
+    streaming : {
+        regform: "streaming_registration",
+        api: "https://proxy.eventjuicer.com/api/schedule",
+        discordProps: {
+            avatars: false,
+            join: "https://discord.gg/u3Fv9VJGU5",
+            title: "streaming.chat.title",
+            showTime: false
+        },
+        playerProps: {
+            controls: true, 
+            playing: true,  
+            loop: true,
+            width: "100%",
+            height: "100%"
+        },
+        stages: {
+            A: {
+                embed: "player",
+                url: "https://youtu.be/fih7dfpLr2g",
+                discord: null,
+                restricted: true,
+                sponsor: null,
+                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
+            },
         }
-
-}
-
+    },
 
     
 };

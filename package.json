@@ -28,7 +28,7 @@
   "homepage": "https://github.com/ecommerceberlin/targiehandlu.pl#readme",
   "dependencies": {
     "@material-ui/icons": "^4.11.2",
-    "eventjuicer-site-components": "4.0.5",
+    "eventjuicer-site-components": "4.0.6",
     "next": "11.0.1",
     "next-transpile-modules": "^8.0.0",
     "react": "^17.0.2",
