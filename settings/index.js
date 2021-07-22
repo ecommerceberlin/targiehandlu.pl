@@ -63,6 +63,7 @@ const settings =  {
         },
         lang_api_endpoint : 'https://api.eventjuicer.com/proxy?url=https%3A%2F%2Flocalise.biz%2Fapi%2Fexport%2Fall.json%3Fformat%3Dmulti%26pretty%26key%3DSHiwxgKaPMx_KThQH2zcdzwiKEMzuNBm',    
         api : "https://api.eventjuicer.com/proxy?url=https://api.eventjuicer.com/v1/public/hosts/targiehandlu.pl",
+        // api : "http://eventjuicer-api.test/v1/public/hosts/targiehandlu.pl",
         post_api : "https://api.eventjuicer.com/v1/public/hosts/targiehandlu.pl/register",
         service_api : "https://api.eventjuicer.com/v1/services",
         og_image : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_limit,w_1024/v1546943854/ebe_og_home.jpg",
@@ -76,19 +77,25 @@ const settings =  {
             label : null,
             secondaryLabel: null,
             dense: true,
-            first: false
+            first: true
         },
-        legend: "streaming.restricted",
-        fields : [
-          {name: "email", required: true},
-          {name: "fname", required: true},
-          {name: "lname", required: true},
-          {name: "cname2", required: true},
-          {name: "position", required: true},
-        ],
-        start : [],
-        email_template : "pl-livestream-registration",
-        right: null,
+        path_to_regform: "exhibitor_registration.regform",
+
+        regform: {
+            legend: "streaming.restricted",
+            fields : [
+            {name: "email", required: true},
+            {name: "fname", required: true},
+            {name: "lname", required: true},
+            {name: "cname", required: true},
+            {name: "phone", required: true},
+            {name: "nip", required: true}
+            ],
+            start : [],
+            email_template : "pl-livestream-registration",
+            right: null,
+        }
+        
     },
 
     streaming_registration: {
@@ -585,7 +592,7 @@ const settings =  {
         secondaryStyle: null,
       //  iconStyle: "heroIcon",
         links : [
-            {label: "exhibitors.agreement.title", href : "/legal-20200324"},
+            {label: "exhibitors.agreement.title", href : "/legal-20210714"},
         ]
     },
 
