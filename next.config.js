@@ -36,12 +36,19 @@ const withTM = require('next-transpile-modules')(['eventjuicer-site-components']
       // }],
     },
 
-    async rewrites() { return [{
+    async rewrites() { 
+      return [{
       source: '/presenters',
       destination: '/speakers',
+      }]
     },
-    ]},
 
-
+    async redirects() {
+      return [{
+          source: '/legal',
+          destination: '/legal-20210714',
+          permanent: false,
+        }]
+    }
   
   });
