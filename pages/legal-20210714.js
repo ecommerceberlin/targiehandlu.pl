@@ -27,7 +27,7 @@ const PageFaq = () => (
 * 1.2.3. **Regulamin** ​– niniejszy dokument stanowiący wzorzec umowy w rozumieniu art. 384 § 1 KC;
 * 1.2.4. **Wystawca** ​– osoba fizyczna, osoba prawna lub jednostka organizacyjna nieposiadająca osobowości prawnej, która prowadzi działalność gospodarczą związaną z handlem elektronicznym, w tym w szczególności polegającą na świadczeniu usług drogą elektroniczną, której oferta skierowana jest do podmiotów prowadzących sklepy internetowe lub która w ramach prowadzonej przez siebie działalności gospodarczej prowadzi lub zamierza rozpocząć prowadzenie sklepu internetowego lub innej internetowej platformy sprzedażowej lub której oferta skierowana jest do podmiotów prowadzących sklepy internetowe lub inne platformy sprzedażowe;
 * 1.2.5. **Hala** – Przestrzeń na terenie EXPO XXI, w której odbędą się Targi;
-* 1.2.6. **Stoisko​** – wydzielona przestrzeń wystawiennicza w Hali;
+* 1.2.6. **Stoisko** - przestrzeń wystawiennicza (powierzchnia podłogi Hali) udostępniona wraz z wyposażeniem w ramach danego Pakietu wystawienniczego.
 * 1.2.7. **Umowa** ​– zawarta na zasadach określonych w Regulaminie umowa pomiędzy Organizatorem a Wystawcą, określająca prawa i obowiązki Organizatora oraz Wystawcy;
 * 1.2.8. **Strona Targów** – udostępniona przez Organizatora w sieci Internet pod adresem https://targiehandlu.pl strona umożliwiająca między innymi zawarcie Umowy pomiędzy Organizatorem a Wystawcą;
 * 1.2.9. **Cennik** - opublikowany na Stronie Targów wykaz obejmujący aktualne opłaty związane z rejestracją i udziałem w Targach, wszystkie ceny podane w Cenniku są określone w kwotach netto (bez 23% VAT);
@@ -39,14 +39,15 @@ const PageFaq = () => (
 * 1.2.15. **Pakiet wystawienniczy “Standard”** - pakiet złożony z usług związanych z rejestracją Wystawcy, usług promocyjnych i reklamowych oraz za korzystanie w czasie Targów z przestrzeni wystawienniczej oznaczonej przez Organizatora jako Strefa Standard,
 * 1.2.16. **Pakiet wystawienniczy “HOT”** - pakiet złożony z usług związanych z rejestracją Wystawcy, usług promocyjnych i reklamowych oraz za korzystanie w czasie Targów z przestrzeni wystawienniczej oznaczonej przez Organizatora jako Strefa HOT;
 * 1.2.17. **Pakiet wystawienniczy “Super HOT”** - pakiet złożony z usług związanych z rejestracją Wystawcy, usług promocyjnych i reklamowych oraz za korzystanie w czasie Targów z przestrzeni wystawienniczej oznaczonej przez Organizatora jako Strefa Super HOT;
-* 1.2.18. **Pakiet wystawienniczy “Grand”** - pakiet usług złożony z usług związanych z rejestracją Wystawcy, usług promocyjnych i reklamowych oraz za korzystanie w czasie Targów z przestrzeni wystawienniczej oznaczonej przez oznaczonej przez Organizatora jako Strefa Grand;
-* 1.2.19. **Stoisko** - przestrzeń wystawiennicza (powierzchnia podłogi Hali) udostępniona wraz z wyposażeniem w ramach danego Pakietu wystawienniczego.
+* 1.2.18. **Pakiet wystawienniczy “ULTRA”** - pakiet złożony z usług związanych z rejestracją Wystawcy, usług promocyjnych i reklamowych oraz za korzystanie w czasie Targów z przestrzeni wystawienniczej oznaczonej przez Organizatora jako Strefa ULTRA;
+* 1.2.19. **Pakiet wystawienniczy “Grand”** - pakiet usług złożony z usług związanych z rejestracją Wystawcy, usług promocyjnych i reklamowych oraz za korzystanie w czasie Targów z przestrzeni wystawienniczej oznaczonej przez oznaczonej przez Organizatora jako Strefa Grand;
+
 
 # 2. Świadczenia organizatora.
 
-2.1. **Organizator** udostępnia **Wystawcom**, na zasadach określonych w Regulaminie, **Pakiety wystawiennicze** w kategorii wybranej przez Wystawcę, na zasadach określonych Regulaminem.  Organizator oferuje następujące kategorie Pakietów wystawienniczych: Pakiet “Light”, Pakiet „Standard”, Pakiet „Hot”, Pakiet "Super-HOT", Pakiet "Grand".
+2.1. **Organizator** udostępnia **Wystawcom**, na zasadach określonych w Regulaminie, **Pakiety wystawiennicze** w kategorii wybranej przez Wystawcę, na zasadach określonych Regulaminem.  Organizator oferuje następujące kategorie Pakietów wystawienniczych: Pakiet “Light”, Pakiet „Standard”, Pakiet „Hot”, Pakiet "Super-HOT", Pakiet "Ultra", Pakiet "Grand".
 
-2.2.  W ramach Pakietów wystawienniczych “Light”, “Standard”, „Hot”, "Super-Hot"  Organizator na czas trwania Targów umożliwia Wystawcy korzystanie ze Stoiska, które obejmuje:
+2.2.  W ramach Pakietów wystawienniczych “Light”, “Standard”, „Hot”, "Super-Hot", "Ultra"  Organizator na czas trwania Targów umożliwia Wystawcy korzystanie ze Stoiska, które obejmuje:
 
 * 2.2.1. 6m2 (sześć metrów kwadratowych) powierzchni podłogi Hali (o wymiarach 3 m x 2 m);
 * 2.2.2. korzystanie z umieszczonego na powierzchni o jakiej mowa w pkt 2.2.1. jednego stołu o średnicy min. 70 cm i 2 (dwóch) krzeseł;
@@ -146,7 +147,7 @@ lub
 
 7.3. Wystawca nie może rozpocząć demontażu Stoiska, przed godz. 17:00 w dzień Targów.
 
-7.4. Wystawca może korzystać z dowolnej liczby Pakietów wystawienniczych Light, Standard, Hot, Super-Hot.
+7.4. Wystawca może korzystać z dowolnej liczby Pakietów wystawienniczych Light, Standard, Hot, Super-Hot, Ultra
 
 7.5. Wystawca może korzystać z jednego Pakietu Wystawienniczego wyłącznie w celu promowania jednego produktu (towaru lub usługi), przy czym przez promowanie rozumieć należy prezentowanie oferty handlowej dotyczącej towaru lub usługi; przez jeden produkt lub usługę rozumieć należy także grupę produktów lub usług oferowanych przez Wystawcę pod jedną marką (znakiem towarowym stanowiącym oznaczenie odróżniające).
 
@@ -172,7 +173,8 @@ lub
 * 8.3.2. w ramach Pakietu wystawienniczego “Standard” - 50,
 * 8.3.3. w ramach Pakietu wystawienniczego “HOT”- 75,
 * 8.3.4. w ramach Pakietu wystawienniczego “Super HOT” - 100,
-* 8.3.5. w ramach Pakietu wystawienniczego “Grand” - 200.
+* 8.3.5. w ramach Pakietu wystawienniczego “ULTRA” - 125,
+* 8.3.6. w ramach Pakietu wystawienniczego “Grand” - 200.
 
 8.4. W przypadku odpłatnego udziału publiczności, każdy przedstawiciel Wystawcy powyżej limitu bezpłatnych wejściówek określonego w pkt 8.3 Regulaminu traktowany będzie jak publiczność.
 
