@@ -74,25 +74,29 @@ const settings =  {
     exhibitor_registration: {
 
         wrapperProps: {
-            label : null,
+            label : "ecommerce.regform.title",
             secondaryLabel: null,
             dense: true,
             first: true
         },
+
         path_to_regform: "exhibitor_registration.regform",
 
         regform: {
-            legend: "streaming.restricted",
+            wrapperProps: {},
+            legend: "exhibitor.regform.legend",
+            baseLabel: "exhibitor",
             fields : [
             {name: "email", required: true},
             {name: "fname", required: true},
             {name: "lname", required: true},
             {name: "cname", required: true},
             {name: "phone", required: true},
-            {name: "nip", required: true}
+            {name: "nip", required: true},
+            {name: "accept", required: true, type: "confirm"}
             ],
             start : [],
-            email_template : "pl-livestream-registration",
+            email_template : "pl-exhibitor-registration",
             right: null,
         }
         

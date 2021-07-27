@@ -18,6 +18,13 @@ const withTM = require('next-transpile-modules')(['eventjuicer-site-components']
       }
 
       config.resolve.alias['react'] = path.resolve(__dirname, '.', 'node_modules', 'react');
+
+
+      config.module.rules.push({
+        test: /\.md$/,
+        use: 'raw-loader',
+      });
+
   
       return config
     },
