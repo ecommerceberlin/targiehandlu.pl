@@ -76,7 +76,7 @@ const settings =  {
         wrapperProps: {
             label : "ecommerce.regform.title",
             secondaryLabel: null,
-            dense: true,
+            dense: false,
             first: true
         },
 
@@ -90,9 +90,11 @@ const settings =  {
             {name: "email", required: true},
             {name: "fname", required: true},
             {name: "lname", required: true},
-            {name: "cname", required: true},
             {name: "phone", required: true},
+
+            {name: "cname", required: true},
             {name: "nip", required: true},
+
             {name: "accept", required: true, type: "confirm"}
             ],
             start : [],
