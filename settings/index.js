@@ -49,7 +49,24 @@ const premiumBenefits =    [{
 }]
 
 
- 
+ const stageBenefits =   [
+    {
+        icon : "Done", 
+        primary : "screen"
+    },
+    {
+        icon : "Done", 
+        primary : "presentation"
+    },
+    {
+        icon : "Done", 
+        primary : "stage"
+    },
+    {
+        icon : "Done", 
+        primary : "decoration"
+    },
+]
 
 
 
@@ -248,6 +265,7 @@ const settings =  {
             312: standardBenefits,
             313: standardBenefits,
             314: premiumBenefits,
+            315: stageBenefits
         },
     },
 
@@ -285,6 +303,7 @@ const settings =  {
             312: standardBenefits,
             313: standardBenefits,
             314: premiumBenefits,
+            315: stageBenefits
         },
    
     },
