@@ -30,7 +30,7 @@
     "@material-ui/icons": "^4.11.2",
     "@sentry/nextjs": "^6.10.0",
     "eventjuicer-site-components": "4.1.6",
-    "next": "11.0.1",
+    "next": "11.1.0",
     "next-transpile-modules": "^8.0.0",
     "raw-loader": "^4.0.2",
     "react": "^17.0.2",
