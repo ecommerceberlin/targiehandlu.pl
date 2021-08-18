@@ -128,7 +128,7 @@ New Developments in E-commerce
   
         <WidgetJurors minToShow={4} />
 
-        <WidgetFaq 
+        {/* <WidgetFaq 
             items={[
             {
               label: 'exhibitor-status',
@@ -147,7 +147,7 @@ New Developments in E-commerce
             //  baseLabel: 'cfp.faq.before_event',
               label: 'stage',
             },
-    ]} />
+    ]} /> */}
 
 
       
