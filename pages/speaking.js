@@ -128,29 +128,8 @@ New Developments in E-commerce
   
         <WidgetJurors minToShow={4} />
 
-        {/* <WidgetFaq 
-            items={[
-            {
-              label: 'exhibitor-status',
-              important: true,
-              buttons: [],
-            },
-            {
-          //    baseLabel: 'exhibitors.faq.before_event',
-              label: 'fee',
-            },
-            { label: 'submission-limits' },
-            { label: 'co-presenter' },
-            { label: 'ranking' },
-            { label: 'fair-play' },
-            {
-            //  baseLabel: 'cfp.faq.before_event',
-              label: 'stage',
-            },
-    ]} /> */}
+        <WidgetFaq setting="speakers.cfpfaq" />
 
-
-      
         <WidgetIconGrid setting="speakers.benefits" icons={{
             FaSearch: FaSearch, 
             FaPoll: FaPoll, 

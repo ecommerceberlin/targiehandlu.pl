@@ -348,6 +348,18 @@ const settings =  {
 
         },
 
+        cfpfaq: {
+            baseLabel: "cfp.faq",
+            items: [
+                {label: 'exhibitor-status'},
+                {label: 'fee',},
+                { label: 'submission-limits' },
+                { label: 'co-presenter' },
+                { label: 'ranking' },
+                { label: 'fair-play' },
+                {label: 'stage',},
+            ]
+        },
 
         benefits : {
 
