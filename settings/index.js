@@ -68,6 +68,20 @@ const premiumBenefits =    [{
     },
 ]
 
+const openStageBenefits =   [
+    {
+        icon : "Done", 
+        primary : "screen"
+    },
+    {
+        icon : "Done", 
+        primary : "presentation"
+    },
+    {
+        icon : "Done", 
+        primary : "stage"
+    }
+]
 
 
 const settings =  {
@@ -255,7 +269,8 @@ const settings =  {
             315: "stage",
             316: "networking",
             321: "boothSold", //last minute / buffer
-            338: "boothSold" //test
+            338: "boothSold", //test
+            339: "stage"
         },
         api : "https://stoiska.targiehandlu.pl/preorder",
 
@@ -265,7 +280,8 @@ const settings =  {
             312: standardBenefits,
             313: standardBenefits,
             314: premiumBenefits,
-            315: stageBenefits
+            315: stageBenefits,
+            339: openStageBenefits
         },
     },
 
@@ -293,7 +309,8 @@ const settings =  {
             315: "stage",
             316: "networking",
             321: "boothSold", //last minute / buffer
-            338: "boothSold" //test
+            338: "boothSold", //test
+            339: "stage"
         },
         api : "https://stoiska.targiehandlu.pl/preorder",
 
@@ -303,7 +320,8 @@ const settings =  {
             312: standardBenefits,
             313: standardBenefits,
             314: premiumBenefits,
-            315: stageBenefits
+            315: stageBenefits,
+            339: openStageBenefits
         },
    
     },
