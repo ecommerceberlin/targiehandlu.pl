@@ -349,14 +349,14 @@ const settings =  {
                   required: true,
                   options : "categories"
                 },
-                {name: "presentation_title", required: true},
-                {name: "presentation_description", required: true}
+                // {name: "presentation_title", required: true},
+                // {name: "presentation_description", required: true}
             ],
             
               start: [
                 'presenter',
-                'presentation_title', 
-                'presentation_description',
+                // 'presentation_title', 
+                // 'presentation_description',
                 'presentation_category',
                 'cname2'
             ],

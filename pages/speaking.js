@@ -49,7 +49,25 @@ const PageSpeaking = () => (
           <MyTypography template="subtitle1" label="cfp.hello.needs" />
   
           <Markdown label="cfp.hello.details" />
-  
+
+
+        <WidgetRegForm
+      wrapperProps={{label: null}}
+      setting="speakers.callforpapers"
+      options={{
+        "categories": [
+          'conversion',
+          'marketing',
+          'logistics',
+          'payments',
+          'it',
+          'trends',
+        ]
+       }}
+      />
+
+
+
   
           </div> }
         right={ 
@@ -74,6 +92,14 @@ const PageSpeaking = () => (
 
   <WidgetPhotostream setting="cfpphotostream" />
 
+  <Wrapper label="presenters.competition.rules.title">
+  <Markdown label="presenters.competition.rules.content" />
+  </Wrapper>
+
+  
+        <WidgetJurors minToShow={4} />
+
+
   <WidgetRegForm
       setting="speakers.callforpapers"
       options={{
@@ -85,48 +111,9 @@ const PageSpeaking = () => (
           'it',
           'trends',
         ]
-       }} 
-
-      right={
-        <>
-        <MyTypography template="subtitle1" label="presenters.competition.rules.title" /> 
-        <Markdown label="presenters.competition.rules.content" />
-        </>
-      }
-
-      summary={<div>asd</div>}
-
+       }}
       />
 
-
-   
-
-        {/* <div>
-
-        Why speak at the E-commerce Berlin Expo?
-Over 7,000 e-commerce professionals
-90% average session capacity
-3,000+ CEOs, Directors & Heads of Departments
-Relevant visitors, 65% of whom come from retailers & brands
-
-
-        </div> */}
-
-        {/*
-
-Website Conversion Rate
-Marketing in E-commerce
-eLogistics / International Expansion
-ePayments
-IT for E-commerce
-New Developments in E-commerce
-
- */}
-
-      
-        
-  
-        <WidgetJurors minToShow={4} />
 
         <WidgetFaq setting="speakers.cfpfaq" />
 
