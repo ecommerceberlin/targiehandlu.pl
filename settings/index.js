@@ -298,7 +298,7 @@ const settings =  {
             "access"
         ],
         allowedGroupIds : [310, 311, 312, 313, 314],
-        disabledTicketIds : [1935,1945,1944,1943,1942],
+        disabledTicketIds : [],
         boothStyleMapping: {
             309: "light",
             310: "standard",
@@ -365,6 +365,31 @@ const settings =  {
             email_template : "pl-presenters-application",
 
         },
+
+        callforpapers_update: {
+
+            wrapperProps: {
+                label: "presenters.update.title",
+                // secondaryLabel: ""
+            },
+            
+            baseLabel: "presenters",
+            fields: [
+                {name: "presentation_title", required: true},
+                {name: "presentation_description", required: true, long: true },
+                {name: "presenter", required: true},
+                {name: "position", required: true},
+                {name: "logotype", required: true},
+                {name: "avatar", required: true},
+                {name: "bio", long: true, required: true},
+               
+            ],
+            
+              start: [],
+
+    
+        },
+
 
         cfpfaq: {
             baseLabel: "cfp.faq",
