@@ -372,7 +372,7 @@ const settings =  {
                 label: "presenters.update.title",
                 // secondaryLabel: ""
             },
-            
+            legend: "",
             baseLabel: "presenters",
             fields: [
                 {name: "presentation_title", required: true},
