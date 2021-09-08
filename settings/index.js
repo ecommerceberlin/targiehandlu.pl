@@ -476,7 +476,7 @@ const settings =  {
               name: 'visitors',
               items: [
                 {name: 'visit', to: '/visit'},
-                // {name: 'schedule', to: '/schedule'},
+                {name: 'vote', to: '/vote'},
                 // {name: 'presenters', to: '/presenters'},
                 // {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
@@ -679,7 +679,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            // {label: "ehandel.com.pl", color: "secondary",  href: "https://ehandel.com.pl", as: "https://ehandel.com.pl", variant: "text"}
+            {label: "common.menu.visitors.vote", color: "secondary",  href: "/vote", as: "/vote", variant: "contained"}
         ],
     },
 
