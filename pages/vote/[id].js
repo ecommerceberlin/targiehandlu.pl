@@ -15,7 +15,8 @@ import {
   Markdown,
   reduxWrapper,
   configure,
-  HeadVote
+  HeadVote,
+  Centered
 } from 'eventjuicer-site-components';
 
 import dynamic from 'next/dynamic'
@@ -34,7 +35,7 @@ const PageVote  = ({id}) => (
   
   <div>
 
-  <HeadVote id={id}>{(data) => <Head>{data}</Head>}</HeadVote> 
+  <HeadVote id={id} template="template_teh20_callforpapers_pl">{(data) => <Head>{data}</Head>}</HeadVote> 
    
   <WidgetVotable
       id={id}
@@ -46,12 +47,14 @@ const PageVote  = ({id}) => (
 
   <WidgetCallForPapers
     intro={
-      <div style={{ width: '80%' }}>
+      <Centered>
+      <div style={{ width: '40%', marginBottom: 50}}>
         <WidgetVoteStatus max_votes={6} />
         <Typography template="benefitsText">
           <Markdown label="callforpapers.voting.general-rules.description" />
         </Typography>
       </div>
+      </Centered>
     }
     limit={350}
     filter={item => "presentation_description" in item       
@@ -89,7 +92,7 @@ export const getStaticPaths = () => {
 
   return {paths: [
 
-  ], fallback: true}
+  ], fallback: "blocking"}
 
 }
  
@@ -107,7 +110,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
     props : {
       id : id
     },
-    revalidate: 10
+    revalidate: 15
   }
 
 })
