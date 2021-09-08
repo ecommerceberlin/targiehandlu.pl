@@ -9,11 +9,21 @@ import {
     MyTypography as Typography,
     Markdown,
     reduxWrapper,
-    configure
+    configure,
+    Centered
   } from 'eventjuicer-site-components';
   
-  
-  const settings = require('../../settings').default;
+import TrendingUp from '@material-ui/icons/TrendingUp';
+import EmojiTransportation from '@material-ui/icons/EmojiTransportation';
+import EuroSymbol from '@material-ui/icons/EuroSymbol';
+import EmojiObjects from '@material-ui/icons/EmojiObjects';
+import VolumeUp from '@material-ui/icons/VolumeUp';
+import Power from '@material-ui/icons/Power';
+
+
+
+
+const settings = require('../../settings').default;
   
   const PageVote  = () => (
   
@@ -21,12 +31,16 @@ import {
   
     <WidgetContestantCategories
       intro={
-        <div style={{ width: '80%' }}>
-          <WidgetVoteStatus max_votes={6} />
+      
+        <Centered>
+            <div style={{ width: '40%', marginBottom: 50}}>
+        <WidgetVoteStatus max_votes={6} />
           <Typography template="benefitsText">
             <Markdown label="callforpapers.voting.general-rules.description" />
           </Typography>
-        </div>
+          </div>
+          </Centered>
+       
       }
       limit={350}
       filter={item => item
@@ -41,6 +55,14 @@ import {
       label='callforpapers.categories.title'
       show_votes={false}
       first={true}
+      icons={{
+        conversion: TrendingUp,
+        logistics: EmojiTransportation,
+        payments: EuroSymbol,
+        trends: EmojiObjects,
+        marketing: VolumeUp,
+        it: Power
+      }}
     />
   
    
