@@ -29,7 +29,7 @@ const PageVote  = ({category}) => {
         <WidgetCallForPapers
           intro={
             <Centered>
-            <div style={{ width: '40%', marginBottom: 50}}>
+            <div style={{  maxWidth: 600, marginLeft: "auto", marginRight: "auto", marginBottom: 50 }}>
               <WidgetVoteStatus max_votes={6} />
               <Typography template="benefitsText">
                 <Markdown label="callforpapers.voting.general-rules.description" />
