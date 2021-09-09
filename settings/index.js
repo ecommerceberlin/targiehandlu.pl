@@ -329,6 +329,11 @@ const settings =  {
 
     speakers : {
 
+        wrapperProps:{
+            label: "presenters.list_featured",
+            secondaryLabel: "presenters.list_description"
+        },
+        og_template: "tehonline_template_speaker2",
         callforpapers: {
 
             wrapperProps: {

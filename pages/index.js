@@ -10,7 +10,8 @@ import {
     //WidgetAllExhibitorsAvatarlist,
     WidgetFeaturedCompanies,
     WidgetAllExhibitorsColumnList,
-    WidgetFaq
+    WidgetFaq,
+    WidgetPresenters
   } from 'eventjuicer-site-components';
   
   import settings from '../settings'
@@ -24,6 +25,8 @@ import {
     <WidgetSalesMap />
 
     <WidgetFeaturedCompanies />
+
+    <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
 
     <WidgetIconGrid setting="exhibitors.benefits" />
   

@@ -19,18 +19,18 @@ import {
 
   const PageSpeaker = ({id}) => (<>
 
-      <HeadSpeaker setting="virtual_speakers" id={id} path="/speakers">{(data)=><Head>{data}</Head> }</HeadSpeaker>
+      <HeadSpeaker setting="speakers" id={id} path="/speakers">{(data)=><Head>{data}</Head> }</HeadSpeaker>
       <WidgetPresenter id={id} path="/speakers" />
-      <WidgetRegForm setting="streaming_registration" />
-      <WidgetVideoWithEventInfo setting="heroStreaming" />
-      <WidgetSchedule 
+      <WidgetRegForm setting="visitor.register" />
+      <WidgetVideoWithEventInfo setting="heroExpo" />
+      {/* <WidgetSchedule 
         wrapperProps={{
           label: "virtual.schedule.title", 
           secondaryLabel: "virtual.schedule.description"
         }}
-      />
-      <WidgetPresenters setting="virtual_featured_presenters" link={(item) => `/speakers/${item.id}` } />
-      <WidgetRegForm setting="streaming_registration" />
+      /> */}
+      <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } />
+      <WidgetRegForm setting="visitor.register" />
 
   </>
 )
