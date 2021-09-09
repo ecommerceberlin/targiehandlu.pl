@@ -14,12 +14,11 @@ import {
   } from 'eventjuicer-site-components';
   
 import TrendingUp from '@material-ui/icons/TrendingUp';
-import EmojiTransportation from '@material-ui/icons/EmojiTransportation';
 import EuroSymbol from '@material-ui/icons/EuroSymbol';
 import EmojiObjects from '@material-ui/icons/EmojiObjects';
 import VolumeUp from '@material-ui/icons/VolumeUp';
 import Power from '@material-ui/icons/Power';
-
+import LocalShippingIcon from '@material-ui/icons/LocalShipping';
 
 
 
@@ -57,7 +56,7 @@ const settings = require('../../settings').default;
       first={true}
       icons={{
         conversion: TrendingUp,
-        logistics: EmojiTransportation,
+        logistics: LocalShippingIcon,
         payments: EuroSymbol,
         trends: EmojiObjects,
         marketing: VolumeUp,
