@@ -71,6 +71,11 @@ module.exports = withSentryConfig(withTM({
           source: '/legal',
           destination: '/legal-20210714',
           permanent: false,
+        },
+        {
+          source: '/vote/categories',
+          destination: '/vote',
+          permanent: false,
         }]
     }
   

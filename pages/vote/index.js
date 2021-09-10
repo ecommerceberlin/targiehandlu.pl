@@ -1,10 +1,9 @@
 import {
     connect,
     MyHead as Head,
-    WidgetContestantCategories,
    // WidgetSalesMap,
     WidgetVoteStatus,
-    WidgetRoleButtons,
+    // WidgetRoleButtons,
     LayoutMain as Layout,
     MyTypography as Typography,
     Markdown,
@@ -13,64 +12,25 @@ import {
     Centered
   } from 'eventjuicer-site-components';
   
-import TrendingUp from '@material-ui/icons/TrendingUp';
-import EuroSymbol from '@material-ui/icons/EuroSymbol';
-import EmojiObjects from '@material-ui/icons/EmojiObjects';
-import VolumeUp from '@material-ui/icons/VolumeUp';
-import Power from '@material-ui/icons/Power';
-import LocalShippingIcon from '@material-ui/icons/LocalShipping';
 
-
+import VotingCategories from '../../components/VotingCategories'
 
 const settings = require('../../settings').default;
   
   const PageVote  = () => (
   
-      <div>
-  
-    <WidgetContestantCategories
-      intro={
+    <VotingCategories intro={
       
-        <Centered>
-            <div style={{ maxWidth: 600, marginLeft: "auto", marginRight: "auto", marginBottom: 50}}>
-        <WidgetVoteStatus max_votes={6} />
-          <Typography template="benefitsText">
-            <Markdown label="callforpapers.voting.general-rules.description" />
-          </Typography>
-          </div>
-          </Centered>
-       
-      }
-      limit={350}
-      filter={item => item
-      //  item => "presentation_description" in item 
-        //&& item.presentation_description.length > 10 
-        //&& "avatar" in item 
-        //&& item.avatar.indexOf('http') > -1 
-        //&& "logotype" in item 
-        //&& item.logotype.indexOf('http') > -1
-      }
-      keyword_source="presentation_category"
-      label='callforpapers.categories.title'
-      show_votes={false}
-      first={true}
-      icons={{
-        conversion: TrendingUp,
-        logistics: LocalShippingIcon,
-        payments: EuroSymbol,
-        trends: EmojiObjects,
-        marketing: VolumeUp,
-        it: Power
-      }}
-    />
-  
-   
-  
-    {/* <WidgetRoleButtons /> */}
-   
-    </div>
-    
-  ) 
+      <Centered>
+          <div style={{ maxWidth: 600, marginLeft: "auto", marginRight: "auto", marginBottom: 50}}>
+      <WidgetVoteStatus max_votes={6} />
+        <Typography template="benefitsText">
+          <Markdown label="callforpapers.voting.general-rules.description" />
+        </Typography>
+        </div>
+        </Centered>
+     
+    } />) 
   
    
   

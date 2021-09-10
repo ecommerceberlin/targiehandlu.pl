@@ -1,26 +1,18 @@
 import React from 'react'
 import {
   connect,
-  MyHead,
-  WidgetVoteWithLinkedIn,
   WidgetVisitor,
-  WidgetCallForPapers,
   WidgetVotable,
- // WidgetSalesMap,
   WidgetVoteStatus,
   WidgetRoleButtons,
-  LayoutMain as Layout,
-  WidgetVips,
-  MyTypography as Typography,
-  Markdown,
   reduxWrapper,
   configure,
   HeadVote,
-  Centered
+  WidgetRegForm,
 } from 'eventjuicer-site-components';
-
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
+import VotingCategories from '../../components/VotingCategories'
 
 const settings = require('../../settings').default;
 
@@ -29,6 +21,13 @@ const DynamicWidgetVoteWithLinkedIn = dynamic(
   { ssr: false }
 )
 
+
+const onVoted = (canVote) => (<>
+  <WidgetVoteStatus max_votes={6} />
+  {canVote ? 
+    <div><VotingCategories label={null} secondaryLabel={null} /><WidgetRegForm setting="visitor.register" wrapperProps={{secondaryLabel: "visitors.register_question"}} /></div>: 
+    <WidgetRegForm setting="visitor.register" wrapperProps={{secondaryLabel: "visitors.register"}} />
+  }</>)
 
 const PageVote  = ({id}) => (
 
@@ -40,35 +39,12 @@ const PageVote  = ({id}) => (
   <WidgetVotable
       id={id}
       asPath={`/vote/${id}`}
-      vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={6} />}
-      status={<WidgetVoteStatus max_votes={6} />}
+      vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={6} onVoted={onVoted} />}
+      status={null}
       show_votes={false}
     />
 
-  <WidgetCallForPapers
-    intro={
-      <Centered>
-      <div style={{ maxWidth: 600, marginLeft: "auto", marginRight: "auto", marginBottom: 50 }}>
-        <WidgetVoteStatus max_votes={6} />
-        <Typography template="benefitsText">
-          <Markdown label="callforpapers.voting.general-rules.description" />
-        </Typography>
-      </div>
-      </Centered>
-    }
-    limit={350}
-    filter={item => "presentation_description" in item       
-    //&& item.presentation_description.length > 10 
-    //&& "avatar" in item 
-    //&& item.avatar.indexOf('http') > -1 
-    //&& "logotype" in item 
-    //&& item.logotype.indexOf('http') > -1
-    }
-    keyword_source="presentation_category"
-    keyword={null}
-    label="callforpapers.categories.title"
-    show_votes={true}
-  />
+  <VotingCategories />
 
 <WidgetVisitor setting="visitor.register" />
 
