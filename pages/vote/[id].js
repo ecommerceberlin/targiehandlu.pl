@@ -9,6 +9,7 @@ import {
   configure,
   HeadVote,
   WidgetRegForm,
+  WidgetSalesMap
 } from 'eventjuicer-site-components';
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
@@ -44,8 +45,12 @@ const PageVote  = ({id}) => (
       show_votes={false}
     />
 
+ <WidgetSalesMap wrapperProps={{label: "exhibitors.map.title_alt"}} />
+
+
   <VotingCategories />
 
+ 
 <WidgetVisitor setting="visitor.register" />
 
  {/* <WidgetVips limit={12} mobile={4} /> */}
