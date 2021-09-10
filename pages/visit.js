@@ -5,7 +5,7 @@ import {
     reduxWrapper,
     configure,
     WidgetVideoWithEventInfo,
-    WidgetVisitor,
+    WidgetRegForm,
     WidgetIconGrid
   } from 'eventjuicer-site-components';
   
@@ -19,7 +19,7 @@ import {
         
          <WidgetVideoWithEventInfo setting="heroExpo" />
 
-          <WidgetVisitor setting="visitor.register" />
+          <WidgetRegForm setting="visitor.register" />
   
           {/* <WidgetSchedule /> */}
   
@@ -32,7 +32,7 @@ import {
   
           <WidgetIconGrid setting="visitor.benefits" />
   
-          <WidgetVisitor setting="visitor.register" />
+          <WidgetRegForm setting="visitor.register" />
   
           {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
   

@@ -18,17 +18,13 @@ import {
   const PagePresenters = () => (
     <>
 
-     <MyHead 
-      image="https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615494821/tehonline.jpg" 
-      titleLabel="virtual.opengraph.name" 
-      descriptionLabel="virtual.opengraph.description"
-    >{(data)=><Head>{data}</Head>}</MyHead>
+     <MyHead>{(data)=><Head>{data}</Head>}</MyHead>
 
-    <WidgetPresenters setting="virtual_speakers" link={(item) => `/speakers/${item.id}` } />
+    <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } />
   
-    <WidgetVideoWithEventInfo setting="heroStreaming" />
+    <WidgetVideoWithEventInfo setting="heroExpo" />
   
-    <WidgetRegForm setting="streaming_registration" />
+    <WidgetRegForm setting="visitor.register" />
   
   
     </>
