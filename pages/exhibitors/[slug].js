@@ -1,19 +1,17 @@
 import React from 'react'
 import {
     connect,
-    MyLink as Link,
     WidgetVideoWithEventInfo,
-    WidgetVisitor,
     WidgetCompany,
     WidgetAllExhibitorsColumnList,
-    WidgetSalesMap,
-    // WidgetPresenters,
-    // WidgetSchedule,
     WidgetRoleButtons,
     configure,
     reduxWrapper,
-    MeetupButton,
-    HeadCompany
+    // MeetupButton,
+    HeadCompany,
+    WidgetRegForm,
+    WidgetFeaturedCompanies,
+    WidgetPresenters
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
@@ -32,7 +30,17 @@ import {
 
       {/* <MeetupButton /> */}
 
+      <WidgetRegForm setting="visitor.register" />
+
+
       <WidgetVideoWithEventInfo setting="heroExpo" />
+
+      <WidgetFeaturedCompanies />
+
+      <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
+
+      <WidgetRegForm setting="visitor.register" />
+
 
        {/* <WidgetSalesMap
         label="exhibitors.map.title2"
@@ -81,7 +89,7 @@ import {
       //     }
       //   })),
       paths: [],
-      fallback: true //do not throw 404 when not cached....
+      fallback: "blocking" //do not throw 404 when not cached....
     };
      
   }
@@ -95,14 +103,14 @@ import {
 
     await configure(store, {
       settings : settings,
-      preload : [resource, "exhibitors", "bookingmap", "allexhibitors"]
+      preload : [resource, "exhibitors", "bookingmap"]
     })
 
     return {
         props : {
             slug :slug
         },
-        revalidate : 1
+        revalidate : 10
     }
   
   })

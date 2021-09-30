@@ -219,7 +219,7 @@ const settings =  {
         template : "heroGold",
         heading : "event.claim",
         subheading : "event.description",
-        showable: ["date", "location"],
+        showable: ["date", "hours", "location"],
         orientation : "v",
         primaryStyle: "heroPrimary",
         secondaryStyle: "heroSecondary",
@@ -227,7 +227,7 @@ const settings =  {
 
     },
 
-    rolebuttonsExpo : {
+    rolebuttons : {
         accent : "gold",
         items : [
         {
@@ -481,7 +481,7 @@ const settings =  {
               name: 'visitors',
               items: [
                 {name: 'visit', to: '/visit'},
-                {name: 'vote', to: '/vote'},
+                // {name: 'vote', to: '/vote'},
                 // {name: 'presenters', to: '/presenters'},
                 // {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
@@ -684,7 +684,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            {label: "common.menu.visitors.vote", color: "secondary",  href: "/vote", as: "/vote", variant: "contained"}
+            // {label: "common.menu.visitors.vote", color: "secondary",  href: "/vote", as: "/vote", variant: "contained"}
         ],
     },
 

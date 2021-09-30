@@ -11,7 +11,8 @@ import {
     WidgetFeaturedCompanies,
     WidgetAllExhibitorsColumnList,
     WidgetFaq,
-    WidgetPresenters
+    WidgetPresenters,
+    WidgetRegForm
   } from 'eventjuicer-site-components';
   
   import settings from '../settings'
@@ -22,17 +23,22 @@ import {
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
+    <WidgetRegForm setting="visitor.register" />
+
     <WidgetSalesMap />
 
     <WidgetFeaturedCompanies />
 
     <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
 
-    <WidgetIconGrid setting="exhibitors.benefits" />
+    {/* <WidgetIconGrid setting="exhibitors.benefits" />
   
-    <WidgetFaq setting="exhibitors.faq" /> 
+    <WidgetFaq setting="exhibitors.faq" />  
+  
+   <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> 
+  */}
 
-    {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
+  <WidgetRegForm setting="visitor.register" />
   
     <WidgetAllExhibitorsColumnList />
   

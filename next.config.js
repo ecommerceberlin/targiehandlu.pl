@@ -48,15 +48,15 @@ module.exports = withSentryConfig(withTM({
     i18n: {
       locales: ['en','pl'],
       defaultLocale: 'pl',  
-      // domains: [
-      //   {
-      //   domain: 'targiehandlu.pl',
-      //   defaultLocale: 'pl',
-      // },
-      // {
-      //   domain: 'ecommercewarsaw.com',
-      //   defaultLocale: 'en',
-      // }],
+      domains: [
+        {
+        domain: 'targiehandlu.pl',
+        defaultLocale: 'pl',
+      },
+      {
+        domain: 'ecommercewarsaw.com',
+        defaultLocale: 'en',
+      }],
     },
 
     async rewrites() { 

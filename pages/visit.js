@@ -6,7 +6,9 @@ import {
     configure,
     WidgetVideoWithEventInfo,
     WidgetRegForm,
-    WidgetIconGrid
+    WidgetIconGrid,
+    WidgetFeaturedCompanies,
+    WidgetPresenters
   } from 'eventjuicer-site-components';
   
   //import FeaturedPresenters from '../src/FeaturedPresenters';
@@ -17,16 +19,22 @@ import {
   
           <div>
         
-         <WidgetVideoWithEventInfo setting="heroExpo" />
 
           <WidgetRegForm setting="visitor.register" />
   
+          <WidgetVideoWithEventInfo setting="heroExpo" />
+
+  <WidgetFeaturedCompanies />
+
+<WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
+
+
+
           {/* <WidgetSchedule /> */}
   
           {/* <WidgetFeaturedPresenters /> */}
   
           {/* <WidgetVips limit={12} mobile={4} /> */}
-
   
           {/* <WidgetPresenters /> */}
   
