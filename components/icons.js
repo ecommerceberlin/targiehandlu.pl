@@ -1,25 +1,22 @@
+
 export {default as NoteAdd}  from '@material-ui/icons/NoteAdd'
 export {default as Settings} from '@material-ui/icons/Settings'
 export {default as Public} from '@material-ui/icons/Public'
 export {default as Mic} from '@material-ui/icons/Mic'
 export {default as Assessment} from '@material-ui/icons/Assessment'
 
-export {
-  FaSearch,
-  FaPoll,
-  FaTrophy,
-  FaWrench,
-  FaHandshake,
-  FaLockOpen,
-  FaChartLine,
-  FaPiggyBank,
-  FaDotCircle,
-  FaFastForward,
-  FaChair,
-  FaComments,
-  FaSmile,
-  FaLink,
-  FaLightbulb
-} from 'react-icons/fa';
-
-
+export {default as FaSearch} from '@material-ui/icons/Search'
+export {default as FaPoll} from '@material-ui/icons/Poll'
+export {default as FaTrophy} from '@material-ui/icons/Star'
+export {default as FaWrench} from '@material-ui/icons/Build'
+export {default as FaHandshake} from '@material-ui/icons/ThumbUp'
+export {default as FaLockOpen} from '@material-ui/icons/LockOpen'
+export {default as FaChartLine} from '@material-ui/icons/ShowChart'
+export {default as FaPiggyBank} from '@material-ui/icons/Savings'
+export {default as FaDotCircle} from '@material-ui/icons/FiberManualRecord'
+export {default as FaFastForward} from '@material-ui/icons/FastForward'
+export {default as FaChair} from '@material-ui/icons/Chair'
+export {default as FaComments} from '@material-ui/icons/Message'
+export {default as FaSmile} from '@material-ui/icons/Mood'
+export {default as FaLink} from '@material-ui/icons/Link'
+export {default as FaLightbulb} from '@material-ui/icons/Lightbulb'
