@@ -24,12 +24,7 @@ import settings from '../../../settings'
 
 const PageAdminSpeakersGfx = () => {
 
-const {presenters = []} = useDatasource({
-  presenters: {
-    resource: "presenters"
-  }
-}) 
-
+const presenters = useDatasource({resource: "presenters"}) 
 
 return (  <Wrapper first label="">{
   

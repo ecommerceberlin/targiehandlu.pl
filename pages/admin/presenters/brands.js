@@ -46,12 +46,7 @@ const PageAdminSpeakersGfx = () => {
 
 const classes = useStyles();
 
-const {presenters = []} = useDatasource({
-  presenters: {
-    resource: "presenters"
-  }
-}) 
-
+const presenters = useDatasource({resource: "presenters"}) 
 
 return (  <Wrapper first label=""><Grid container spacing={0}>{
   
