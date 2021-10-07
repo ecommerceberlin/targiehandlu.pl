@@ -28,12 +28,7 @@ import {
     >{(data)=><Head>{data}</Head>}</MyHead> */}
 
 
-      {/* <WidgetSchedule 
-      wrapperProps={{
-      label: "virtual.schedule.title", 
-      secondaryLabel: "virtual.schedule.description"
-      }}
-      /> */}
+      <WidgetSchedule />
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 

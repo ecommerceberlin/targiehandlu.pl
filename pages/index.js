@@ -12,12 +12,13 @@ import {
     WidgetAllExhibitorsColumnList,
     WidgetFaq,
     WidgetPresenters,
-    WidgetRegForm
+    WidgetRegForm,
+    WidgetSchedule
   } from 'eventjuicer-site-components';
   
   import settings from '../settings'
   
-  const PageExhibit = () => (
+  const PageIndex = () => (
   
    <>
 
@@ -29,6 +30,7 @@ import {
 
     <WidgetFeaturedCompanies />
 
+    {/* <WidgetSchedule /> */}
     <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
 
     {/* <WidgetIconGrid setting="exhibitors.benefits" />
@@ -55,4 +57,4 @@ import {
   
   })
   
-  export default connect()(PageExhibit);
+  export default connect()(PageIndex);
