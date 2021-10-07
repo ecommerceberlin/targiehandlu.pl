@@ -8,7 +8,8 @@ import {
     WidgetRegForm,
     WidgetIconGrid,
     WidgetFeaturedCompanies,
-    WidgetPresenters
+    WidgetPresenters,
+    WidgetSchedule
   } from 'eventjuicer-site-components';
   
   //import FeaturedPresenters from '../src/FeaturedPresenters';
@@ -17,38 +18,23 @@ import {
   
   const PageVisit = () => (
   
-          <div>
-        
+<div>
 
-          <WidgetRegForm setting="visitor.register" />
-  
-          <WidgetVideoWithEventInfo setting="heroExpo" />
+<WidgetRegForm setting="visitor.register" />
+<WidgetVideoWithEventInfo setting="heroExpo" />
+<WidgetSchedule />
+<WidgetFeaturedCompanies />
+{/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
+{/* <WidgetFeaturedPresenters /> */}
+{/* <WidgetVips limit={12} mobile={4} /> */}
+{/* <WidgetPresenters /> */}
+<WidgetIconGrid setting="visitor.benefits" />
+<WidgetRegForm setting="visitor.register" />
+{/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
+{/* <WidgetVisitor label="visitors.register" first /> */}
 
-  <WidgetFeaturedCompanies />
+</div>
 
-<WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
-
-
-
-          {/* <WidgetSchedule /> */}
-  
-          {/* <WidgetFeaturedPresenters /> */}
-  
-          {/* <WidgetVips limit={12} mobile={4} /> */}
-  
-          {/* <WidgetPresenters /> */}
-  
-          <WidgetIconGrid setting="visitor.benefits" />
-  
-          <WidgetRegForm setting="visitor.register" />
-  
-          {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
-  
-          {/* <WidgetVisitor label="visitors.register" first /> */}
-
-    
-          </div>
-  
   )
   
   
