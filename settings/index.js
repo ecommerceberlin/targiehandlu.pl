@@ -180,10 +180,10 @@ const settings =  {
           venues : {
             A: { company_id: 0 },
             B: { company_id: 0 },
-            C: { company_id: 0 },
-            D: { company_id: 0 },
-            E: { company_id: 0 },
-            F: { company_id: 0 },
+            // C: { company_id: 0 },
+            // D: { company_id: 0 },
+            // E: { company_id: 0 },
+            // F: { company_id: 0 },
           },
           minimized : ["A", "C"],
         venueStyle : "red",
@@ -493,7 +493,7 @@ const settings =  {
               items: [
                 {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
-                // {name: 'presenters', to: '/presenters'},
+                {name: 'schedule', to: '/schedule'},
                 // {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
               ]

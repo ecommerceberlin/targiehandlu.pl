@@ -36,10 +36,10 @@ return (  <Wrapper first label="">{
     const title = `${_get(presenter, 'presentation_title')}`;
     const description = `${_get(presenter,'presentation_description')}`;
 
-    const ogImage = getPresenterOgImage(presenter, "tehonline_template_speaker2"); 
-    const fbImage = getPresenterFbAd(presenter, "tehonline_template_speaker_square3");
-    const fbImage2 = getPresenterFbAd(presenter, "tehonline_template_speaker_square4");
-    const fbImageV = getComplexImage(presenter, "tehonline_template_speaker_vertical", {
+    const ogImage = getPresenterOgImage(presenter, "template_teh20_exhibitor_pl"); 
+    const fbImage = getPresenterFbAd(presenter, "teh20_tmpl_spkr_sq1");
+    const fbImage2 = getPresenterFbAd(presenter, "teh20_tmpl_spkr_sq1");
+    const fbImageV = getComplexImage(presenter, "teh20_tmpl_spkr_vert1", {
       avatar: {size: 700},
       logotype: {width: 700, height: 400, top: 400}
     });
