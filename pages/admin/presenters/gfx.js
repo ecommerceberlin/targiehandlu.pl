@@ -38,7 +38,7 @@ return (  <Wrapper first label="">{
 
     const ogImage = getPresenterOgImage(presenter, "template_teh20_exhibitor_pl"); 
     const fbImage = getPresenterFbAd(presenter, "teh20_tmpl_spkr_sq1");
-    const fbImage2 = getPresenterFbAd(presenter, "teh20_tmpl_spkr_sq1");
+    const fbImage2 = getPresenterFbAd(presenter, "1080_white_rect");
     const fbImageV = getComplexImage(presenter, "teh20_tmpl_spkr_vert1", {
       avatar: {size: 700},
       logotype: {width: 700, height: 400, top: 400}
