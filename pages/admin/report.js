@@ -12,15 +12,16 @@ import {
   import {useRouter} from 'next/router'  
   
   const settings = require('../../settings').default;
-  
 
-  const PageAdminReport = ({dispatch}) => {
+
+  const PageAdminReport = () => {
   
-    // const data = useDatasource({resource: "report"})
-    const data = [];
+    const data = useDatasource({resource: "report"})
     
-    const {asPath} = useRouter();
-  
+    const {query, asPath} = useRouter();
+    
+    console.log(query, asPath)
+    
     //parse params!
     
   //   const { query } = props;
@@ -59,7 +60,7 @@ import {
   
   export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
   
-    await configure(props, {
+    return await configure(props, {
       settings : settings,
       preload : ["report"]
     })

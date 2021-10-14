@@ -26,12 +26,13 @@ import {
 
     <WidgetRegForm setting="visitor.register" />
 
+    <WidgetSchedule />
+
     <WidgetSalesMap />
 
     <WidgetFeaturedCompanies />
 
-    {/* <WidgetSchedule /> */}
-    <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
+    {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
 
     {/* <WidgetIconGrid setting="exhibitors.benefits" />
   
