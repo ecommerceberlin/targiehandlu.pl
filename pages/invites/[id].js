@@ -1,6 +1,6 @@
 import {
     connect,
-    MyHead as Head,
+    MyHead,
     get as _get,
     getInviteOgImage,
     WidgetVisitor,
@@ -12,18 +12,21 @@ import {
     configure
   } from 'eventjuicer-site-components';
   
+  import Head from 'next/head'
+
   
   const settings = require('../../settings').default;
   
-  const PageInvite = ( { url, person, exhibitors } ) => {
+  const PageInvite = ( { id, person, exhibitors } ) => {
   
     const name = `${_get(person, 'fname', '')} ${_get(person, 'lname', '')}`;
       const cname = `${_get(person, 'cname2', '')}`;
   
     return (
       <div>
-      <Head
-        url="/invites"
+    
+      <MyHead
+        url={`/invites/${id}`}
         image={getInviteOgImage(`Do zobaczeni!a ${_get(person, 'fname', '')} z ${_get(person, 'cname2',"")}`, "teh20_visitor_template1")}
         titleLabel={[
           'visitors.opengraph.title',
@@ -34,7 +37,7 @@ import {
             date: '20 października 2021',
           },
         ]}
-      />
+      >{(data=> <Head>{data}</Head>)}</MyHead>
   
       <Wrapper
         first
