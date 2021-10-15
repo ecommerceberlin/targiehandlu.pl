@@ -22,25 +22,9 @@ import {
   
   const PageTicket = ({code, person, exhibitors }) => {
   
-    const name = `${_get(person, 'fname', '')} ${_get(person, 'lname', '')}`;
-  
     return (
   
 <>
-<Head
-    url={`/invite,${_get(person, 'id', 0)}`}
-    image={getInviteOgImage(`Do zobaczenia! ${_get(person, 'fname', '')} z ${_get(person, 'cname2',)}`,
-    "teh20_visitor_template1"
-    )}
-    titleLabel={[
-    'visitors.opengraph.title',
-    {
-    name: name,
-    location: 'EXPO XXI ',
-    date: '20 października 2021',
-    },
-    ]}
-/>
 
 <Wrapper first label={['visitors.thankyou', { name: _get(person, 'fname', '') }]}>
 
