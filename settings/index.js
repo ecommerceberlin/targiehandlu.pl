@@ -526,7 +526,7 @@ const settings =  {
                 {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
                 {name: 'schedule', to: '/schedule'},
-                // {name: 'exhibitors', to: '/exhibitors'},
+                {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
               ]
             },
@@ -535,7 +535,7 @@ const settings =  {
               items: [
                 {name: 'exhibit', to: '/exhibit'},
                 // {name: 'sample-visitors', to: '/sample-visitors'},
-                // {name: 'exhibitors', to: '/exhibitors'},
+                {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'premium-services', to: '/premium'},
                 // {name: 'faq', to: '/faq'},
               ]

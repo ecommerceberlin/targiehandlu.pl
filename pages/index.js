@@ -9,7 +9,8 @@ import {
     WidgetVideoWithEventInfo,
     //WidgetAllExhibitorsAvatarlist,
     WidgetFeaturedCompanies,
-    WidgetAllExhibitorsColumnList,
+    // WidgetAllExhibitorsColumnList,
+    WidgetExhibitorsAvatarlist,
     WidgetFaq,
     WidgetPresenters,
     WidgetRegForm,
@@ -36,14 +37,12 @@ import {
 
     {/* <WidgetIconGrid setting="exhibitors.benefits" />
   
-    <WidgetFaq setting="exhibitors.faq" />  
   
-   <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> 
   */}
 
-  <WidgetRegForm setting="visitor.register" />
+    <WidgetRegForm setting="visitor.register" />
   
-    <WidgetAllExhibitorsColumnList />
+    <WidgetExhibitorsAvatarlist />
   
   </>
   

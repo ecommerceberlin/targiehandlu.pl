@@ -2,7 +2,7 @@ import React from 'react'
 import {
     connect,
     WidgetVisitor,
-    WidgetAllExhibitorsAvatarlist,
+    WidgetExhibitorsAvatarlist,
     WidgetSalesMap,
     WidgetRoleButtons,
     reduxWrapper,
@@ -15,36 +15,27 @@ import {
   
     <>
   
-    <WidgetAllExhibitorsAvatarlist 
-      label="exhibitors.list_full" 
-      first 
-    />
-  
-    {/* <WidgetSalesMap
-      label="exhibitors.map.title"
-    /> */}
+    <WidgetSalesMap first />
+
+    <WidgetExhibitorsAvatarlist />
+
+    <WidgetVisitor label="visitors.are_you_visitor"  />
   
     <WidgetRoleButtons />
-  
-    {/* <WidgetVisitor 
-      label="visitors.are_you_visitor" 
-    /> */}
-  
+    
     </>
   
   )
   
   
-  export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
+  export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
   
-    await configure(store, {
+    return await configure(props, {
       settings : settings,
-     // preload : ['exhibitors', 'allexhibitors', 'bookingmap']
+      preload : ['exhibitors', 'exhibitors2', 'bookingmap']
     })
-  
-    return {props: {
-      
-    }, revalidate: 3}
+
+
 
   })
   
