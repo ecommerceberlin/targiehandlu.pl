@@ -449,10 +449,40 @@ const settings =  {
 
     vips : {
 
-       benefits: {
-            label : "vips.benefits.title",
-            baseLabel : "vips.benefits",
-            items : [
+        register: {
+
+            data : { important: 1 },
+            template : "pl-visitors-registration",
+            email_template : "pl-visitors-registration",
+            wrapperProps: {
+                label : "vips.register.title",
+                secondaryLabel: "vips.register.description",
+                first : true
+            },
+            fields : [
+                {name: "referral", required: true},
+                {name: "email", required: true},
+                {name: "fname", required: true},
+                {name: "lname", required: true},
+                {name: "cname2", required: true},
+                {name: "position", required: true},
+                {name: "phone", required: true}
+              ],
+            start : ['referral', 'email', 'fname'],
+            ticket_id : 1949,
+            right : "/lanyard.jpg",
+           
+        },
+
+        benefits : {
+
+            label: "vips.benefits.title",
+     //       secondaryLabel: "vips.benefits.description",
+            baseLabel: "vips.benefits",
+            typography: "subtitle",
+            dense: true,
+            
+            items: [
 
                 {   
                     icon : "FaFastForward",
@@ -469,8 +499,9 @@ const settings =  {
                     label : 'vipzone'
                 }
             ]
-            
-       }
+        },
+
+
     },
 
     
