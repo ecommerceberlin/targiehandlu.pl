@@ -16,7 +16,9 @@ import {
 
   const PageAdminReport = () => {
   
-    const data = useDatasource({resource: "report"})
+    const data = useDatasource({resource: "report", filters: {
+      sort: "profile.booth"
+    }})
     
     const {query, asPath} = useRouter();
     
