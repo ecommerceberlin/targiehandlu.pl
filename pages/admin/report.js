@@ -54,7 +54,7 @@ import {
   
 
   
-   return (<Wrapper>{data.map(exhibitor => (<Exhibitor key={exhibitor.id} {...exhibitor} />))}</Wrapper>)
+   return (<Wrapper>{data.map(exhibitor => (<Exhibitor key={exhibitor.id} {...exhibitor} roles={["presenter","service_internal","service_external"]} />))}</Wrapper>)
   
   }
   
