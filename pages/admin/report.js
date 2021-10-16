@@ -2,7 +2,7 @@ import {
     connect,
     Wrapper,
     MyTypography as Text,
-    TwoColsLayout,
+    Box,
     Exhibitor,
     reduxWrapper,
     configure,
@@ -25,7 +25,7 @@ import {
     const catering = howManyCatering(purchases)
 
     if(!reps){
-      return 1
+      return 1 + catering
     }
 
     if(reps > booths * 4){
@@ -37,7 +37,7 @@ import {
   const parkingReal = (purchases) => howManyBooths(purchases) * 1 + howManyParking(purchases)
 
   const ExhibitorAlert = ({reps, purchases}) => {
-    return <Alert content={<>Catering: <strong>{cateringReal(purchases, reps)}</strong> {` `}
+    return <Alert type="info" content={<>Catering: <strong>{cateringReal(purchases, reps)}</strong> {` `}
     Parking: <strong>{parkingReal(purchases)}</strong></>} />
   }
 
@@ -49,6 +49,20 @@ import {
     
     const {query} = useRouter();
     
+    const countTotals = () => {
+      let catering = 0;
+      let parking = 0;
+
+      data.map(exhibitor => {
+        catering = catering + cateringReal(exhibitor.purchases, exhibitor.reps);
+        parking = parking + parkingReal(exhibitor.purchases)
+      })
+
+      return {catering, parking}
+    }
+
+    const totals = countTotals();
+
     //parse params!
     
   //   const { query } = props;
@@ -77,22 +91,19 @@ import {
   //     );
   //   };
   
-    let totalcatering = 0;
-    let totalparking = 0;
+   
 
-   return (<Wrapper>{data.map(exhibitor => {
-
-    totalcatering = totalcatering + cateringReal(exhibitor.purchases, exhibitor.reps);
-    totalparking = totalparking + parkingReal(exhibitor.purchases)
-
-    return (<Exhibitor 
+   return (<Wrapper>
+     <Alert content={`Total catering: ${totals.catering} Total parking: ${totals.parking}`} />
+     
+     {data.map(exhibitor => <Exhibitor 
       key={exhibitor.id} 
       {...exhibitor} 
       roles={["presenter","service_internal","service_external"]}
       alert={<ExhibitorAlert key={exhibitor.id}  {...exhibitor} />}
-      />)
-
-   })}</Wrapper>)
+      />)}
+  
+   </Wrapper>)
   
   }
   
