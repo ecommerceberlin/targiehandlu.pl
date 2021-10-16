@@ -19,25 +19,26 @@ import {
   const howManyBooths = (purchases) => purchases.filter(item => item.role=="exhibitor").length
   const howManyCatering = (purchases) => purchases.filter(item => item.id == 1776).reduce(reducer, 0)
   const howManyParking = (purchases) => purchases.filter(item => item.id == 1780).reduce(reducer, 0)
-
-  const ExhibitorAlert = ({reps, purchases}) => {
-
+  
+  const cateringReal = (purchases, reps) => {
     const booths = howManyBooths(purchases)
     const catering = howManyCatering(purchases)
-    const parking = howManyParking(purchases)
 
-    const cateringReal = () => {
-      if(reps > booths * 4){
-        return (booths * 4) + catering
-      }else{
-        return reps + catering
-      }
+    if(!reps){
+      return 1
     }
 
-    const parkingReal = () => booths * 1 + parking
+    if(reps > booths * 4){
+      return (booths * 4) + catering
+    }else{
+      return reps + catering
+    }
+  }
+  const parkingReal = (purchases) => howManyBooths(purchases) * 1 + howManyParking(purchases)
 
-    return <Alert content={<>Catering: <strong>{cateringReal()}</strong> {` `}
-    Parking: <strong>{parkingReal()}</strong></>} />
+  const ExhibitorAlert = ({reps, purchases}) => {
+    return <Alert content={<>Catering: <strong>{cateringReal(purchases, reps)}</strong> {` `}
+    Parking: <strong>{parkingReal(purchases)}</strong></>} />
   }
 
   const PageAdminReport = () => {
@@ -76,10 +77,13 @@ import {
   //     );
   //   };
   
+    let totalcatering = 0;
+    let totalparking = 0;
 
-  
    return (<Wrapper>{data.map(exhibitor => {
 
+    totalcatering = totalcatering + cateringReal(exhibitor.purchases, exhibitor.reps);
+    totalparking = totalparking + parkingReal(exhibitor.purchases)
 
     return (<Exhibitor 
       key={exhibitor.id} 
