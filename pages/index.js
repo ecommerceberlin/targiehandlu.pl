@@ -23,15 +23,15 @@ import {
   
    <>
 
-    <WidgetVideoWithEventInfo setting="heroExpo" />
-
-    <WidgetRegForm setting="visitor.register" />
-
     <WidgetSchedule />
 
     <WidgetSalesMap />
 
-    <WidgetFeaturedCompanies />
+    <WidgetRegForm setting="visitor.register" />
+
+    <WidgetVideoWithEventInfo setting="heroExpo" />
+
+    {/* <WidgetFeaturedCompanies /> */}
 
     {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
 
@@ -40,9 +40,10 @@ import {
   
   */}
 
+    <WidgetExhibitorsAvatarlist />
+
     <WidgetRegForm setting="visitor.register" />
   
-    <WidgetExhibitorsAvatarlist />
   
   </>
   

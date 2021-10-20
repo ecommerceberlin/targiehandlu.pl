@@ -21,8 +21,9 @@ import {
 <div>
 
 <WidgetRegForm setting="visitor.register" />
-<WidgetVideoWithEventInfo setting="heroExpo" />
 <WidgetSchedule />
+
+<WidgetVideoWithEventInfo setting="heroExpo" />
 <WidgetFeaturedCompanies />
 {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
 {/* <WidgetFeaturedPresenters /> */}
