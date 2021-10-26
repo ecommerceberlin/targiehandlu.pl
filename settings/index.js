@@ -688,7 +688,7 @@ const settings =  {
         organizer_regno : 'VAT ID 7811967834',
         event_name : '21. Targi eHandlu',
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : 'Kwiecień  2021',
+        event_date : 'Kwiecień  2022',
         event_hours : '10:00-17:00',
 
     },
