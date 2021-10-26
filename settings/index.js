@@ -523,9 +523,9 @@ const settings =  {
             {
               name: 'visitors',
               items: [
-                {name: 'visit', to: '/visit'},
+                // {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
-                {name: 'schedule', to: '/schedule'},
+                // {name: 'schedule', to: '/schedule'},
                 {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
               ]
@@ -727,7 +727,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            {label: "common.menu.visitors.visit", color: "secondary",  href: "/visit", as: "/visit", variant: "contained"}
+            // {label: "common.menu.visitors.visit", color: "secondary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 
