@@ -686,9 +686,9 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o. Sp. k.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811967834',
-        event_name : '20. Targi eHandlu',
+        event_name : '21. Targi eHandlu',
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '20 października  2021',
+        event_date : 'Kwiecień  2021',
         event_hours : '10:00-17:00',
 
     },
@@ -859,51 +859,7 @@ const settings =  {
             ]
         },
     },
-    virtual_featured_presenters: {
-        wrapperProps:{
-            label: "virtual.presenters.title",
-            secondaryLabel: "virtual.presenters.description"
-        },
-        filter: [["featured", 1]]
-    },
-
-
-    virtual_speakers: {
-        wrapperProps:{
-            label: "virtual.presenters.title",
-            secondaryLabel: "virtual.presenters.description"
-        },
-        og_template: "tehonline_template_speaker2"
-    },
-
-    streaming : {
-        regform: "streaming_registration",
-        api: "https://proxy.eventjuicer.com/api/schedule",
-        discordProps: {
-            avatars: false,
-            join: "https://discord.gg/u3Fv9VJGU5",
-            title: "streaming.chat.title",
-            showTime: false
-        },
-        playerProps: {
-            controls: true, 
-            playing: true,  
-            loop: true,
-            width: "100%",
-            height: "100%"
-        },
-        stages: {
-            A: {
-                embed: "player",
-                url: "https://youtu.be/fih7dfpLr2g",
-                discord: null,
-                restricted: true,
-                sponsor: null,
-                placeholder: "https://res.cloudinary.com/eventjuicer/image/upload/v1616511215/tehonline_fpeventcover_start.png"
-            },
-        }
-    },
-
+   
     
 };
 

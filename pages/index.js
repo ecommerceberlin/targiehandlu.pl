@@ -23,13 +23,15 @@ import {
   
    <>
 
-    <WidgetSchedule />
-
-    <WidgetSalesMap />
-
-    <WidgetRegForm setting="visitor.register" />
-
     <WidgetVideoWithEventInfo setting="heroExpo" />
+
+
+    {/* <WidgetSchedule /> */}
+
+    {/* <WidgetSalesMap /> */}
+
+    {/* <WidgetRegForm setting="visitor.register" /> */}
+
 
     {/* <WidgetFeaturedCompanies /> */}
 
@@ -42,7 +44,7 @@ import {
 
     <WidgetExhibitorsAvatarlist />
 
-    <WidgetRegForm setting="visitor.register" />
+    {/* <WidgetRegForm setting="visitor.register" /> */}
   
   
   </>
