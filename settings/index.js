@@ -193,8 +193,8 @@ const settings =  {
 
     heroStreaming : {
 
-        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/v1615494822/tehonline.mp4",
-        background : "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615494821/tehonline.jpg",
+        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/q_auto,f_auto/v1615494822/tehonline.mp4",
+        background : "https://res.cloudinary.com/eventjuicer/image/upload/q_auto,f_auto/v1615494821/tehonline.jpg",
         overlay : "black",
         template : "heroGold",
         heading : "virtual.event.claim",
@@ -225,8 +225,8 @@ const settings =  {
 
     heroExpo : {
 
-        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/v1534454501/video_presenter_blak.mp4",
-        background : "https://res.cloudinary.com/eventjuicer/image/upload/v1534542530/poster_presenter_blak.jpg",
+        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/q_auto,f_auto/v1534454501/video_presenter_blak.mp4",
+        background : "https://res.cloudinary.com/eventjuicer/image/upload/q_auto,f_auto/v1534542530/poster_presenter_blak.jpg",
         overlay : "black",
         template : "heroGold",
         heading : "event.claim",
