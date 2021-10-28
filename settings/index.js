@@ -191,37 +191,6 @@ const settings =  {
     },
 
 
-    heroStreaming : {
-
-        videoSrc : "https://res.cloudinary.com/eventjuicer/video/upload/q_auto,f_auto/v1615494822/tehonline.mp4",
-        background : "https://res.cloudinary.com/eventjuicer/image/upload/q_auto,f_auto/v1615494821/tehonline.jpg",
-        overlay : "black",
-        template : "heroGold",
-        heading : "virtual.event.claim",
-        subheading : "virtual.event.description",
-        showable: ["date"],
-        orientation : "v",
-        primaryStyle: "heroPrimary",
-        secondaryStyle: "heroSecondary",
-        iconStyle: "heroIcon",
-
-        event_name : 'TARGI EHANDLU',
-        event_date : '24 marca  2021',
-        event_hours : '11:00',
-
-    },
-
-    rolebuttonsVirtual : {
-        accent : "gold",
-        items : [
-        {
-          url: 'https://res.cloudinary.com/eventjuicer/image/upload/w_768,c_fit,f_auto/v1579000835/exhibit.jpg',
-          label: 'common.whats_next',
-        //   width: '50%',
-          target : "/exhibit"
-        },
-        ]
-    },
 
     heroExpo : {
 
@@ -243,13 +212,13 @@ const settings =  {
         accent : "gold",
         items : [
         {
-          url: 'https://res.cloudinary.com/eventjuicer/image/upload/w_768,c_fit,f_auto/v1579000835/visit.jpg',
+          url: 'https://res.cloudinary.com/eventjuicer/image/upload/w_768,c_fit,f_auto,q_auto//v1579000835/visit.jpg',
           label: 'common.visitor',
           width: '50%',
           target : "/visit"
         },
         {
-          url: 'https://res.cloudinary.com/eventjuicer/image/upload/w_768,c_fit,f_auto/v1579000835/exhibit.jpg',
+          url: 'https://res.cloudinary.com/eventjuicer/image/upload/w_768,c_fit,f_auto,q_auto/v1579000835/exhibit.jpg',
           label: 'common.exhibitor',
           width: '50%',
           target : "/exhibit"
