@@ -689,7 +689,7 @@ const settings =  {
         secondaryStyle: null,
       //  iconStyle: "heroIcon",
         links : [
-            {label: "exhibitors.agreement.title", href : "/legal-20210714"},
+            {label: "exhibitors.agreement.title", href : "/legal-2021-11-10"},
         ]
     },
 
