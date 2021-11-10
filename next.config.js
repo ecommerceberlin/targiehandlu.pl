@@ -69,7 +69,7 @@ module.exports = withSentryConfig(withTM({
     async redirects() {
       return [{
           source: '/legal',
-          destination: '/legal-20210714',
+          destination: '/legal-2021-11-10',
           permanent: false,
         },
         {
