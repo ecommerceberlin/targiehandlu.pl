@@ -3,7 +3,7 @@ import React, {useEffect} from 'react'
 
 import { Markdown, Wrapper, connect, configure, reduxWrapper, WidgetTransaction } from 'eventjuicer-site-components';
 import settings from '../settings'
-import contents from './legal-20210714.md'
+import contents from './_markdown/legal-2021-11-10.md'
 
 const PageTransaction = () => <div>
   <WidgetTransaction setting="exhibitor_registration" />
