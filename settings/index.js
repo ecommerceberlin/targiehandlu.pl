@@ -89,16 +89,16 @@ const openStageBenefits =   [
 const allowedGroupIds = [342, 343, 344, 345, 346]
 
 const boothStyleMapping = {
-    342: "light",
+    341: "light",
     342: "standard",
     343: "hot",
     344: "superHot",
     345: "ultra",
     346: "grand",
     347: "stage",
-    346: "networking",
+    350: "networking",
     348: "boothSold", //last minute / buffer
-    338: "boothSold", //test
+    351: "boothSold", //test
 
 }
 
@@ -132,6 +132,8 @@ const settings =  {
     
     },
 
+
+   
    
     exhibitor_registration: {
 
@@ -256,6 +258,11 @@ const settings =  {
         ]
     },
 
+    ecommerce: {
+        sort: "end", 
+        show_dates: false
+    },
+
     bookingmap202204top30 : {
         wrapperProps: {
             label: "exhibitors.map.comeback.title",
@@ -273,9 +280,10 @@ const settings =  {
         boothStyleMapping: boothStyleMapping,
         benefits: boothBenefits,
         api : "https://stoiska.targiehandlu.pl/preorder",
+        ecommerce: "ecommerce"
     },
 
-    bookingmapX : {
+    bookingmap : {
         wrapperProps: {
             label: "exhibitors.map.title",
             secondaryLabel: "exhibitors.map.opensales"
@@ -287,11 +295,14 @@ const settings =  {
             "pay",
             "access"
         ],
-        disabledTicketIds : [],
+        disabledTicketIds : [
+            2013, 2040, 2041, 2042, 2043
+        ],
         allowedGroupIds : allowedGroupIds,
         boothStyleMapping: boothStyleMapping,
         benefits: boothBenefits,
-        api : "https://stoiska.targiehandlu.pl/preorder"   
+        api : "https://stoiska.targiehandlu.pl/preorder",
+        ecommerce: "ecommerce"
     },
 
 
@@ -644,7 +655,7 @@ const settings =  {
         organizer_regno : 'VAT ID 7811967834',
         event_name : '21. Targi eHandlu',
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : 'Kwiecień  2022',
+        event_date : '14.04.2022',
         event_hours : '10:00-17:00',
 
     },
@@ -718,12 +729,12 @@ const settings =  {
         baseLabel: "cfp.timeline",
 
         items : [
-            {date: "2021-08-19", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2021-09-03", name: "qualification", icon:  "Assessment" },
-            {date: "2021-09-08", name: "public-voting", icon:  "Public" },
+            {date: "2021-11-19", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2021-11-03", name: "qualification", icon:  "Assessment" },
+            {date: "2021-11-08", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2021-09-23", name: "results", icon:  "Mic", active: false },
-            {date: "2021-09-30", name: "formal", icon:  "Settings", active: false }
+            {date: "2021-11-23", name: "results", icon:  "Mic", active: false },
+            {date: "2021-11-30", name: "formal", icon:  "Settings", active: false }
 
         ]
 

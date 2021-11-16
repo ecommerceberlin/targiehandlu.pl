@@ -34,7 +34,7 @@ import {
             name: name,
             cname: cname,
             location: 'Warszawa EXPO XXI',
-            date: '20 października 2021',
+            date: '14.04.2022',
           },
         ]}
       >{(data=> <Head>{data}</Head>)}</MyHead>
