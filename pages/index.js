@@ -9,7 +9,7 @@ import {
     WidgetVideoWithEventInfo,
     //WidgetAllExhibitorsAvatarlist,
     WidgetFeaturedCompanies,
-    // WidgetAllExhibitorsColumnList,
+    WidgetAllExhibitorsColumnList,
     WidgetExhibitorsAvatarlist,
     WidgetFaq,
     WidgetPresenters,
@@ -32,8 +32,7 @@ import {
 
     {/* <WidgetRegForm setting="visitor.register" /> */}
 
-
-    {/* <WidgetFeaturedCompanies /> */}
+    <WidgetFeaturedCompanies />
 
     {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
 
@@ -42,7 +41,7 @@ import {
   
   */}
 
-    <WidgetExhibitorsAvatarlist />
+    <WidgetAllExhibitorsColumnList />
 
     {/* <WidgetRegForm setting="visitor.register" /> */}
   
