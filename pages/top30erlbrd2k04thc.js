@@ -21,7 +21,7 @@ import {
   
    <>
 
-    <WidgetSalesMap setting="bookingmap2020" />
+    <WidgetSalesMap setting="bookingmap202204top30" />
 
     <WidgetFeaturedCompanies />
 

@@ -24,7 +24,7 @@ const PageVisit = () => (
 <WidgetRegForm setting="vips.register" />
 <WidgetVideoWithEventInfo setting="heroExpo" />
 <WidgetSchedule />
-<WidgetSalesMap />
+{/* <WidgetSalesMap /> */}
 <WidgetFeaturedCompanies />
 {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
 {/* <WidgetFeaturedPresenters /> */}

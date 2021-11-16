@@ -1,3 +1,4 @@
+
 const standardBenefits =    [{
     icon : "Space", 
     primary : "space"
@@ -82,6 +83,35 @@ const openStageBenefits =   [
         primary : "stage"
     }
 ]
+
+
+
+const allowedGroupIds = [342, 343, 344, 345, 346]
+
+const boothStyleMapping = {
+    342: "light",
+    342: "standard",
+    343: "hot",
+    344: "superHot",
+    345: "ultra",
+    346: "grand",
+    347: "stage",
+    346: "networking",
+    348: "boothSold", //last minute / buffer
+    338: "boothSold", //test
+
+}
+
+const boothBenefits = {
+    342: standardBenefits,
+    343: standardBenefits,
+    344: standardBenefits,
+    345: standardBenefits,
+    346: premiumBenefits,
+    347: stageBenefits,
+    1: openStageBenefits
+}
+
 
 
 const settings =  {
@@ -226,7 +256,7 @@ const settings =  {
         ]
     },
 
-    bookingmap2020 : {
+    bookingmap202204top30 : {
         wrapperProps: {
             label: "exhibitors.map.comeback.title",
             secondaryLabel: "exhibitors.map.comeback.description"
@@ -238,35 +268,14 @@ const settings =  {
             "pay",
             "access"
         ],
-        allowedGroupIds : [310, 311, 312, 313, 314],
         disabledTicketIds : [],
-        boothStyleMapping: {
-            309: "light",
-            310: "standard",
-            311: "hot",
-            312: "superHot",
-            313: "ultra",
-            314: "grand",
-            315: "stage",
-            316: "networking",
-            321: "boothSold", //last minute / buffer
-            338: "boothSold", //test
-            339: "stage"
-        },
+        allowedGroupIds : allowedGroupIds,
+        boothStyleMapping: boothStyleMapping,
+        benefits: boothBenefits,
         api : "https://stoiska.targiehandlu.pl/preorder",
-
-        benefits: {
-            310: standardBenefits,
-            311: standardBenefits,
-            312: standardBenefits,
-            313: standardBenefits,
-            314: premiumBenefits,
-            315: stageBenefits,
-            339: openStageBenefits
-        },
     },
 
-    bookingmap : {
+    bookingmapX : {
         wrapperProps: {
             label: "exhibitors.map.title",
             secondaryLabel: "exhibitors.map.opensales"
@@ -278,33 +287,11 @@ const settings =  {
             "pay",
             "access"
         ],
-        allowedGroupIds : [310, 311, 312, 313, 314],
         disabledTicketIds : [],
-        boothStyleMapping: {
-            309: "light",
-            310: "standard",
-            311: "hot",
-            312: "superHot",
-            313: "ultra",
-            314: "grand",
-            315: "stage",
-            316: "networking",
-            321: "boothSold", //last minute / buffer
-            338: "boothSold", //test
-            339: "stage"
-        },
-        api : "https://stoiska.targiehandlu.pl/preorder",
-
-        benefits: {
-            310: standardBenefits,
-            311: standardBenefits,
-            312: standardBenefits,
-            313: standardBenefits,
-            314: premiumBenefits,
-            315: stageBenefits,
-            339: openStageBenefits
-        },
-   
+        allowedGroupIds : allowedGroupIds,
+        boothStyleMapping: boothStyleMapping,
+        benefits: boothBenefits,
+        api : "https://stoiska.targiehandlu.pl/preorder"   
     },
 
 
