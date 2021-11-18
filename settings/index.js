@@ -261,7 +261,7 @@ const settings =  {
     ecommerce: {
         sort: "end", 
         show_start: true,
-        show_end: true
+        show_end: false
     },
 
     bookingmap202204top30 : {
