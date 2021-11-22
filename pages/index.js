@@ -28,7 +28,7 @@ import {
 
     {/* <WidgetSchedule /> */}
 
-    {/* <WidgetSalesMap /> */}
+    <WidgetSalesMap />
 
     {/* <WidgetRegForm setting="visitor.register" /> */}
 
