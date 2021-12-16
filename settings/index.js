@@ -329,6 +329,8 @@ const settings =  {
                 {name: "cname2", required: true},
                 {name: "phone", required: true},
                 {name: "presenter", required: true},  
+                {name: "bio", required: true},  
+                {name: "profile_linkedin", required: true},  
                 {
                   name: "presentation_category", 
                   required: true,
@@ -340,10 +342,11 @@ const settings =  {
             
               start: [
                 'presenter',
+                "profile_linkedin",
                 // 'presentation_title', 
                 // 'presentation_description',
                 'presentation_category',
-                'cname2'
+
             ],
 
             ticket_id : 2012,
