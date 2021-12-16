@@ -346,7 +346,7 @@ const settings =  {
                 'cname2'
             ],
 
-            ticket_id : 1934,
+            ticket_id : 2012,
             email_template : "pl-presenters-application",
 
         },
@@ -730,12 +730,12 @@ const settings =  {
         baseLabel: "cfp.timeline",
 
         items : [
-            {date: "2021-11-19", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2021-11-03", name: "qualification", icon:  "Assessment" },
-            {date: "2021-11-08", name: "public-voting", icon:  "Public" },
+            {date: "2021-12-16", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2022-01-28", name: "qualification", icon:  "Assessment" },
+            {date: "2022-02-07", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2021-11-23", name: "results", icon:  "Mic", active: false },
-            {date: "2021-11-30", name: "formal", icon:  "Settings", active: false }
+            {date: "2022-02-25", name: "results", icon:  "Mic", active: false },
+            {date: "2022-03-04", name: "formal", icon:  "Settings", active: false }
 
         ]
 
