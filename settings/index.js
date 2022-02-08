@@ -440,7 +440,7 @@ const settings =  {
                 {name: "phone", required: true}
               ],
             start : ['referral', 'email', 'fname'],
-            ticket_id : 1949,
+            ticket_id : 2038,
             right : "/lanyard.jpg",
            
         },
@@ -606,7 +606,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 1949,
+            ticket_id : 2038,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 
