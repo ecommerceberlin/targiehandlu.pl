@@ -30,7 +30,7 @@ import {
 
     <WidgetSalesMap />
 
-    {/* <WidgetRegForm setting="visitor.register" /> */}
+    <WidgetRegForm setting="visitor.register" />
 
     <WidgetFeaturedCompanies />
 
