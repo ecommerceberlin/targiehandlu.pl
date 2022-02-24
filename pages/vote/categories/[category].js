@@ -49,7 +49,7 @@ const PageVote  = ({category}) => {
           keyword={category}
           label="callforpapers.list.title"
           show_votes={true}
-          random={true}
+          random={false}
           first={true}
           renderAs="table"
           selected={ (row, i)=>false }
