@@ -49,10 +49,10 @@
 
 ### 6. Personal data
 
-All information about personal data protection and privacy one can find here in our​​ ​[https://targiehandlu.com/legal/visitors-data](https://targiehandlu.com/legal/visitors-data) Information about personal data protection
+All information about personal data protection and privacy one can find here in our​​ ​[https://targiehandlu.pl/legal/visitors-data](https://targiehandlu.pl/legal/visitors-data) Information about personal data protection
 
 ### 7. Final provisions
 
-7.1 These terms and conditions are available on the [https://targiehandlu.com/legal/visitors](https://targiehandlu.com/legal/visitors), and in the Organizer's office.
+7.1 These terms and conditions are available on the [https://targiehandlu.pl/legal/visitors](https://targiehandlu.pl/legal/visitors), and in the Organizer's office.
 
 7.2 Administrator allows anyone to download these terms and conditions and save them on his own data carrier.

@@ -48,10 +48,10 @@
 
 ### 6. Dane osobowe
 
-Wszystkie informacje dotyczące ochrony danych osobowych i prywatności znajdują się w zakładce ​[https://targiehandlu.com/legal/visitors-data](https://targiehandlu.com/legal/visitors-data) ​​Informacje o ochronie danych osobowych
+Wszystkie informacje dotyczące ochrony danych osobowych i prywatności znajdują się w zakładce ​[https://targiehandlu.pl/legal/visitors-data](https://targiehandlu.pl/legal/visitors-data) ​​Informacje o ochronie danych osobowych
 
 ### 7. Postanowienia końcowe
 
-7.1 Niniejszy regulamin jest dostępny na [https://targiehandlu.com/legal/visitors](https://targiehandlu.com/legal/visitors) oraz w biurze Organizatora.
+7.1 Niniejszy regulamin jest dostępny na [https://targiehandlu.pl/legal/visitors](https://targiehandlu.pl/legal/visitors) oraz w biurze Organizatora.
 
 7.2 Administrator umożliwia każdemu pobranie niniejszego regulaminu i zapisanie go na własnym nośniku danych.
