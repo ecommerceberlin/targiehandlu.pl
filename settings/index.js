@@ -196,8 +196,9 @@ const settings =  {
         times : {
 
             // 15+10+10 = 35!!!
-            // '10:40': 'presentation',
+            // 
             // '10:25': 'presentation',
+            '10:40': 'presentation',
             '11:15': 'presentation',
             '11:50': 'presentation',
             '12:15': 'break_25',
