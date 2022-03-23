@@ -6,11 +6,16 @@
 
 1.2 Serwis – serwis internetowy dostępny w Internecie pod adresem [www.targiehandlu.pl](www.targiehandlu.pl), w ramach którego administrator umożliwia rejestrację na Wydarzenie.
 
-1.3 Wydarzenie – wydarzenie organizowane lub współorganizowane przez Organizatora, o którym informacje zawarte są w Serwisie – w szczególności o organizacji i godzinach dostępności dla uczestników.
+1.3 Wydarzenie – wydarzenie organizowane lub współorganizowane przez Organizatora, o którym informacje zawarte są w Serwisie – w szczególności o organizacji i godzinach dostępności dla Uczestników.
 
 1.4 Bilet wstępu – zamówiony za pośrednictwem Serwisu i nieodpłatnie wygenerowany przez Organizatora bilet uprawniający do jednorazowego wejścia na Wydarzenie w charakterze uczestnika w dniu jego organizacji.
 
-1.6 Użytkownik – osoba fizyczna, która korzysta z Serwisu w jakimkolwiek celu, w tym w szczególności w celu uzyskania Biletu wstępu.
+1.5 Użytkownik – osoba fizyczna, która korzysta z Serwisu w jakimkolwiek celu, w tym w szczególności w celu uzyskania Biletu wstępu.
+
+1.6 Uczestnik – osoba fizyczna, która otrzymała Bilet wstępu oraz bierze bierny udział w Wydarzeniu w charakterze innym niż wystawca.
+
+1.7 Regulamin – niniejszy dokument określający zasady nabywania Biletów wstępu na Wydarzenie oraz prawa i obowiązki Uczestników związane z ich udziałem w Wydarzeniu. 
+
 
 ### 2. Postanowienia ogólne
 
@@ -30,15 +35,13 @@
 
 ### 4. Bilet wstępu i udział w Wydarzeniu
 
-4.1 Bilet wstępu jest jedynym dokumentem uprawniającym do wzięcia udziału w Wydarzeniu w godzinach wstępu dla uczestników.
+4.1 Bilet wstępu jest jedynym dokumentem uprawniającym do wzięcia udziału w Wydarzeniu, tj. wstępu w godzinach ustalonych przez Organizatora na dostępny dla Uczestników teren na których odbywa się Wydarzenie.
 
 4.2 W Wydarzeniu może wziąć udział wyłącznie osoba, która otrzymała wiadomość e-mail z potwierdzeniem rejestracji.
 
-4.3 Warunkiem wejścia na Wydarzenie jest wydrukowanie Biletu wstępu i okazanie go przy wejściu osobie upoważnionej przez Organizatora do kontroli Biletu wraz z dokumentem zawierającym dane zgodne z danymi na Bilecie (imię i nazwisko).
+4.3 Warunkiem uczestnictwa w Wydarzeniu jest posiadanie wydrukowanego Biletu i okazanie go przy wejściu osobie upoważnionej przez Organizatora do kontroli Biletu wraz z dokumentem tożsamości zawierającym dane zgodne z danymi na Bilecie (imię i nazwisko).
 
-4.4 Osoby nie posiadające e-maila potwierdzającego rejestrację nie zostaną wpuszczone na Wydarzenie.
-
-4.5 Osoby przystępujące do Wydarzenia zobowiązane są do przestrzegania Regulaminu dla uczestników.
+4.4 Osoby uczestniczące w Wydarzeniu zobowiązane są do przestrzegania Regulaminu dla uczestników.
 
 ### 5. Problemy techniczne i reklamacje.
 
