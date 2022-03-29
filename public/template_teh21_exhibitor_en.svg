@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 960 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Layer-1" serif:id="Layer 1">
+        <g transform="matrix(1,0,0,0.7,0,0)">
+            <rect x="0" y="0" width="960" height="720" style="fill:rgb(112,0,0);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1.05398,0,0,0.680077,-24.1876,-31.2203)">
+            <rect x="22" y="228.396" width="910.83" height="447.652" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,173.044,447.494)">
+            <text x="1px" y="29.4px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:42px;fill:white;">GET A FREE TICKET</text>
+            <text x="238.245px" y="29.4px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:30px;fill:white;">@</text>
+            <text x="265.425px" y="29.4px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:42px;fill:white;">ECOMMERCEW<tspan x="446.193px " y="29.4px ">A</tspan>RSA<tspan x="512.343px 534.31px 541.702px " y="29.4px 29.4px 29.4px ">W.c</tspan>om</text>
+            <rect x="265.425" y="32.97" width="331.842" height="2.1" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,111.274,-9.68668)">
+            <text x="22.001px" y="98.57px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:70px;fill:white;">APRIL 14</text>
+            <text x="208.341px" y="98.57px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:40px;fill:white;">th</text>
+            <text x="250.511px" y="98.57px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:70px;fill:white;">- W<tspan x="318.621px " y="98.57px ">A</tspan>RSA<tspan x="428.871px " y="98.57px ">W</tspan> - EXPO XXI</text>
+        </g>
+    </g>
+</svg>

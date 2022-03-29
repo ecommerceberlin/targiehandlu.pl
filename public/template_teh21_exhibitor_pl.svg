@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 960 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Layer-1" serif:id="Layer 1">
+        <g transform="matrix(1,0,0,0.7,0,0)">
+            <rect x="0" y="0" width="960" height="720" style="fill:rgb(112,0,0);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1.05398,0,0,0.680077,-23.1876,-31.2203)">
+            <rect x="22" y="228.396" width="910.83" height="447.652" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,230.747,448.676)">
+            <text x="1px" y="29.4px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:42px;fill:white;">BEZPŁA<tspan x="94.995px " y="29.4px ">T</tspan>NY BILET NA</text>
+            <text x="268.749px" y="29.4px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:42px;fill:white;">T<tspan x="282.105px " y="29.4px ">A</tspan>RGIEHANDLU<tspan x="456.7px " y="29.4px ">.</tspan>PL</text>
+            <rect x="268.749" y="32.97" width="225.834" height="2.1" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,59.8893,-10.9956)">
+            <text x="22.001px" y="98.57px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:70px;fill:white;">14 KWIETNIA - W<tspan x="371.301px " y="98.57px ">A</tspan>RSZA<tspan x="507.451px 545.811px " y="98.57px 98.57px ">WA</tspan> - EXPO XXI</text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 2062" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(3.00696,0,0,2.65125,0,0)">
+        <rect x="0" y="0" width="359.167" height="777.748" style="fill:rgb(145,0,0);"/>
+    </g>
+    <g transform="matrix(2.87125,0,0,1.83018,24.3721,370.001)">
+        <rect x="0" y="0" width="359.167" height="777.748" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-107.399,-39.6844)">
+        <text x="157.739px" y="230.724px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:166.667px;fill:white;">21. T<tspan x="399.573px " y="230.724px ">A</tspan>RGI EHANDLU</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-107.399,128.422)">
+        <text x="157.739px" y="176.766px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:89.583px;fill:white;">14.04.2022   EXPO XXI   W<tspan x="855.952px " y="176.766px ">A</tspan>RSZA<tspan x="1030.19px 1079.28px " y="176.766px 176.766px ">WA</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,-62.3266,1773.62)">
+        <text x="157.739px" y="186.974px" style="font-family:'BebasNeue', 'Bebas Neue', sans-serif;font-size:104.167px;fill:white;">POBIERZ BEZPŁA<tspan x="668.364px " y="186.974px ">T</tspan>NY BILET</text>
+    </g>
+    <g transform="matrix(-1.83697e-16,1,-1,-1.83697e-16,2828.31,947.941)">
+        <path d="M976.625,1840.26L1013.51,1887.68L939.736,1887.68L976.625,1840.26Z" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,22.0586,-32.6654)">
+        <rect x="359.742" y="300.302" width="12.842" height="12.842" style="fill:white;fill-opacity:0.5;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,313.411,-32.6654)">
+        <rect x="359.742" y="300.302" width="12.842" height="12.842" style="fill:white;fill-opacity:0.5;"/>
+    </g>
+</svg>
