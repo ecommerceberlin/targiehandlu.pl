@@ -8,7 +8,8 @@ import {
     reduxWrapper,
     configure,
     HeadSpeaker,
-    WidgetSchedule
+    WidgetSchedule,
+    WidgetSalesMap
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
@@ -21,15 +22,19 @@ import {
 
       <HeadSpeaker setting="speakers" id={id} path="/speakers">{(data)=><Head>{data}</Head> }</HeadSpeaker>
       <WidgetPresenterNew id={id} path="/speakers" />
-      <WidgetRegForm setting="visitor.register" />
+
       <WidgetVideoWithEventInfo setting="heroExpo" />
-      {/* <WidgetSchedule 
-        wrapperProps={{
-          label: "virtual.schedule.title", 
-          secondaryLabel: "virtual.schedule.description"
-        }}
-      /> */}
+
+
+      <WidgetRegForm setting="visitor.register" />
+
+      <WidgetSalesMap />
+
+
+      <WidgetSchedule />
+
       <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } />
+
       <WidgetRegForm setting="visitor.register" />
 
   </>
