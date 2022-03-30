@@ -314,7 +314,7 @@ const settings =  {
             label: "presenters.list_featured",
             secondaryLabel: "presenters.list_description"
         },
-        og_template: "tehonline_template_speaker2",
+        og_template: "template_teh21_spkr",
         callforpapers: {
 
             wrapperProps: {
