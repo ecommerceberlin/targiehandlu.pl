@@ -11,7 +11,8 @@ import {
     HeadCompany,
     WidgetRegForm,
     WidgetFeaturedCompanies,
-    WidgetPresenters
+    WidgetPresenters,
+    WidgetVipcode
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
@@ -26,6 +27,9 @@ import {
      
       <HeadCompany slug={slug}>{(data) => <Head>{data}</Head>}</HeadCompany> 
  
+
+      <WidgetVipcode />
+
       <WidgetCompany slug={slug} />
 
       {/* <MeetupButton /> */}
