@@ -659,6 +659,7 @@ const settings =  {
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811967834',
         event_name : '21. Targi eHandlu',
+        event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
         event_date : '14.04.2022',
         event_hours : '10:00-17:00',
@@ -701,7 +702,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            // {label: "common.menu.visitors.visit", color: "secondary",  href: "/visit", as: "/visit", variant: "contained"}
+            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 
