@@ -658,10 +658,10 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o. Sp. k.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811967834',
-        event_name : '21. Targi eHandlu',
+        event_name : '22. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '14.04.2022',
+        event_date : '27.10.2022',
         event_hours : '10:00-17:00',
 
     },
