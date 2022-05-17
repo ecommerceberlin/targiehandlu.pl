@@ -31,7 +31,7 @@ import {
   
     {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
   
-    <WidgetAllExhibitorsColumnList />
+    {/* <WidgetAllExhibitorsColumnList /> */}
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
@@ -44,7 +44,7 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ['exhibitors', 'allexhibitors']
+      preload : ['bookingmap']
     })
   
   })

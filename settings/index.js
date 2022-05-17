@@ -85,33 +85,44 @@ const openStageBenefits =   [
 ]
 
 
+const bookingmapShared = {
 
-const allowedGroupIds = [342, 343, 344, 345, 346]
+    height : 400,
+    steps : [
+        "choose_booth",
+        "confirm",
+        "pay",
+        "access"
+    ],
+    disabledTicketIds : [],
+    allowedGroupIds : [342, 343, 344, 345, 346],
+    boothStyleMapping: {
+        341: "light",
+        342: "standard",
+        343: "hot",
+        344: "superHot",
+        345: "ultra",
+        346: "grand",
+        347: "stage",
+        350: "networking",
+        348: "boothSold", //last minute / buffer
+        351: "boothSold", //test
+    
+    },
+    benefits: {
+        342: standardBenefits,
+        343: standardBenefits,
+        344: standardBenefits,
+        345: standardBenefits,
+        346: premiumBenefits,
+        347: stageBenefits,
+        1: openStageBenefits
+    },
+    api : "https://stoiska.targiehandlu.pl/preorder",
+    ecommerce: "ecommerce"
 
-const boothStyleMapping = {
-    341: "light",
-    342: "standard",
-    343: "hot",
-    344: "superHot",
-    345: "ultra",
-    346: "grand",
-    347: "stage",
-    350: "networking",
-    348: "boothSold", //last minute / buffer
-    351: "boothSold", //test
 
 }
-
-const boothBenefits = {
-    342: standardBenefits,
-    343: standardBenefits,
-    344: standardBenefits,
-    345: standardBenefits,
-    346: premiumBenefits,
-    347: stageBenefits,
-    1: openStageBenefits
-}
-
 
 
 const settings =  {
@@ -265,48 +276,25 @@ const settings =  {
         show_end: true
     },
 
-    bookingmap202204top30 : {
+    bookingmap_top30 : {
+        ...bookingmapShared,
         wrapperProps: {
             label: "exhibitors.map.comeback.title",
             secondaryLabel: "exhibitors.map.comeback.description"
         },
-        height : 400,
-        steps : [
-            "choose_booth",
-            "confirm",
-            "pay",
-            "access"
-        ],
         disabledTicketIds : [],
-        allowedGroupIds : allowedGroupIds,
-        boothStyleMapping: boothStyleMapping,
-        benefits: boothBenefits,
-        api : "https://stoiska.targiehandlu.pl/preorder",
-        ecommerce: "ecommerce"
     },
 
     bookingmap : {
+        ...bookingmapShared,
         wrapperProps: {
             label: "exhibitors.map.title",
             secondaryLabel: "exhibitors.map.opensales"
         },
-        height : 400,
-        steps : [
-            "choose_booth",
-            "confirm",
-            "pay",
-            "access"
-        ],
         disabledTicketIds : [
-            2013, 2040, 2041, 2042, 2043
+            
         ],
-        allowedGroupIds : allowedGroupIds,
-        boothStyleMapping: boothStyleMapping,
-        benefits: boothBenefits,
-        api : "https://stoiska.targiehandlu.pl/preorder",
-        ecommerce: "ecommerce"
     },
-
 
     speakers : {
 
@@ -441,7 +429,7 @@ const settings =  {
                 {name: "phone", required: true}
               ],
             start : ['referral', 'email', 'fname'],
-            ticket_id : 2038,
+            ticket_id : 2188,
             right : "/lanyard.jpg",
            
         },
@@ -607,7 +595,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 2038,
+            ticket_id : 2188,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 

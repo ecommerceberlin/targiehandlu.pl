@@ -4,14 +4,12 @@ import {
     connect,
     reduxWrapper,
     configure,
-
     WidgetSalesMap,
     WidgetIconGrid,
     WidgetVideoWithEventInfo,
     //WidgetAllExhibitorsAvatarlist,
     WidgetFeaturedCompanies,
     WidgetAllExhibitorsColumnList,
-    Wrapper,
     WidgetFaq
   } from 'eventjuicer-site-components';
   
@@ -21,17 +19,16 @@ import {
   
    <>
 
-    <WidgetSalesMap setting="bookingmap202204top30" />
-
-    <WidgetFeaturedCompanies />
+    <WidgetSalesMap setting="bookingmap_top30" />
 
     <WidgetIconGrid setting="exhibitors.benefits" />
+
+    <WidgetFeaturedCompanies />
   
    <WidgetFaq setting="exhibitors.faq" /> 
   
     {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
-  
-    <WidgetAllExhibitorsColumnList />
+
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
@@ -44,7 +41,7 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ['exhibitors', 'allexhibitors']
+      preload : ['bookingmap']
     })
   
   })
