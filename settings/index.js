@@ -270,6 +270,7 @@ const settings =  {
             2147, 2148, 2144, 2145, 2149, 2143, //ULTRA,
             2160, 2161, 2157, 2156, 2158, 2187, //GRAND
             2152, //mini networking
+            2192, 2193, 2194
         ],
     },
 
@@ -286,6 +287,7 @@ const settings =  {
             2146, 2178, 2185, //UTLRA
             2159, 2181, 2183, //GRAND
             2190, //mini networking
+            2150, 2153, 2191
         ],
     },
 
@@ -675,7 +677,7 @@ const settings =  {
         secondaryStyle: null,
       //  iconStyle: "heroIcon",
         links : [
-            {label: "exhibitors.agreement.title", href : "/legal-2021-11-10"},
+            {label: "exhibitors.agreement.title", href : "/legal-2022-05-17"},
             {label: "visitors.legal.title", href : "/legal/visitors"},
             {label: "visitors.legal-gdpr.title", href : "/legal/visitors-data"},
         ]
@@ -684,7 +686,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 
