@@ -95,17 +95,21 @@ const bookingmapShared = {
         "access"
     ],
     disabledTicketIds : [],
-    allowedGroupIds : [342, 343, 344, 345, 346],
+    allowedGroupIds : [364,365,366,367],
     boothStyleMapping: {
-        341: "light",
-        342: "standard",
-        343: "hot",
-        344: "superHot",
-        345: "ultra",
-        346: "grand",
-        347: "stage",
-        350: "networking",
-        348: "boothSold", //last minute / buffer
+        363: "light",
+        364: "standard",
+        365: "hot",
+        366: "superHot",
+        367: "ultra",
+        368: "grand",
+        369: "stage",
+        374: "stage", //stage B
+        375: "stage", //stage D
+
+        371: "networking",
+        373: "networking", //mini networking
+        370: "boothSold", //last minute / buffer
         351: "boothSold", //test
     
     },
@@ -179,30 +183,7 @@ const settings =  {
         
     },
 
-    streaming_registration: {
-
-        wrapperProps: {
-            label : null,
-            secondaryLabel: null,
-            dense: true,
-            first: false
-        },
-        legend: "streaming.restricted",
-        fields : [
-          {name: "email", required: true},
-          {name: "fname", required: true},
-          {name: "lname", required: true},
-          {name: "cname2", required: true},
-          {name: "position", required: true},
-        ],
-        start : ['email', 'fname'],
-        ticket_id : 1888,
-        email_template : "pl-livestream-registration",
-        right: "https://res.cloudinary.com/eventjuicer/image/upload/f_auto/v1615497181/tehonline_reg.jpg",
-        rightShadowed: true
-
-    },
-
+    
     schedule: {
         times : {
 
@@ -282,7 +263,13 @@ const settings =  {
             label: "exhibitors.map.comeback.title",
             secondaryLabel: "exhibitors.map.comeback.description"
         },
-        disabledTicketIds : [],
+        disabledTicketIds : [
+            2124, 2125, 2126, 2123, 2121, 2122, //STD
+            2129, 2130, 2131, 2134, 2133, 2132, //HOT
+            2138, 2139, 2135, 2142, 2141, 2140, //SH
+            2147, 2148, 2144, 2145, 2149, 2143, //ULTRA,
+            2160, 2161, 2157, 2156, 2158, 2187, //GRAND
+        ],
     },
 
     bookingmap : {
@@ -292,9 +279,14 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            
+            2120, 2177, 2186, //STD
+            2127, 2180, 2184, //HOT
+            2137, 2179, 2182, //SH
+            2146, 2178, 2185, //UTLRA
+            2159, 2181, 2183, //GRAND
         ],
     },
+
 
     speakers : {
 
