@@ -123,8 +123,8 @@ const bookingmapShared = {
         1: openStageBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
-    ecommerce: "ecommerce"
-
+    ecommerce: "ecommerce",
+    show_recent_purchases: 1,
 
 }
 
