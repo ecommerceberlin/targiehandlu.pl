@@ -291,6 +291,21 @@ const settings =  {
         ],
     },
 
+    cfptimeline: {
+
+        baseLabel: "cfp.timeline",
+
+        items : [
+            {date: "2022-08-30", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2022-09-13", name: "qualification", icon:  "Assessment" },
+            {date: "2022-09-15", name: "public-voting", icon:  "Public" },
+            // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2022-09-30", name: "results", icon:  "Mic", active: false },
+            {date: "2022-10-04", name: "formal", icon:  "Settings", active: false }
+
+        ]
+
+    },
 
     speakers : {
 
@@ -321,20 +336,20 @@ const settings =  {
                   required: true,
                   options : "categories"
                 },
-                // {name: "presentation_title", required: true},
+                {name: "presentation_title", required: false},
                 // {name: "presentation_description", required: true}
             ],
             
               start: [
                 'presenter',
                 "profile_linkedin",
-                // 'presentation_title', 
+                 'presentation_title', 
                 // 'presentation_description',
                 'presentation_category',
 
             ],
 
-            ticket_id : 2012,
+            ticket_id : 2186,
             email_template : "pl-presenters-application",
 
         },
@@ -402,6 +417,9 @@ const settings =  {
             ]
         }, 
     },
+
+
+
 
     vips : {
 
@@ -716,21 +734,7 @@ const settings =  {
         ]
     },
 
-    cfptimeline: {
-
-        baseLabel: "cfp.timeline",
-
-        items : [
-            {date: "2021-12-16", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2022-02-06", name: "qualification", icon:  "Assessment" },
-            {date: "2022-02-09", name: "public-voting", icon:  "Public" },
-            // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2022-02-25", name: "results", icon:  "Mic", active: false },
-            {date: "2022-03-04", name: "formal", icon:  "Settings", active: false }
-
-        ]
-
-    },
+  
 
     covid19 : {
 
