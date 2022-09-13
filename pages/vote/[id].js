@@ -43,7 +43,7 @@ const PageVote  = ({id}) => (
       // vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={6} onVoted={onVoted} />}
       vote={null} 
       status={null}
-      show_votes={true}
+      show_votes={false}
     />
 
  <WidgetSalesMap wrapperProps={{label: "exhibitors.map.title_alt"}} />
