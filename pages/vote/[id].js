@@ -35,14 +35,14 @@ const PageVote  = ({id}) => (
   
   <div>
 
-  <HeadVote id={id} template="template_teh21_callforpapers_pl">{(data) => <Head>{data}</Head>}</HeadVote> 
+  <HeadVote id={id} template="template_teh22_callforpapers_pl">{(data) => <Head>{data}</Head>}</HeadVote> 
    
   <WidgetVotable
       id={id}
       asPath={`/vote/${id}`}
-      // vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={6} onVoted={onVoted} />}
-      vote={null} 
-      status={null}
+      vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={6} onVoted={onVoted} />}
+      // vote={null} 
+      status={true}
       show_votes={false}
     />
 
@@ -92,7 +92,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
     props : {
       id : id
     },
-    revalidate: 15
+    revalidate: 30
   }
 
 })
