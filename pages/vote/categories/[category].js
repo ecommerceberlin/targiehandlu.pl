@@ -13,7 +13,9 @@ import {
   reduxWrapper,
   configure,
   tagsUsed,
-  Centered
+  Centered,
+  useDispatch,
+  dialogHide
 } from 'eventjuicer-site-components';
 
 
@@ -21,6 +23,11 @@ const settings = require('../../../settings').default;
 
 
 const PageVote  = ({category}) => {
+    const dispatch = useDispatch()
+
+    React.useEffect(()=>{
+      dispatch(dialogHide())
+    }, [])
 
     return (
   
