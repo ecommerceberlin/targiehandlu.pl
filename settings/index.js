@@ -205,8 +205,8 @@ const settings =  {
           }, 
           venues : {
             A: { company_id: 0 },
-            B: { company_id: 0 },
-            C: { company_id: 0 },
+            // B: { company_id: 0 },
+            // C: { company_id: 0 },
             D: { company_id: 0 },
             // E: { company_id: 0 },
             // F: { company_id: 0 },

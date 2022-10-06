@@ -36,6 +36,7 @@ import {
 
       <WidgetRegForm setting="visitor.register" />
 
+      <WidgetSchedule />
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 
@@ -57,7 +58,7 @@ import {
   
       {/* <WidgetPresenters /> */}
   
-      {/* <WidgetSchedule />*/}
+    
   
       {/* <WidgetVisitor />  */}
   
