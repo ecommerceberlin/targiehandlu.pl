@@ -12,7 +12,8 @@ import {
     WidgetRegForm,
     WidgetFeaturedCompanies,
     WidgetPresenters,
-    WidgetVipcode
+    WidgetVipcode,
+    WidgetSchedule
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
