@@ -12,7 +12,8 @@ import {
     WidgetRegForm,
     WidgetFeaturedCompanies,
     WidgetPresenters,
-    WidgetVipcode,
+    WidgetCompanyMeetup,
+    WidgetCompanyVip,
     WidgetSchedule
   } from 'eventjuicer-site-components';
   
@@ -28,12 +29,11 @@ import {
      
       <HeadCompany slug={slug}>{(data) => <Head>{data}</Head>}</HeadCompany> 
  
-
-      <WidgetVipcode />
-
+      <WidgetCompanyMeetup />
+      <WidgetCompanyVip />
       <WidgetCompany slug={slug} />
 
-      {/* <MeetupButton /> */}
+
 
       <WidgetRegForm setting="visitor.register" />
 
