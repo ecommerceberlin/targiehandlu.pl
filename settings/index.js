@@ -307,16 +307,11 @@ const settings =  {
 
     },
 
-    speakers : {
 
-        wrapperProps:{
-            label: "presenters.list_featured",
-            secondaryLabel: "presenters.list_description"
-        },
-        og_template: "template_teh22_spkr",
 
-        workshops: {
+    workshops: {
 
+       registration: {
             wrapperProps: {
                 label: "workshops.form.title",
                 // secondaryLabel: ""
@@ -336,7 +331,7 @@ const settings =  {
                 // {name: "presentation_description", required: true}
             ],
             
-              start: [
+            start: [
                 'presenter',
                 "profile_linkedin",
                 'presentation_title', 
@@ -346,8 +341,75 @@ const settings =  {
 
             ticket_id : 2189,
             email_template : "pl-workshops-application",
+       },
 
+
+       faq: {
+            baseLabel: "workshops.faq",
+            items: [
+                {label: 'costam1'},
+                {label: 'costam2',},
+                { label: 'costam3' }
+            ]
         },
+
+
+       photostream : {
+
+        wrapperProps: {
+            label : "workshops.gallery.title"
+        },
+
+        overlay: "red",
+
+        cols: 12,
+
+        items : [
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999866/www/speaking/witold_wrodarczyk.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999863/www/speaking/robert_stolarczyk.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999861/www/speaking/sempai.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999860/www/speaking/jakub_gierszynski.jpg", cols: 3},
+          
+        ]
+        },
+
+        benefits : {
+
+            label: "workshops.steps.title",
+            baseLabel: "workshops.steps",
+
+            items: [
+
+                {
+                    icon : "FaSearch",
+                    label :  'costam1',
+                },
+            
+                {
+                    icon : "FaPoll",
+                    label : 'costam2'
+                },
+            
+                {
+                    icon : "FaTrophy",
+                    label : 'costam3'
+                }
+    
+            ]
+        }, 
+
+    },
+
+
+
+    speakers : {
+
+        wrapperProps:{
+            label: "presenters.list_featured",
+            secondaryLabel: "presenters.list_description"
+        },
+        og_template: "template_teh22_spkr",
+
 
 
 
@@ -772,25 +834,7 @@ const settings =  {
     },
 
   
-    photostream_workshops : {
-
-        wrapperProps: {
-            label : "workshops.gallery.title"
-        },
-
-        overlay: "red",
-
-        cols: 12,
-
-        items : [
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999866/www/speaking/witold_wrodarczyk.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999863/www/speaking/robert_stolarczyk.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999861/www/speaking/sempai.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999860/www/speaking/jakub_gierszynski.jpg", cols: 3},
-          
-        ]
-    },
-
+   
 
     covid19 : {
 

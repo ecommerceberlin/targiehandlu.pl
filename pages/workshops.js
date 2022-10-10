@@ -38,6 +38,7 @@ import settings from '../settings';
 const PageSpeaking = () => (
 
   <div>
+    
        <Wrapper first label="workshops.hello.title">
        
        <Section 
@@ -51,32 +52,18 @@ const PageSpeaking = () => (
           <Markdown label="workshops.hello.details" />
 
 
-       
-
-
-  
           </div> }
         right={ 
        
             <WidgetRegForm
             wrapperProps={{label: null}}
-            setting="speakers.workshops"
-            options={{
-              "categories": [
-                'conversion',
-                'marketing',
-                'logistics',
-                'payments',
-                'it',
-                'trends',
-              ]
-             }}
+            setting="workshops.registration"
             />
       
             
         }
 
-      leftCentered={true}
+        // leftCentered={true}
 
       />
 
@@ -84,19 +71,25 @@ const PageSpeaking = () => (
       </Wrapper>
 
 
-  <WidgetPhotostream setting="photostream_workshops" />
+      <WidgetIconGrid setting="workshops.benefits" icons={{
+            FaSearch: FaSearch, 
+            FaPoll: FaPoll, 
+            FaTrophy: FaTrophy
+        }} />
+
+
+      <WidgetFaq setting="workshops.faq" />
+
+
+
+
+  <WidgetPhotostream setting="workshops.photostream" />
 
    
 
 
 
-        <WidgetFaq setting="speakers.cfpfaq" />
 
-        <WidgetIconGrid setting="workshops.benefits" icons={{
-            FaSearch: FaSearch, 
-            FaPoll: FaPoll, 
-            FaTrophy: FaTrophy
-        }} />
 
 
         {/* <WidgetPresentersAll 
