@@ -313,7 +313,44 @@ const settings =  {
             label: "presenters.list_featured",
             secondaryLabel: "presenters.list_description"
         },
-        og_template: "template_teh21_spkr",
+        og_template: "template_teh22_spkr",
+
+        workshops: {
+
+            wrapperProps: {
+                label: "workshops.form.title",
+                // secondaryLabel: ""
+            },
+            
+            baseLabel: "workshops",
+            fields: [
+                {name: "email", required: true},
+                {name: "fname", required: true},
+                {name: "lname", required: true},
+                {name: "cname2", required: true},
+                {name: "phone", required: true},
+                {name: "presenter", required: true},  
+                {name: "bio", required: true},  
+                {name: "profile_linkedin", required: true},  
+                {name: "presentation_title", required: false},
+                // {name: "presentation_description", required: true}
+            ],
+            
+              start: [
+                'presenter',
+                "profile_linkedin",
+                'presentation_title', 
+
+
+            ],
+
+            ticket_id : 2189,
+            email_template : "pl-workshops-application",
+
+        },
+
+
+
         callforpapers: {
 
             wrapperProps: {
@@ -735,6 +772,25 @@ const settings =  {
     },
 
   
+    photostream_workshops : {
+
+        wrapperProps: {
+            label : "workshops.gallery.title"
+        },
+
+        overlay: "red",
+
+        cols: 12,
+
+        items : [
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999866/www/speaking/witold_wrodarczyk.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999863/www/speaking/robert_stolarczyk.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999861/www/speaking/sempai.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999860/www/speaking/jakub_gierszynski.jpg", cols: 3},
+          
+        ]
+    },
+
 
     covid19 : {
 

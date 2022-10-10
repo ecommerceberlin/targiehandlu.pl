@@ -67,7 +67,13 @@ module.exports = withSentryConfig(withTM({
     },
 
     async redirects() {
-      return [{
+      return [
+        {
+          source: '/workshop',
+          destination: '/workshops',
+          permanent: true,
+        },
+        {
           source: '/legal',
           destination: '/legal-2022-05-17',
           permanent: false,
