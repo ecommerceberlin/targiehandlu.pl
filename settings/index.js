@@ -347,9 +347,10 @@ const settings =  {
        faq: {
             baseLabel: "workshops.faq",
             items: [
-                {label: 'costam1'},
-                {label: 'costam2',},
-                { label: 'costam3' }
+                { label: 'cost' },
+                { label: 'offering' },
+                { label: 'participation' },
+                { label: 'toolset' }
             ]
         },
 
