@@ -29,7 +29,7 @@ import {
      
       <HeadCompany slug={slug}>{(data) => <Head>{data}</Head>}</HeadCompany> 
  
-      <WidgetCompanyMeetup />
+      {/* <WidgetCompanyMeetup /> */}
       <WidgetCompanyVip />
       <WidgetCompany slug={slug} />
 
@@ -59,13 +59,8 @@ import {
   
       {/* <WidgetPresenters /> */}
   
-    
-  
-      {/* <WidgetVisitor />  */}
-  
-     
-  
-      <WidgetAllExhibitorsColumnList />
+   
+
     </div>
   );
   
@@ -109,7 +104,7 @@ import {
 
     await configure(store, {
       settings : settings,
-      preload : [resource, "exhibitors", "bookingmap"]
+      preload : [resource, "bookingmap"]
     })
 
     return {
