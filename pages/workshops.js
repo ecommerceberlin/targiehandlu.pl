@@ -52,7 +52,7 @@ const PageSpeaking = () => (
           </div> }
         right={ 
              
-          <Markdown label="workshops.form.closed" />
+          <Box mt={2} p={2} style={{border: "2px solid red"}}><Markdown label="workshops.form.closed" /></Box>
 
         }
 
