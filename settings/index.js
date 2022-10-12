@@ -311,6 +311,34 @@ const settings =  {
 
     workshops: {
 
+        schedule: {
+
+            wrapperProps: {
+                label: "workshops.schedule.title",
+                secondaryLabel: "workshops.schedule.description"
+            },
+            times : {
+    
+                // 15+10+10 = 35!!!
+                // 
+                // '10:25': 'presentation',
+                '11:15': 'presentation',
+                '12:00': 'presentation',
+                '12:45': 'presentation',
+                '13:30': 'presentation',
+                '14:15': 'presentation',
+                '15:00': 'presentation',
+                '15:45': 'presentation'
+              }, 
+              venues : {
+                W1: { company_id: 0 },
+                W2: { company_id: 0 },
+              },
+            //   minimized : ["B", "E"],
+              venueStyle : "red",
+        },
+    
+
        registration: {
             wrapperProps: {
                 label: "workshops.form.title",

@@ -16,7 +16,8 @@ import {
   WidgetPhotostream,
   WidgetVerticalTimeline,
   TwoColsLayout as Section,
-  MyTypography
+  MyTypography,
+  WidgetSchedule
 } from 'eventjuicer-site-components';
 
 
@@ -67,6 +68,8 @@ const PageSpeaking = () => (
 
 
       </Wrapper>
+
+      <WidgetSchedule setting="workshops.schedule" />
 
 {/* 
       <WidgetIconGrid setting="workshops.benefits" icons={{
