@@ -13,10 +13,10 @@ import {
   reduxWrapper,
   configure,
   WidgetPhotostream,
-  WidgetVerticalTimeline,
   TwoColsLayout as Section,
   MyTypography,
-  WidgetSchedule
+  WidgetSchedule,
+  Box
 } from 'eventjuicer-site-components';
 
 
