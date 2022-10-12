@@ -46,9 +46,7 @@ const PageSpeaking = () => (
         left={  <div style={{marginTop: '5rem'}}>
 
           <MyTypography template="h4" label="workshops.hello.submit" />
-         
-          <MyTypography template="subtitle1" label="workshops.hello.needs" />
-  
+           
           <Markdown label="workshops.hello.details" />
 
 
@@ -70,12 +68,12 @@ const PageSpeaking = () => (
 
       </Wrapper>
 
-
+{/* 
       <WidgetIconGrid setting="workshops.benefits" icons={{
             FaSearch: FaSearch, 
             FaPoll: FaPoll, 
             FaTrophy: FaTrophy
-        }} />
+        }} /> */}
 
 
       <WidgetFaq setting="workshops.faq" />
