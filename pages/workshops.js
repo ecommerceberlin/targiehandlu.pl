@@ -7,10 +7,9 @@ import {
   WidgetRegForm,
   WidgetRoleButtons,
   Markdown,
-  WidgetPresentersAll,
+  // WidgetPresentersAll,
   WidgetIconGrid,
   WidgetFaq,
-  WidgetJurors,
   reduxWrapper,
   configure,
   WidgetPhotostream,
@@ -21,16 +20,16 @@ import {
 } from 'eventjuicer-site-components';
 
 
-import {
-  NoteAdd, 
-  Settings,
-  Public,
-  Mic,
-  Assessment,
-  FaSearch,
-  FaPoll,
-  FaTrophy
-} from '../components/icons'
+// import {
+//   NoteAdd, 
+//   Settings,
+//   Public,
+//   Mic,
+//   Assessment,
+//   FaSearch,
+//   FaPoll,
+//   FaTrophy
+// } from '../components/icons'
 
 
 import settings from '../settings';
@@ -50,16 +49,11 @@ const PageSpeaking = () => (
            
           <Markdown label="workshops.hello.details" />
 
-
           </div> }
         right={ 
-       
-            <WidgetRegForm
-            wrapperProps={{label: null}}
-            setting="workshops.registration"
-            />
-      
-            
+             
+          <Markdown label="workshops.form.closed" />
+
         }
 
         // leftCentered={true}
@@ -70,6 +64,17 @@ const PageSpeaking = () => (
       </Wrapper>
 
       <WidgetSchedule setting="workshops.schedule" />
+
+{/*
+
+    
+ <WidgetRegForm
+            wrapperProps={{label: null}}
+            setting="workshops.registration"
+            />
+            
+*/}
+
 
 {/* 
       <WidgetIconGrid setting="workshops.benefits" icons={{
