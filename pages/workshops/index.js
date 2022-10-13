@@ -32,7 +32,7 @@ import {
 // } from '../components/icons'
 
 
-import settings from '../settings';
+import settings from '../../settings';
 
 
 const PageSpeaking = () => (

@@ -372,6 +372,29 @@ const settings =  {
        },
 
 
+       update: {
+            wrapperProps: {
+            label: "workshops.update.title",
+            // secondaryLabel: ""
+            },
+            legend: "",
+            baseLabel: "workshops",
+            fields: [
+            {name: "presentation_title", required: true},
+            {name: "presentation_description", required: true, long: true },
+            {name: "presenter", required: true},
+            {name: "position", required: true},
+            {name: "logotype", required: true},
+            {name: "avatar", required: true},
+            {name: "bio", long: true, required: true},
+
+            ],
+
+            start: [],
+
+       },
+
+
        faq: {
             baseLabel: "workshops.faq",
             items: [
