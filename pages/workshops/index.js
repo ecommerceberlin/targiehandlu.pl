@@ -39,8 +39,12 @@ const PageSpeaking = () => (
 
   <div>
     
-       <Wrapper first label="workshops.hello.title">
+    <WidgetSchedule setting="workshops.schedule" />
+
+       {/* <Wrapper first label="workshops.hello.title">
        
+
+
        <Section 
         
         left={  <div style={{marginTop: '5rem'}}>
@@ -56,14 +60,13 @@ const PageSpeaking = () => (
 
         }
 
-        // leftCentered={true}
+
 
       />
 
 
-      </Wrapper>
+      </Wrapper> */}
 
-      <WidgetSchedule setting="workshops.schedule" />
 
 {/*
 
@@ -83,8 +86,8 @@ const PageSpeaking = () => (
             FaTrophy: FaTrophy
         }} /> */}
 
-
-      <WidgetFaq setting="workshops.faq" />
+{/* 
+      <WidgetFaq setting="workshops.faq" /> */}
 
 
 
