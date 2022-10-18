@@ -39,35 +39,23 @@ const PageSpeaking = () => (
 
   <div>
     
+    <WidgetFaq setting="workshops.faq_participant" />     
     <WidgetSchedule setting="workshops.schedule" />
 
-       {/* <Wrapper first label="workshops.hello.title">
-       
-
-
-       <Section 
-        
-        left={  <div style={{marginTop: '5rem'}}>
-
+       {/* 
+       <Wrapper first label="workshops.hello.title">
+       <Section   
+        left={
+          <div style={{marginTop: '5rem'}}>
           <MyTypography template="h4" label="workshops.hello.submit" />
-           
           <Markdown label="workshops.hello.details" />
-
-          </div> }
-        right={ 
-             
-          <Box mt={2} p={2} style={{border: "2px solid red"}}><Markdown label="workshops.form.closed" /></Box>
-
+          </div>
         }
-
-
-
+        right={      
+          <Box mt={2} p={2} style={{border: "2px solid red"}}><Markdown label="workshops.form.closed" /></Box>
+        }
       />
-
-
       </Wrapper> */}
-
-
 {/*
 
     
@@ -85,10 +73,6 @@ const PageSpeaking = () => (
             FaPoll: FaPoll, 
             FaTrophy: FaTrophy
         }} /> */}
-
-
-
-<WidgetFaq setting="workshops.faq_participant" /> 
 
 
   <WidgetPhotostream setting="workshops.photostream" />
