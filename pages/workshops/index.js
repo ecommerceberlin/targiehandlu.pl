@@ -86,10 +86,9 @@ const PageSpeaking = () => (
             FaTrophy: FaTrophy
         }} /> */}
 
-{/* 
-      <WidgetFaq setting="workshops.faq" /> */}
 
 
+<WidgetFaq setting="workshops.faq_participant" /> 
 
 
   <WidgetPhotostream setting="workshops.photostream" />

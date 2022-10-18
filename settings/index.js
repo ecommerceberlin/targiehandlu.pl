@@ -405,6 +405,15 @@ const settings =  {
             ]
         },
 
+        faq_participant: {
+            baseLabel: "workshops.participants.faq",
+            items: [
+                { label: 'formula' },
+                { label: 'application' },
+                { label: 'cost' },
+                { label: 'vip' }
+            ]
+        },
 
        photostream : {
 
