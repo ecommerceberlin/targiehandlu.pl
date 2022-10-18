@@ -6,17 +6,13 @@ import {
   WidgetVideoWithEventInfo,
   WidgetRegForm,
   WidgetRoleButtons,
-  Markdown,
   // WidgetPresentersAll,
   WidgetIconGrid,
   WidgetFaq,
   reduxWrapper,
   configure,
   WidgetPhotostream,
-  TwoColsLayout as Section,
-  MyTypography,
-  WidgetSchedule,
-  Box
+  WidgetSchedule
 } from 'eventjuicer-site-components';
 
 
@@ -75,10 +71,11 @@ const PageSpeaking = () => (
         }} /> */}
 
 
-  <WidgetPhotostream setting="workshops.photostream" />
 
    
-
+  <WidgetRegForm setting="visitor.register" />
+<WidgetSchedule />
+<WidgetPhotostream setting="workshops.photostream" />
 
 
 
