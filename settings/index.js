@@ -311,6 +311,10 @@ const settings =  {
 
     workshops: {
 
+        apply: {
+            limit: 25
+        },
+
         schedule: {
 
             wrapperProps: {
