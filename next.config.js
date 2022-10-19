@@ -60,9 +60,14 @@ module.exports = withSentryConfig(withTM({
     },
 
     async rewrites() { 
-      return [{
+      return [
+      {
       source: '/presenters',
       destination: '/speakers',
+      },
+      {
+      source: '/presenters/:id',
+      destination: '/speakers/:id',
       }]
     },
 
