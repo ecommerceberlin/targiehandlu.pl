@@ -87,7 +87,17 @@ module.exports = withSentryConfig(withTM({
           source: '/vote/categories',
           destination: '/vote',
           permanent: false,
-        }]
+        },
+      
+        {
+          source: '/exhibitors/sunrisesystempl',
+          destination: '/exhibitors/grupatensepl',
+          permanent: true,
+        },
+      
+
+        
+      ]
     }
   
   }), SentryWebpackPluginOptions);
