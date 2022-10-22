@@ -27,14 +27,14 @@ import {
     
       <MyHead
         url={`/invites/${id}`}
-        image={getInviteOgImage(`Będę! ${_get(person, 'fname', '')} z ${_get(person, 'cname2',"")}`, "teh20_visitor_template1")}
+        image={getInviteOgImage(`Będę! ${_get(person, 'fname', '')} z ${_get(person, 'cname2',"")}`, "teh22_visitor_template")}
         titleLabel={[
           'visitors.opengraph.title',
           {
             name: name,
             cname: cname,
             location: 'Warszawa EXPO XXI',
-            date: '14.04.2022',
+            date: '27.10.2022',
           },
         ]}
       >{(data=> <Head>{data}</Head>)}</MyHead>
