@@ -9,7 +9,8 @@ import {
     WidgetIconGrid,
     WidgetFeaturedCompanies,
     WidgetPresenters,
-    WidgetSchedule
+    WidgetSchedule,
+    WidgetExhibitorsWithSearch
   } from 'eventjuicer-site-components';
   
   //import FeaturedPresenters from '../src/FeaturedPresenters';
@@ -22,6 +23,7 @@ import {
 
 <WidgetRegForm setting="visitor.register" />
 <WidgetSchedule />
+<WidgetExhibitorsWithSearch />
 
 <WidgetVideoWithEventInfo setting="heroExpo" />
 <WidgetFeaturedCompanies />

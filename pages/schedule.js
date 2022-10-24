@@ -10,7 +10,8 @@ import {
     WidgetSchedule,
     WidgetVideoWithEventInfo,
     // WidgetRoleButtons,
-    MyHead
+    MyHead, 
+    WidgetExhibitorsWithSearch
   } from 'eventjuicer-site-components';
 
   import Head from 'next/head'
@@ -29,6 +30,8 @@ import {
 
 
       <WidgetSchedule />
+
+      <WidgetExhibitorsWithSearch />
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 

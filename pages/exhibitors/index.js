@@ -6,7 +6,8 @@ import {
     WidgetSalesMap,
     WidgetRoleButtons,
     reduxWrapper,
-    configure
+    configure,
+    WidgetExhibitorsWithSearch
   } from 'eventjuicer-site-components';
   
   import settings from '../../settings';
@@ -15,7 +16,7 @@ import {
   
     <>
   
-    <WidgetSalesMap first />
+    <WidgetExhibitorsWithSearch first />
 
     <WidgetExhibitorsAvatarlist />
 

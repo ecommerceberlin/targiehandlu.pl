@@ -4,17 +4,15 @@ import {
     connect,
     reduxWrapper,
     configure,
-    WidgetSalesMap,
-    WidgetIconGrid,
+    WidgetFeaturedCompanies,
+    WidgetRegForm,
+    // WidgetSalesMap,
     WidgetVideoWithEventInfo,
     //WidgetAllExhibitorsAvatarlist,
-    WidgetFeaturedCompanies,
-    WidgetAllExhibitorsColumnList,
-    WidgetExhibitorsAvatarlist,
-    WidgetFaq,
-    WidgetPresenters,
-    WidgetRegForm,
-    WidgetSchedule
+    // WidgetAllExhibitorsColumnList,
+    // WidgetPresenters,
+    WidgetSchedule,
+    WidgetExhibitorsWithSearch
   } from 'eventjuicer-site-components';
   
   import settings from '../settings'
@@ -27,28 +25,14 @@ import {
 
     <WidgetRegForm setting="visitor.register" /> 
 
-    <WidgetSchedule />
+    <WidgetSchedule /> 
+
+    <WidgetExhibitorsWithSearch />
 
     <WidgetRegForm setting="visitor.register" /> 
 
-    <WidgetSalesMap />
-   
-
-
-
-
     <WidgetFeaturedCompanies />
 
-    {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
-
-    {/* <WidgetIconGrid setting="exhibitors.benefits" />
-  
-  
-  */}
-
-    <WidgetAllExhibitorsColumnList />
-
-    {/* <WidgetRegForm setting="visitor.register" /> */}
   
   
   </>
@@ -59,7 +43,8 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ['exhibitors', 'allexhibitors']
+      // preload : ['exhibitors', 'allexhibitors']
+      preload : ['exhibitors']
     })
   
   })
