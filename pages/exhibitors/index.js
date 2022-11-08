@@ -16,7 +16,7 @@ import {
   
     <>
   
-    <WidgetExhibitorsWithSearch first />
+    {/* <WidgetExhibitorsWithSearch first /> */}
 
     <WidgetExhibitorsAvatarlist />
 

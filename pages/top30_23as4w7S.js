@@ -15,11 +15,13 @@ import {
   
   import settings from '../settings'
   
+  //setting="bookingmap_top30" 
+
   const PageExhibit = () => (
   
    <>
 
-    <WidgetSalesMap setting="bookingmap_top30" />
+    <WidgetSalesMap />
 
     <WidgetIconGrid setting="exhibitors.benefits" />
 

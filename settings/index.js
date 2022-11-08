@@ -95,32 +95,33 @@ const bookingmapShared = {
         "access"
     ],
     disabledTicketIds : [],
-    allowedGroupIds : [364,365,366,367],
+    allowedGroupIds : [385,386,367,388,389],
     boothStyleMapping: {
-        363: "light",
-        364: "standard",
-        365: "hot",
-        366: "superHot",
-        367: "ultra",
-        368: "grand",
-        369: "stage",
-        374: "stage", //stage B
-        375: "stage", //stage D
+        384: "light",
+        385: "standard",
+        386: "hot",
+        387: "superHot",
+        388: "ultra",
+        389: "grand",
+        390: "stage",
+        395: "stage", //stage B
+        396: "stage", //stage D
 
-        371: "networking",
-        373: "networking", //mini networking
-        370: "boothSold", //last minute / buffer
-        351: "boothSold", //test
+        392: "networking",
+        394: "networking", //mini networking
+        391: "boothSold", //last minute / buffer
+        393: "boothSold", //test
     
     },
     benefits: {
-        342: standardBenefits,
-        343: standardBenefits,
-        344: standardBenefits,
-        345: standardBenefits,
-        346: premiumBenefits,
-        347: stageBenefits,
-        1: openStageBenefits
+        385: standardBenefits,
+        386: standardBenefits,
+        387: standardBenefits,
+        388: standardBenefits,
+        389: premiumBenefits,
+        390: stageBenefits,
+        395: stageBenefits,
+        396: openStageBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
@@ -824,10 +825,10 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o. Sp. k.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811967834',
-        event_name : '22. Targi eHandlu',
+        event_name : '23. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '27.10.2022',
+        event_date : '6.04.2023',
         event_hours : '10:00-17:00',
 
     },
@@ -868,7 +869,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 

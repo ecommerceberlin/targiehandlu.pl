@@ -31,7 +31,7 @@ import {
 
       <WidgetSchedule />
 
-      <WidgetExhibitorsWithSearch />
+      {/* <WidgetExhibitorsWithSearch /> */}
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 

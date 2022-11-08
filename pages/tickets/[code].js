@@ -45,7 +45,7 @@ right={
 </Wrapper>
 
 <WidgetSchedule />
-<WidgetSalesMap />
+{/* <WidgetSalesMap /> */}
 <WidgetVisitor setting="visitor.register" />
 </>)
 

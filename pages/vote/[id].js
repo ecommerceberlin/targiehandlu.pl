@@ -46,7 +46,7 @@ const PageVote  = ({id}) => (
       show_votes={true}
     />
 
- <WidgetSalesMap wrapperProps={{label: "exhibitors.map.title_alt"}} />
+ {/* <WidgetSalesMap wrapperProps={{label: "exhibitors.map.title_alt"}} /> */}
 
 
   <VotingCategories />
