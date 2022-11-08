@@ -822,9 +822,9 @@ const settings =  {
     
     common : {
 
-        organizer_name : 'Infoguru Sp. z o.o. Sp. k.',
+        organizer_name : 'Infoguru Sp. z o.o.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
-        organizer_regno : 'VAT ID 7811967834',
+        organizer_regno : 'VAT ID 7811883511',
         event_name : '23. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
