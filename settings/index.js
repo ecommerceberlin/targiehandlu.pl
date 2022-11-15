@@ -265,12 +265,12 @@ const settings =  {
             secondaryLabel: "exhibitors.map.comeback.description"
         },
         disabledTicketIds : [
-            2124, 2125, 2126, 2123, 2121, 2122, //STD
-            2129, 2130, 2131, 2134, 2133, 2132, //HOT
-            2138, 2139, 2135, 2142, 2141, 2140, //SH
-            2147, 2148, 2144, 2145, 2149, 2143, //ULTRA,
-            2160, 2161, 2157, 2156, 2158, 2187, //GRAND
-            2152, //mini networking
+            2274, 2275, 2276, 2273, 2278, 2277, //STD
+            2280, 2285, 2286, 2281, 2283, 2284, 2282, //HOT
+            2288, 2291, 2294, 2293, 2292, 2290, 2287, //SH
+            2295, 2296, 2297, 2299, 2300, 2301, //ULTRA,
+            2308, 2309, 2310, 2325, 2312, 2313, //GRAND
+            2304, //mini networking
             2192, 2193, 2194
         ],
     },
@@ -282,13 +282,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            2177, 2186, //STD
-            2180, 2184, //HOT
-            2179, 2182, //SH
-            2178, 2185, //UTLRA
-            2159, 2181, 2183, //GRAND
-            2190, //mini networking
-            2150, 2153, 2191
+            2314, 2272, //STD
+            2322, 2317, 2279, //HOT
+            2319, 2316, 2289, //SH
+            2323, 2315, 2298, //UTLRA
+            2321, 2311, 2318, //GRAND
+            2326, //mini networking
+            2302, 2305, 2330, //kurator sceny
         ],
     },
 

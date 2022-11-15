@@ -21,7 +21,7 @@ import {
   
    <>
 
-    <WidgetSalesMap />
+    <WidgetSalesMap setting="bookingmap_top30" />
 
     <WidgetIconGrid setting="exhibitors.benefits" />
 
