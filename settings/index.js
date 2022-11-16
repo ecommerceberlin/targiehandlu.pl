@@ -69,6 +69,7 @@ const premiumBenefits =    [{
     },
 ]
 
+
 const openStageBenefits =   [
     {
         icon : "Done", 
@@ -120,7 +121,7 @@ const bookingmapShared = {
         388: standardBenefits,
         389: premiumBenefits,
         390: stageBenefits,
-        395: stageBenefits,
+        395: openStageBenefits,
         396: openStageBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
