@@ -298,12 +298,12 @@ const settings =  {
         baseLabel: "cfp.timeline",
 
         items : [
-            {date: "2022-08-30", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2022-09-13", name: "qualification", icon:  "Assessment" },
-            {date: "2022-09-15", name: "public-voting", icon:  "Public" },
+            {date: "2022-11-21", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2023-01-16", name: "qualification", icon:  "Assessment" },
+            {date: "2023-01-18", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2022-09-30", name: "results", icon:  "Mic", active: false },
-            {date: "2022-10-04", name: "formal", icon:  "Settings", active: false }
+            {date: "2023-03-02", name: "results", icon:  "Mic", active: false },
+            {date: "2023-03-10", name: "formal", icon:  "Settings", active: false }
 
         ]
 
@@ -515,7 +515,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2186,
+            ticket_id : 2324,
             email_template : "pl-presenters-application",
 
         },
