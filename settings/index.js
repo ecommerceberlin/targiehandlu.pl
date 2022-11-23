@@ -302,8 +302,8 @@ const settings =  {
             {date: "2023-01-16", name: "qualification", icon:  "Assessment" },
             {date: "2023-01-18", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2023-03-02", name: "results", icon:  "Mic", active: false },
-            {date: "2023-03-10", name: "formal", icon:  "Settings", active: false }
+            {date: "2023-02-03", name: "results", icon:  "Mic", active: false },
+            {date: "2023-02-10", name: "formal", icon:  "Settings", active: false }
 
         ]
 
