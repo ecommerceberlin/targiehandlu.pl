@@ -12,7 +12,11 @@ import {
   reduxWrapper,
   configure,
   WidgetPhotostream,
-  WidgetSchedule
+  WidgetSchedule,
+  TwoColsLayout as Section,
+  MyTypography,
+  Markdown,
+  Box
 } from 'eventjuicer-site-components';
 
 
@@ -35,10 +39,10 @@ const PageSpeaking = () => (
 
   <div>
     
-    <WidgetFaq setting="workshops.faq_participant" />     
-    <WidgetSchedule setting="workshops.schedule" />
+    {/* <WidgetFaq setting="workshops.faq_participant" />     
+    <WidgetSchedule setting="workshops.schedule" /> */}
 
-       {/* 
+       
        <Wrapper first label="workshops.hello.title">
        <Section   
         left={
@@ -47,24 +51,36 @@ const PageSpeaking = () => (
           <Markdown label="workshops.hello.details" />
           </div>
         }
-        right={      
-          <Box mt={2} p={2} style={{border: "2px solid red"}}><Markdown label="workshops.form.closed" /></Box>
-        }
-      />
-      </Wrapper> */}
-{/*
+        right={   
+          <>   
+          {/* <Box mt={2} p={2} style={{border: "2px solid red"}}>
+            
 
-    
- <WidgetRegForm
+            <Markdown label="workshops.form.closed" />
+            
+            </Box> */}
+
+
+            <WidgetRegForm
             wrapperProps={{label: null}}
             setting="workshops.registration"
             />
+
+
+            </>
+        }
+      />
+      </Wrapper>
+{/*
+
+    
+
             
 */}
 
+<WidgetFaq setting="workshops.faq" />    
 
-{/* 
-      <WidgetIconGrid setting="workshops.benefits" icons={{
+      {/* <WidgetIconGrid setting="workshops.benefits" icons={{
             FaSearch: FaSearch, 
             FaPoll: FaPoll, 
             FaTrophy: FaTrophy
@@ -73,8 +89,8 @@ const PageSpeaking = () => (
 
 
    
-  <WidgetRegForm setting="visitor.register" />
-<WidgetSchedule />
+  {/* <WidgetRegForm setting="visitor.register" /> */}
+{/* <WidgetSchedule /> */}
 <WidgetPhotostream setting="workshops.photostream" />
 
 

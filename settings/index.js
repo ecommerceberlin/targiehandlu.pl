@@ -373,7 +373,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2189,
+            ticket_id : 2328,
             email_template : "pl-workshops-application",
        },
 
