@@ -775,7 +775,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 2188,
+            ticket_id : 2327,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 
