@@ -861,7 +861,7 @@ const settings =  {
         secondaryStyle: null,
       //  iconStyle: "heroIcon",
         links : [
-            {label: "exhibitors.agreement.title", href : "/legal-2022-11-09"},
+            {label: "exhibitors.agreement.title", href : "/legal"},
             {label: "visitors.legal.title", href : "/legal/visitors"},
             {label: "visitors.legal-gdpr.title", href : "/legal/visitors-data"},
         ]
