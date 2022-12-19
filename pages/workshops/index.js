@@ -39,8 +39,8 @@ const PageSpeaking = () => (
 
   <div>
     
-    {/* <WidgetFaq setting="workshops.faq_participant" />     
-    <WidgetSchedule setting="workshops.schedule" /> */}
+    <WidgetFaq setting="workshops.faq_participant" />     
+    {/* <WidgetSchedule setting="workshops.schedule" /> */}
 
        
        <Wrapper first label="workshops.hello.title">
