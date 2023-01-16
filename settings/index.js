@@ -299,11 +299,11 @@ const settings =  {
 
         items : [
             {date: "2022-11-21", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2023-01-16", name: "qualification", icon:  "Assessment" },
-            {date: "2023-01-18", name: "public-voting", icon:  "Public" },
+            {date: "2023-01-23", name: "qualification", icon:  "Assessment" },
+            {date: "2023-01-25", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2023-02-03", name: "results", icon:  "Mic", active: false },
-            {date: "2023-02-10", name: "formal", icon:  "Settings", active: false }
+            {date: "2023-02-10", name: "results", icon:  "Mic", active: false },
+            {date: "2023-02-17", name: "formal", icon:  "Settings", active: false }
 
         ]
 
