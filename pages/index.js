@@ -33,7 +33,7 @@ import {
 
     <WidgetFeaturedCompanies />
 
-    <WidgetAllOrCurrentExhibitorsColumnList />
+    <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
 
   </>
   

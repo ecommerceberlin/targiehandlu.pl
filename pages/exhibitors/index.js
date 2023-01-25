@@ -16,7 +16,7 @@ import {
   
     <>
   
-    <WidgetAllOrCurrentExhibitorsColumnList first />
+    <WidgetAllOrCurrentExhibitorsColumnList threshold={70} first />
 
 
     {/* <WidgetVisitor label="visitors.are_you_visitor"  /> */}
