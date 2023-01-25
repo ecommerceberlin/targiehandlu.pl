@@ -7,7 +7,7 @@ import {
     WidgetRoleButtons,
     reduxWrapper,
     configure,
-    WidgetExhibitorsWithSearch
+    WidgetAllOrCurrentExhibitorsColumnList
   } from 'eventjuicer-site-components';
   
   import settings from '../../settings';
@@ -16,13 +16,12 @@ import {
   
     <>
   
-    {/* <WidgetExhibitorsWithSearch first /> */}
+    <WidgetAllOrCurrentExhibitorsColumnList first />
 
-    <WidgetExhibitorsAvatarlist />
 
-    <WidgetVisitor label="visitors.are_you_visitor"  />
+    {/* <WidgetVisitor label="visitors.are_you_visitor"  /> */}
   
-    <WidgetRoleButtons />
+    {/* <WidgetRoleButtons /> */}
     
     </>
   
@@ -33,7 +32,7 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ['exhibitors', 'exhibitors2', 'bookingmap']
+      preload : []
     })
 
 

@@ -11,8 +11,8 @@ import {
     //WidgetAllExhibitorsAvatarlist,
     // WidgetAllExhibitorsColumnList,
     // WidgetPresenters,
-    WidgetSchedule,
-    WidgetExhibitorsWithSearch
+    // WidgetSchedule,
+    WidgetAllOrCurrentExhibitorsColumnList
   } from 'eventjuicer-site-components';
   
   import settings from '../settings'
@@ -24,15 +24,16 @@ import {
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
     <WidgetSalesMap />
-    {/* <WidgetRegForm setting="visitor.register" /> 
 
-    <WidgetSchedule />  */}
+    {/* <WidgetRegForm setting="visitor.register" />  */}
 
-    {/* <WidgetExhibitorsWithSearch /> */}
+    {/* <WidgetSchedule />  */}
 
     {/* <WidgetRegForm setting="visitor.register" />  */}
 
     <WidgetFeaturedCompanies />
+
+    <WidgetAllOrCurrentExhibitorsColumnList />
 
   </>
   
