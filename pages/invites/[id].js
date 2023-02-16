@@ -42,7 +42,7 @@ import {
       <Wrapper
         first
         label={['visitors.invite.title', { name, cname }]}
-        secondaryTitle="visitors.invite.description"
+        secondaryLabel="visitors.invite.description"
       >
         {/* <Typography
           template="visitor_invite_join"
