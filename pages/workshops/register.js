@@ -39,7 +39,6 @@ const PageSpeaking = () => (
 
   <div>
     
-    <WidgetFaq setting="workshops.faq_participant" />     
     {/* <WidgetSchedule setting="workshops.schedule" /> */}
 
        
@@ -81,9 +80,9 @@ const PageSpeaking = () => (
 <WidgetFaq setting="workshops.faq" />    
 
       {/* <WidgetIconGrid setting="workshops.benefits" icons={{
-            FaSearch: FaSearch, 
-            FaPoll: FaPoll, 
-            FaTrophy: FaTrophy
+            // FaSearch: FaSearch, 
+            // FaPoll: FaPoll, 
+            // FaTrophy: FaTrophy
         }} /> */}
 
 

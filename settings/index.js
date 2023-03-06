@@ -432,10 +432,10 @@ const settings =  {
         cols: 12,
 
         items : [
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1665404744/vipzone/strefaVIP_01.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1665404741/vipzone/strefaVIP_02.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1665404740/vipzone/strefaVIP_04.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1665404740/vipzone/strefaVIP_03.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147180/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0552.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1669103280/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_NET-0384.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147190/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0541.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147181/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0892.jpg", cols: 3},
           
         ]
         },
