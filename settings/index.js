@@ -339,6 +339,7 @@ const settings =  {
               venues : {
                 W1: { company_id: 0 },
                 W2: { company_id: 0 },
+                W3: { company_id: 0 },
               },
             //   minimized : ["B", "E"],
               venueStyle : "red",

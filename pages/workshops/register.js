@@ -39,7 +39,7 @@ const PageSpeaking = () => (
 
   <div>
     
-    {/* <WidgetSchedule setting="workshops.schedule" /> */}
+    
 
        
        <Wrapper first label="workshops.hello.title">
@@ -70,6 +70,11 @@ const PageSpeaking = () => (
         }
       />
       </Wrapper>
+
+      <WidgetFaq setting="workshops.faq" />    
+
+      <WidgetSchedule setting="workshops.schedule" />
+
 {/*
 
     
@@ -77,7 +82,6 @@ const PageSpeaking = () => (
             
 */}
 
-<WidgetFaq setting="workshops.faq" />    
 
       {/* <WidgetIconGrid setting="workshops.benefits" icons={{
             // FaSearch: FaSearch, 
