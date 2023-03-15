@@ -52,18 +52,18 @@ const PageSpeaking = () => (
         }
         right={   
           <>   
-          {/* <Box mt={2} p={2} style={{border: "2px solid red"}}>
+          <Box mt={2} p={2} style={{border: "2px solid red"}}>
             
 
             <Markdown label="workshops.form.closed" />
             
-            </Box> */}
+            </Box>
 
 
-            <WidgetRegForm
+            {/* <WidgetRegForm
             wrapperProps={{label: null}}
             setting="workshops.registration"
-            />
+            /> */}
 
 
             </>
