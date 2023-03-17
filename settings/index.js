@@ -476,7 +476,7 @@ const settings =  {
             label: "presenters.list_featured",
             secondaryLabel: "presenters.list_description"
         },
-        og_template: "template_teh22_spkr",
+        og_template: "template_teh23_spkr",
 
 
 
