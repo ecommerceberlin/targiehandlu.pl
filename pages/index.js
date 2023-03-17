@@ -6,12 +6,10 @@ import {
     configure,
     WidgetFeaturedCompanies,
     WidgetRegForm,
-     WidgetSalesMap,
+    //  WidgetSalesMap,
     WidgetVideoWithEventInfo,
-    //WidgetAllExhibitorsAvatarlist,
-    // WidgetAllExhibitorsColumnList,
     // WidgetPresenters,
-    // WidgetSchedule,
+    WidgetSchedule,
     WidgetAllOrCurrentExhibitorsColumnList
   } from 'eventjuicer-site-components';
   
@@ -44,7 +42,7 @@ import {
     return await configure(props, {
       settings : settings,
       // preload : ['exhibitors', 'allexhibitors']
-      preload : ['exhibitors']
+      preload : ['presenters']
     })
   
   })

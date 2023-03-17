@@ -10,7 +10,7 @@ import {
     WidgetFeaturedCompanies,
     WidgetPresenters,
     WidgetSchedule,
-    WidgetExhibitorsWithSearch
+    WidgetAllOrCurrentExhibitorsColumnList
   } from 'eventjuicer-site-components';
   
   //import FeaturedPresenters from '../src/FeaturedPresenters';
@@ -21,9 +21,8 @@ import {
   
 <div>
 
-{/* <WidgetRegForm setting="visitor.register" />
-<WidgetSchedule /> */}
-{/* <WidgetExhibitorsWithSearch /> */}
+<WidgetRegForm setting="visitor.register" />
+<WidgetSchedule /> 
 
 <WidgetVideoWithEventInfo setting="heroExpo" />
 <WidgetFeaturedCompanies />
@@ -35,6 +34,8 @@ import {
 <WidgetRegForm setting="visitor.register" />
 {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
 {/* <WidgetVisitor label="visitors.register" first /> */}
+
+<WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
 
 </div>
 

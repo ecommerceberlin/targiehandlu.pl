@@ -871,7 +871,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 

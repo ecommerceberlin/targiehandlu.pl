@@ -11,7 +11,7 @@ import {
     WidgetVideoWithEventInfo,
     // WidgetRoleButtons,
     MyHead, 
-    WidgetExhibitorsWithSearch
+    WidgetAllOrCurrentExhibitorsColumnList
   } from 'eventjuicer-site-components';
 
   import Head from 'next/head'
@@ -31,11 +31,11 @@ import {
 
       <WidgetSchedule />
 
-      {/* <WidgetExhibitorsWithSearch /> */}
+      <WidgetRegForm setting="visitor.register" />
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 
-      <WidgetRegForm setting="visitor.register" />
+      <WidgetAllOrCurrentExhibitorsColumnList threshold={70} /> 
 
 
   </>
