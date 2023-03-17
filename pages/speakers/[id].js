@@ -23,12 +23,13 @@ import {
       <HeadSpeaker setting="speakers" id={id} path="/speakers">{(data)=><Head>{data}</Head> }</HeadSpeaker>
       <WidgetPresenterNew id={id} path="/speakers" />
 
+      <WidgetRegForm setting="visitor.register" />
+
+
       <WidgetVideoWithEventInfo setting="heroExpo" />
 
 
-      <WidgetRegForm setting="visitor.register" />
-
-      <WidgetSalesMap />
+      {/* <WidgetSalesMap /> */}
 
 
       <WidgetSchedule />
