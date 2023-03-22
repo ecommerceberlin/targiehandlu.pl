@@ -314,7 +314,7 @@ const settings =  {
     workshops: {
 
         apply: {
-            limit: 25
+            disabled: 1
         },
 
         schedule: {
