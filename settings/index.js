@@ -605,7 +605,7 @@ const settings =  {
                 TEH23_Media: {},
                 marketerplus: {
                     company: "marketerpluspl",
-                    customLabel:  "vips.register.partners,marketerplus"
+                    customLabel:  "vips.register.partners.marketerplus"
                 },
              
             },
