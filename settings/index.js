@@ -588,20 +588,39 @@ const settings =  {
 
 
 
+   
+    
+
+
+
+
     vips : {
 
         register: {
 
+            label: "vips.register.description",
+
+            allowed: {
+
+                TEH23_Media: {},
+                marketerplus: {
+                    company: "marketerpluspl",
+                    customLabel:  "vips.register.partners,marketerplus"
+                },
+             
+            },
+
+
             data : { important: 1 },
-            template : "pl-visitors-registration",
-            email_template : "pl-visitors-registration",
+            template : "pl-vip-registration",
+            email_template : "pl-vip-registration",
             wrapperProps: {
                 label : "vips.register.title",
                 secondaryLabel: "vips.register.description",
                 first : true
             },
             fields : [
-                {name: "referral", required: true},
+                // {name: "referral", required: true},
                 {name: "email", required: true},
                 {name: "fname", required: true},
                 {name: "lname", required: true},
@@ -609,8 +628,8 @@ const settings =  {
                 {name: "position", required: true},
                 {name: "phone", required: true}
               ],
-            start : ['referral', 'email', 'fname'],
-            ticket_id : 2188,
+            start : ['email', 'fname'],
+            ticket_id : 2327,
             right : "/lanyard.jpg",
            
         },
