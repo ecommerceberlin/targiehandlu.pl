@@ -628,7 +628,7 @@ const settings =  {
                 {name: "position", required: true},
                 {name: "phone", required: true}
               ],
-            start : ['email', 'fname'],
+            start : [],
             ticket_id : 2327,
             right : "/lanyard.jpg",
            
