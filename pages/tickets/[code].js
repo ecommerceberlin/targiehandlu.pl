@@ -41,7 +41,7 @@ right={
 
 />
 
-<Invite person={person} text="Będę!" template="teh22_visitor_template"/>
+<Invite person={person} text="Będę!" template="teh23_visitor_template"/>
 </Wrapper>
 
 <WidgetSchedule />
