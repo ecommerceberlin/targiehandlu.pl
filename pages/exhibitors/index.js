@@ -1,13 +1,12 @@
 import React from 'react'
 import {
     connect,
-    WidgetVisitor,
-    WidgetExhibitorsAvatarlist,
     WidgetSalesMap,
     WidgetRoleButtons,
     reduxWrapper,
     configure,
-    WidgetAllOrCurrentExhibitorsColumnList
+    WidgetAllOrCurrentExhibitorsColumnList,
+    WidgetRegForm
   } from 'eventjuicer-site-components';
   
   import settings from '../../settings';
@@ -18,8 +17,8 @@ import {
   
     <WidgetAllOrCurrentExhibitorsColumnList threshold={70} first />
 
+    <WidgetRegForm setting="visitor.register" /> 
 
-    {/* <WidgetVisitor label="visitors.are_you_visitor"  /> */}
   
     {/* <WidgetRoleButtons /> */}
     
