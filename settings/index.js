@@ -98,35 +98,35 @@ const bookingmapShared = {
     disabledTicketIds : [],
     allowedGroupIds : [385,386,367,388,389],
     boothStyleMapping: {
-        384: "light",
-        385: "standard",
-        386: "hot",
-        387: "superHot",
-        388: "ultra",
-        389: "grand",
-        390: "stage",
-        395: "stage", //stage B
-        396: "stage", //stage D
+        414: "light",
+        415: "standard",
+        416: "hot",
+        417: "superHot",
+        418: "ultra",
+        419: "grand",
+        420: "stage",
+        425: "stage", //stage B
+        426: "stage", //stage D
 
-        392: "networking",
-        394: "networking", //mini networking
-        391: "boothSold", //last minute / buffer
-        393: "boothSold", //test
+        422: "networking",
+        424: "networking", //mini networking
+        421: "boothSold", //last minute / buffer
+        423: "boothSold", //test
     
     },
     benefits: {
-        385: standardBenefits,
-        386: standardBenefits,
-        387: standardBenefits,
-        388: standardBenefits,
-        389: premiumBenefits,
-        390: stageBenefits,
-        395: openStageBenefits,
-        396: openStageBenefits
+        415: standardBenefits,
+        416: standardBenefits,
+        417: standardBenefits,
+        418: standardBenefits,
+        419: premiumBenefits,
+        420: stageBenefits,
+        425: openStageBenefits,
+        426: openStageBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
-    show_recent_purchases: 1,
+    show_recent_purchases: 0,
 
 }
 
@@ -847,7 +847,7 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811883511',
-        event_name : '23. Targi eHandlu',
+        event_name : '24. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
         event_date : '27.10.2023',
@@ -891,7 +891,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 
