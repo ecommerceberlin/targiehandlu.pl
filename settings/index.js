@@ -683,10 +683,10 @@ const settings =  {
             {
               name: 'visitors',
               items: [
-                {name: 'visit', to: '/visit'},
+                // {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
-                {name: 'schedule', to: '/schedule'},
-                {name: 'workshops', to: '/workshops'},
+                // {name: 'schedule', to: '/schedule'},
+                // {name: 'workshops', to: '/workshops'},
                 {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
               ]
