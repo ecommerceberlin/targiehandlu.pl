@@ -1,7 +1,6 @@
-
 ## Information about the Data Administrator
 
-1. The administrator of your data is Infoguru Sp. z o.o. Sp. k. with its seat in Poznań, ul. Truskawiecka 13, 60-478 Poznań, KRS 0000721810.
+1. The administrator of your data is Infoguru Sp. z o.o. with its seat in Poznań, ul. Truskawiecka 13, 60-478 Poznań, KRS 0000452046.
 
 2. You can contact us by e-mail: hello@targiehandlu.com.pl, or by writing to us at the following address: ul. Truskawiecka 13, 60-478 Poznań (Poland).
 
@@ -71,27 +70,27 @@ Scanning of the QR code takes place with the consent of the Participant, using a
 
 ## The period of personal data processing
 
-13. We process your personal data, which we obtain in order to correctly perform the contract concluded with you, for the period of its performance and the period of limitation of claims (3 years). If the selected personal data is covered by the tax or accounting documentation required by law, for the period of storage of such documents (5 years).
+12. We process your personal data, which we obtain in order to correctly perform the contract concluded with you, for the period of its performance and the period of limitation of claims (3 years). If the selected personal data is covered by the tax or accounting documentation required by law, for the period of storage of such documents (5 years).
 We process your data, which we obtain in order to implement our legitimate interests, until you object (in some cases, until such objection is considered or - if there is another condition for processing - until it exists).
 We process your data, which we obtain on the basis of your consent, until it is withdrawn.
 
 ## The place of personal data storing and other recipients of your data
 
-14. Your data we accumulate are stored on servers that are leased from Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany and located at [https://www.hetzner.com/rechtliches/impressum?country=us](https://www.hetzner.com/rechtliches/impressum?country=us)
+13. Your data we accumulate are stored on servers that are leased from Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany and located at [https://www.hetzner.com/rechtliches/impressum?country=us](https://www.hetzner.com/rechtliches/impressum?country=us)
 We also transfer your data to other IT service providers, in particular software and cloud services, as well as legal and accounting service providers, without which we would not be able to effectively organize the Fair.
 
 ## The rights of people whose data we process
 
-15. Every person whose personal data we process has the right to file a complaint about our actions or negligence to the supervising body, that is, President of the Personal Data Protection Office. 
+14. Every person whose personal data we process has the right to file a complaint about our actions or negligence to the supervising body, that is, President of the Personal Data Protection Office. 
 The Office of the President of the Personal Data Protection Office is located at ul. Stawki 2, 00-193 Warsaw.
 
-16. Every person whose data we process has the right to obtain confirmation from us whether their personal data are processed and if this is the case, 
+15. Every person whose data we process has the right to obtain confirmation from us whether their personal data are processed and if this is the case, 
 they are entitled to acquire access to the data and obtain information included in this document.
 
-17. Every person whose personal data we process has the right to demand that we immediately correct the data that are incorrect. 
+16. Every person whose personal data we process has the right to demand that we immediately correct the data that are incorrect. 
 Besides, considering the purposes of processing, the person whom given data concern has the right to demand to complement incomplete personal data, including through presentation of an additional statement.
 
-18. Every person whom the data concern has the right to ‘be forgotten’. 
+17. Every person whom the data concern has the right to ‘be forgotten’. 
 It means that everybody whom the data concern may demand that we remove their personal data and we will do so immediately provided that:
 
 * the personal data are no longer essential for the purposes mentioned in point 7 above,
@@ -101,25 +100,24 @@ It means that everybody whom the data concern may demand that we remove their pe
 * the request to remove the data results from the fact that we have not fulfilled our legal obligation under the law of the European Union or the Polish law,
 * personal data have been acquired as a result of offering information society services to a person under 18.
 
-19. The person whom the data concern has the right to demand that we restrict processing in the following situations:
+18. The person whom the data concern has the right to demand that we restrict processing in the following situations:
 
 * the person whom the data concern questions correctness of personal data – for the period of time we need to verify these data,
 * the processing is illegal and the person whom the data concern opposes to their removing, demanding restriction of the use of the data instead,
 * we do not need the personal data for the purposes of processing anymore, but the person whom they concern needs them for formulating, pursuing or defending claims,
-* the person whom the data concern opposed to our processing of the data (see point 21) – for as long as it takes to determine whether legally justified grounds on the part of the Administrator are superior to the grounds of opposition of the person whom the data concern.
+* the person whom the data concern opposed to our processing of the data (see point 20) – for as long as it takes to determine whether legally justified grounds on the part of the Administrator are superior to the grounds of opposition of the person whom the data concern.
 
-20. The person whom the data concern has the right to receive from us – in a structured, commonly used, 
+19. The person whom the data concern has the right to receive from us – in a structured, commonly used, 
 machine-readable format – their personal data they have provided and they have the right to send these personal data to another administration as well as demand – if technically feasible – that we submit the data directly to another administrator, provided that:
 
 * the data are processed on the basis of a permission or in order to execute an agreement that has been concluded with us,
 * the data are processed automatically.
 
-21. We process the accumulated personal data for the purpose of direct marketing so the person whom the data concern has the right to oppose to processing of their personal data, to the scope within which the processing is made for the purpose of direct marketing. 
+20. We process the accumulated personal data for the purpose of direct marketing so the person whom the data concern has the right to oppose to processing of their personal data, to the scope within which the processing is made for the purpose of direct marketing. 
 In such a case we will immediately cease to process their personal data for this purpose.
 
-22. If your consent is the basis for our processing of your personal data, then you have the right to withdraw this consent at any time.
+21. If your consent is the basis for our processing of your personal data, then you have the right to withdraw this consent at any time.
 Withdrawal of consent does not affect the lawfulness of the processing we have made on the basis of your consent before its withdrawal.
 
 ## Information about changes to this information on data processing
-23. We constantly review this information on the processing of personal data and update it as necessary. We will inform you about any changes on the pages of our portal, and in the event of significant changes, we may send you an additional e-mail notification, as long as we have your e-mail address.
-
+22. We constantly review this information on the processing of personal data and update it as necessary. We will inform you about any changes on the pages of our portal, and in the event of significant changes, we may send you an additional e-mail notification, as long as we have your e-mail address.

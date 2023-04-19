@@ -2,7 +2,7 @@
              
 ### 1. Definicje
 
-1.1 Organizator - Infoguru Sp. z o.o. Sp. k. z siedzibą w Poznaniu, ul. Truskawiecka 13, 60-478 Poznań, wpisana do Rejestru pod numerem KRS 0000721810, NIP 7811967834, REGON 369698530,  której akta rejestrowe przechowywane są przez Sąd Rejonowy Poznań – Nowe Miasto i Wilda w Poznaniu, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego. 
+1.1 Organizator - Infoguru Sp. z o.o. z siedzibą w Poznaniu, ul. Truskawiecka 13, 60-478 Poznań, wpisana do Rejestru pod numerem KRS 0000452046, NIP 7811883511, REGON 302360360,  której akta rejestrowe przechowywane są przez Sąd Rejonowy Poznań – Nowe Miasto i Wilda w Poznaniu, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego. 
 
 1.2 Serwis – serwis internetowy dostępny w Internecie pod adresem [www.targiehandlu.pl](www.targiehandlu.pl), w ramach którego administrator umożliwia rejestrację na Wydarzenie.
 
@@ -51,7 +51,7 @@
 
 ### 6. Dane osobowe
 
-Wszystkie informacje dotyczące ochrony danych osobowych i prywatności znajdują się w zakładce ​[https://targiehandlu.pl/legal/visitors-data](https://targiehandlu.pl/legal/visitors-data) ​​Informacje o ochronie danych osobowych
+Wszystkie informacje dotyczące ochrony danych osobowych i prywatności znajdują się w zakładce [https://targiehandlu.pl/legal/visitors-data](https://targiehandlu.pl/legal/visitors-data) Informacje o ochronie danych osobowych
 
 ### 7. Postanowienia końcowe
 

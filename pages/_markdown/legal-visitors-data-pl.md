@@ -1,7 +1,7 @@
 ## Informacje o Administratorze danych
 
-1. Administratorem Twoich danych jest Infoguru Sp. z o.o. Sp. k. z siedzibą w Poznaniu, ul. Truskawiecka 13, 
-60-478 Poznań, KRS 0000721810.
+1. Administratorem Twoich danych jest Infoguru Sp. z o.o. z siedzibą w Poznaniu, ul. Truskawiecka 13, 
+60-478 Poznań, KRS 0000452046.
 
 2. Możesz skontaktować się z nami drogą e-mailową: hello@targiehandlu.com.pl, lub pisząc do nas na adres: ul. Truskawiecka 13, 60-478 Poznań (Polska).
 
@@ -70,57 +70,57 @@ nich należy wymienić:
 
 ## Okres przetwarzania danych osobowych
 
-13. Twoje dane osobowe, które pozyskujemy w celu prawidłowej realizacji umowy zawartej z Tobą, przetwarzamy przez okres jej wykonywania i okres przedawnienia roszczeń (3 lata). Jeśli wybrane dane osobowe są objęte wymaganą przepisami prawa dokumentacją podatkową lub księgową, przez okres przechowywania takich dokumentów (5 lat). 
+12. Twoje dane osobowe, które pozyskujemy w celu prawidłowej realizacji umowy zawartej z Tobą, przetwarzamy przez okres jej wykonywania i okres przedawnienia roszczeń (3 lata). Jeśli wybrane dane osobowe są objęte wymaganą przepisami prawa dokumentacją podatkową lub księgową, przez okres przechowywania takich dokumentów (5 lat). 
 Twoje dane, które pozyskujemy w celu realizacji naszych prawnie uzasadnionych interesów, przetwarzamy do czasu wniesienia przez Ciebie sprzeciwu (w pewnych przypadkach do czasu uwzględnienia takiego sprzeciwu albo - w razie istnienia innej przesłanki przetwarzania – do czasu gdy ona istnieje).
 Twoje dane, które pozyskujemy na podstawie Twojej zgody, przetwarzamy do czasu jej cofnięcia.
 
 ## Miejsce przechowywania danych osobowych oraz inni odbiorcy Twoich danych
 
-14. Twoje dane są przechowywane na serwerach dzierżawionych od Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Niemcy i znajdują się na [https://www.hetzner.com/rechtliches/impressum?country=us](https://www.hetzner.com/rechtliches/impressum?country=us)
+13. Twoje dane są przechowywane na serwerach dzierżawionych od Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Niemcy i znajdują się na [https://www.hetzner.com/rechtliches/impressum?country=us](https://www.hetzner.com/rechtliches/impressum?country=us)
 
 Twoje dane przekazujemy również innym dostawcom usług IT, w szczególności oprogramowania i usług chmurowych, oraz dostawcom usług prawnych i księgowych, bez których to usług nie moglibyśmy zorganizować skutecznie Targów.
 
 ## Prawa osób, których dane przetwarzamy
 
-15. Każda osoba, której dane osobowe przetwarzamy ma prawo wnieść skargę na nasze działania lub zaniechania do właściwego organu nadzorczego, tj. Prezesa Urzędu Ochrony Danych Osobowych.
+14. Każda osoba, której dane osobowe przetwarzamy ma prawo wnieść skargę na nasze działania lub zaniechania do właściwego organu nadzorczego, tj. Prezesa Urzędu Ochrony Danych Osobowych.
 Biuro Prezesa Urzędu Ochrony Danych Osobowych mieści się pod adresem: ul. Stawki 2, 00-193 Warszawa.
 
-16. Każda osoba, której dane przetwarzamy, ma prawo uzyskać od nas potwierdzenie, czy jej dane osobowe są przetwarzane i jeśli tak jest,
+15. Każda osoba, której dane przetwarzamy, ma prawo uzyskać od nas potwierdzenie, czy jej dane osobowe są przetwarzane i jeśli tak jest,
 jest uprawniona do uzyskania dostępu do danych oraz uzyskania informacji zawartych w niniejszym dokumencie.
 
-17. Każda osoba, której dane osobowe przetwarzamy ma prawo żądać od nas niezwłocznego sprostowania nieprawidłowych danych.
+16. Każda osoba, której dane osobowe przetwarzamy ma prawo żądać od nas niezwłocznego sprostowania nieprawidłowych danych.
 Ponadto, z uwagi na cele przetwarzania, osoba, której dane dotyczą, ma prawo żądania uzupełnienia niekompletnych danych osobowych, w tym poprzez przedstawienie dodatkowego oświadczenia.
 
-18. Każda osoba, której dane dotyczą, ma prawo do „bycia zapomnianym”.
+17. Każda osoba, której dane dotyczą, ma prawo do „bycia zapomnianym”.
 Oznacza to, że każdy, kogo dane dotyczą, może zażądać od nas usunięcia jego danych osobowych, a zrobimy to niezwłocznie, pod warunkiem, że:
 
 * dane osobowe nie są już niezbędne do celów, o których mowa w pkt 7 powyżej,
 * osoba, której dane dotyczą, cofa zgodę, na podstawie której przetwarzamy dane, i nie ma innej podstawy przetwarzania,
-* osoba, której dane dotyczą, sprzeciwiła się przetwarzaniu przez nas danych (patrz pkt 21 poniżej)
+* osoba, której dane dotyczą, sprzeciwiła się przetwarzaniu przez nas danych (patrz pkt 20 poniżej)
 * dane przetwarzane są niezgodnie z prawem,
 * żądanie usunięcia danych wynika z faktu, że nie dopełniliśmy ciążącego na nas obowiązku prawnego wynikającego z prawa Unii Europejskiej lub prawa polskiego,
 * dane osobowe zostały pozyskane w wyniku oferowania usług społeczeństwa informacyjnego osobie poniżej 18 roku życia.
 
-19. Osoba, której dane dotyczą, ma prawo żądać od nas ograniczenia przetwarzania w następujących sytuacjach:
+18. Osoba, której dane dotyczą, ma prawo żądać od nas ograniczenia przetwarzania w następujących sytuacjach:
 
 * osoba, której dane dotyczą, kwestionuje prawidłowość danych osobowych – na czas potrzebny nam do weryfikacji tych danych,
 * przetwarzanie jest niezgodne z prawem, a osoba, której dane dotyczą, sprzeciwia się ich usunięciu, żądając w zamian ograniczenia ich wykorzystania,
 * nie potrzebujemy już danych osobowych do celów przetwarzania, ale osoba, której dotyczą, potrzebuje ich do formułowania, dochodzenia lub obrony roszczeń,
 * osoba, której dane dotyczą, wniosła sprzeciw wobec przetwarzania przez nas danych (patrz pkt 21) – tak długo, jak będzie to konieczne do ustalenia, czy prawnie uzasadnione podstawy po stronie Administratora są nadrzędne wobec podstawy sprzeciwu osoby, której dane dotyczą.
 
-20. Osoba, której dane dotyczą, ma prawo otrzymać od nas – w ustrukturyzowanym, powszechnie używanym,
+19. Osoba, której dane dotyczą, ma prawo otrzymać od nas – w ustrukturyzowanym, powszechnie używanym,
 w formacie nadającym się do odczytu maszynowego – dane osobowe, które podała oraz ma prawo przesłać te dane osobowe innej administracji, a także żądać – o ile jest to technicznie możliwe – abyśmy przesłali te dane bezpośrednio innemu administratorowi, pod warunkiem, że:
 
 * dane przetwarzane są na podstawie zgody lub w celu wykonania zawartej z nami umowy,
 * dane przetwarzane są automatycznie.
 
-21. Przetwarzamy zgromadzone dane osobowe w celu marketingu bezpośredniego, więc osoba, której dane dotyczą, ma prawo wnieść sprzeciw wobec przetwarzania jej danych osobowych, w zakresie, w jakim przetwarzanie jest dokonywane celem marketingu bezpośredniego.
+20. Przetwarzamy zgromadzone dane osobowe w celu marketingu bezpośredniego, więc osoba, której dane dotyczą, ma prawo wnieść sprzeciw wobec przetwarzania jej danych osobowych, w zakresie, w jakim przetwarzanie jest dokonywane celem marketingu bezpośredniego.
 W takim przypadku niezwłocznie przestaniemy przetwarzać ich dane osobowe w tym celu.
 
-22. Jeśli podstawą przetwarzania przez nas Twoich danych osobowych jest Twoja zgoda, wówczas masz prawo w dowolnym momencie cofnąć tę zgodę.
+21. Jeśli podstawą przetwarzania przez nas Twoich danych osobowych jest Twoja zgoda, wówczas masz prawo w dowolnym momencie cofnąć tę zgodę.
 
 Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania, którego dokonaliśmy na podstawie Twojej zgody przed jej wycofaniem.
 
 ## Informacje o zmianach niniejszej informacji o przetwarzaniu danych
 
-23. Dokonujemy stałych przeglądów niniejszej informacji o przetwarzaniu danych osobowych oraz dokonujemy jej aktualizacji w razie potrzeby. O wszelkich zmianach będziemy informować na stronach naszego portalu, a w razie istotnych zmian, możemy wysłać Tobie dodatkowe powiadomienie mailowe, o ile posiadamy Twój adres e-mail.
+22. Dokonujemy stałych przeglądów niniejszej informacji o przetwarzaniu danych osobowych oraz dokonujemy jej aktualizacji w razie potrzeby. O wszelkich zmianach będziemy informować na stronach naszego portalu, a w razie istotnych zmian, możemy wysłać Tobie dodatkowe powiadomienie mailowe, o ile posiadamy Twój adres e-mail.

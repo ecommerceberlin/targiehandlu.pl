@@ -1,9 +1,8 @@
-
 # Rules for participants
              
 ### 1. Definitions
 
-1.1 The Organizer - Infoguru Sp. z o.o. Sp. k. with its registered seat in Poznan, Poland, ul. Truskawiecka 13, 60‐478 Poznań, entered in the Register under the number KRS 0000721810, NIP 7811967834, REGON 369698530, which registration files are kept by the District Court Poznan - Nowe Miasto and Wilda in Poznan, VIII Commercial Division of the National Court Register (Sąd Rejonowy Poznań – Nowe Miasto i Wilda w Poznaniu VIII Wydział Gospodarczy Krajowego Rejestru Sądowego)
+1.1 The Organizer - Infoguru Sp. z o.o. with its registered seat in Poznan, Poland, ul. Truskawiecka 13, 60‐478 Poznań, entered in the Register under the number KRS 0000452046, NIP 7811883511, REGON 302360360, which registration files are kept by the District Court Poznan - Nowe Miasto and Wilda in Poznan, VIII Commercial Division of the National Court Register (Sąd Rejonowy Poznań – Nowe Miasto i Wilda w Poznaniu VIII Wydział Gospodarczy Krajowego Rejestru Sądowego)
 
 1.2 Service – the Internet service available on the Internet at [www.targiehandlu.pl](www.targiehandlu.pl), under which the administrator enables registration for the Event.
 
@@ -51,7 +50,7 @@
 
 ### 6. Personal data
 
-All information about personal data protection and privacy one can find here in our​​ ​[https://targiehandlu.pl/legal/visitors-data](https://targiehandlu.pl/legal/visitors-data) Information about personal data protection
+All information about personal data protection and privacy one can find here in our [https://targiehandlu.pl/legal/visitors-data](https://targiehandlu.pl/legal/visitors-data) Information about personal data protection
 
 ### 7. Final provisions
 
