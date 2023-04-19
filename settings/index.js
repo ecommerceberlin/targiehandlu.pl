@@ -850,7 +850,7 @@ const settings =  {
         event_name : '23. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '6.04.2023',
+        event_date : '27.10.2023',
         event_hours : '10:00-17:00',
 
     },
