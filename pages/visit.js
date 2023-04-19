@@ -21,8 +21,8 @@ import {
   
 <div>
 
-<WidgetRegForm setting="visitor.register" />
-<WidgetSchedule /> 
+{/* <WidgetRegForm setting="visitor.register" /> */}
+{/* <WidgetSchedule />  */}
 
 <WidgetVideoWithEventInfo setting="heroExpo" />
 <WidgetFeaturedCompanies />
@@ -31,7 +31,7 @@ import {
 {/* <WidgetVips limit={12} mobile={4} /> */}
 {/* <WidgetPresenters /> */}
 <WidgetIconGrid setting="visitor.benefits" />
-<WidgetRegForm setting="visitor.register" />
+{/* <WidgetRegForm setting="visitor.register" /> */}
 {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
 {/* <WidgetVisitor label="visitors.register" first /> */}
 
