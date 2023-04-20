@@ -67,6 +67,12 @@ const premiumBenefits =    [{
         icon : "Done", 
         primary : "decoration"
     },
+
+    {
+        icon : "Done", 
+        primary : "video"
+    },
+
 ]
 
 
@@ -82,7 +88,13 @@ const openStageBenefits =   [
     {
         icon : "Done", 
         primary : "stage"
-    }
+    },
+
+
+    {
+        icon : "Done", 
+        primary : "video"
+    },
 ]
 
 
