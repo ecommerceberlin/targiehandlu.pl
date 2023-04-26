@@ -6,7 +6,7 @@ import {
     configure,
     WidgetFeaturedCompanies,
     WidgetRegForm,
-    //  WidgetSalesMap,
+    WidgetSalesMap,
     WidgetVideoWithEventInfo,
     // WidgetPresenters,
     WidgetSchedule,
@@ -21,7 +21,7 @@ import {
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
-    {/* <WidgetSalesMap /> */}
+    <WidgetSalesMap />
 
     {/* <WidgetRegForm setting="visitor.register" />  */}
 
