@@ -695,7 +695,7 @@ const settings =  {
             {
               name: 'visitors',
               items: [
-                // {name: 'visit', to: '/visit'},
+                {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
                 // {name: 'schedule', to: '/schedule'},
                 // {name: 'workshops', to: '/workshops'},
@@ -808,7 +808,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 2327,
+            ticket_id : 2535,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 
