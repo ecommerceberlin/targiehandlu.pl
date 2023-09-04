@@ -310,12 +310,12 @@ const settings =  {
         baseLabel: "cfp.timeline",
 
         items : [
-            {date: "2022-11-21", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2023-01-23", name: "qualification", icon:  "Assessment" },
-            {date: "2023-01-25", name: "public-voting", icon:  "Public" },
+            {date: "2023-09-05", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2023-09-15", name: "qualification", icon:  "Assessment" },
+            {date: "2023-09-19", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2023-02-10", name: "results", icon:  "Mic", active: false },
-            {date: "2023-02-17", name: "formal", icon:  "Settings", active: false }
+            {date: "2023-09-28", name: "results", icon:  "Mic", active: false },
+            {date: "2023-10-02", name: "formal", icon:  "Settings", active: false }
 
         ]
 
@@ -528,7 +528,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2324,
+            ticket_id : 2532,
             email_template : "pl-presenters-application",
 
         },
@@ -691,6 +691,13 @@ const settings =  {
             //     ]
             // },
 
+            {
+                name: 'general',
+                items: [
+                  {name: 'home', to: '/'},
+                  {name: 'speaking', to: '/speaking'},
+                ]
+            },
 
             {
               name: 'visitors',
@@ -712,14 +719,9 @@ const settings =  {
                 // {name: 'premium-services', to: '/premium'},
                 // {name: 'faq', to: '/faq'},
               ]
-            },
-
-            {
-                name: 'general',
-                items: [
-                  {name: 'home', to: '/'},
-                ]
             }
+
+
   
         ]
     },
@@ -903,7 +905,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 
