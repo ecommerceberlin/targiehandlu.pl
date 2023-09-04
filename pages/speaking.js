@@ -100,21 +100,6 @@ const PageSpeaking = () => (
         <WidgetJurors minToShow={4} />
 
 
-  <WidgetRegForm
-      setting="speakers.callforpapers"
-      options={{
-        "categories": [
-          'conversion',
-          'marketing',
-          'logistics',
-          'payments',
-          'it',
-          'trends',
-        ]
-       }}
-      />
-
-
         <WidgetFaq setting="speakers.cfpfaq" />
 
         <WidgetIconGrid setting="speakers.benefits" icons={{
@@ -129,7 +114,19 @@ const PageSpeaking = () => (
           label="cfp.featured_presenters"
         />
 
-
+  <WidgetRegForm
+      setting="speakers.callforpapers"
+      options={{
+        "categories": [
+          'conversion',
+          'marketing',
+          'logistics',
+          'payments',
+          'it',
+          'trends',
+        ]
+       }}
+      />
 
         <WidgetVideoWithEventInfo
           setting="heroExpo"
