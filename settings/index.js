@@ -691,6 +691,13 @@ const settings =  {
             //     ]
             // },
 
+            {
+                name: 'general',
+                items: [
+                  {name: 'home', to: '/'},
+                  {name: 'speaking', to: '/speaking'},
+                ]
+            },
 
             {
               name: 'visitors',
@@ -712,14 +719,9 @@ const settings =  {
                 // {name: 'premium-services', to: '/premium'},
                 // {name: 'faq', to: '/faq'},
               ]
-            },
-
-            {
-                name: 'general',
-                items: [
-                  {name: 'home', to: '/'},
-                ]
             }
+
+
   
         ]
     },
@@ -903,7 +905,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 
