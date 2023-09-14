@@ -508,7 +508,7 @@ const settings =  {
                 {name: "cname2", required: true},
                 {name: "phone", required: true},
                 {name: "presenter", required: true},  
-                {name: "bio", required: true},  
+                // {name: "bio", required: true},  
                 {name: "profile_linkedin", required: true},  
                 {
                   name: "presentation_category", 
