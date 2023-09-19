@@ -695,7 +695,7 @@ const settings =  {
                 name: 'general',
                 items: [
                   {name: 'home', to: '/'},
-                  {name: 'speaking', to: '/speaking'},
+                //   {name: 'speaking', to: '/speaking'},
                 ]
             },
 
@@ -703,7 +703,7 @@ const settings =  {
               name: 'visitors',
               items: [
                 {name: 'visit', to: '/visit'},
-                // {name: 'vote', to: '/vote'},
+                {name: 'vote', to: '/vote'},
                 // {name: 'schedule', to: '/schedule'},
                 // {name: 'workshops', to: '/workshops'},
                 {name: 'exhibitors', to: '/exhibitors'},
