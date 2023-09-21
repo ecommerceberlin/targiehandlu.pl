@@ -24,7 +24,7 @@ const DynamicWidgetVoteWithLinkedIn = dynamic(
 
 
 const onVoted = (canVote) => (<>
-  <WidgetVoteStatus max_votes={20} />
+  {/* <WidgetVoteStatus max_votes={30} /> */}
   {canVote ? 
     <div><VotingCategories label={null} secondaryLabel={null} /><WidgetRegForm setting="visitor.register" wrapperProps={{secondaryLabel: "visitors.register_question"}} /></div>: 
     <WidgetRegForm setting="visitor.register" wrapperProps={{secondaryLabel: "visitors.register"}} />
@@ -40,9 +40,9 @@ const PageVote  = ({id}) => (
   <WidgetVotable
       id={id}
       asPath={`/vote/${id}`}
-      vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={20} onVoted={onVoted} />}
+      vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={30} onVoted={onVoted} />}
       // vote={null} 
-      status={true}
+      status={false}
       show_votes={false}
     />
 
