@@ -312,10 +312,10 @@ const settings =  {
         items : [
             {date: "2023-09-05", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
             {date: "2023-09-15", name: "qualification", icon:  "Assessment" },
-            {date: "2023-09-19", name: "public-voting", icon:  "Public" },
+            {date: "2023-09-21", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2023-09-28", name: "results", icon:  "Mic", active: false },
-            {date: "2023-10-02", name: "formal", icon:  "Settings", active: false }
+            {date: "2023-10-03", name: "results", icon:  "Mic", active: false },
+            {date: "2023-10-04", name: "formal", icon:  "Settings", active: false }
 
         ]
 
