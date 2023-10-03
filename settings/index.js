@@ -386,7 +386,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2328,
+            ticket_id : 2536,
             email_template : "pl-workshops-application",
        },
 
@@ -447,7 +447,7 @@ const settings =  {
         items : [
             {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147180/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0552.jpg", cols: 3},
             {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1669103280/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_NET-0384.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147190/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0541.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1681427181/teh23_photos/workshops/eTargi_06042023_fot_Joanna_Nowicka_1019.jpg", cols: 3},
             {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147181/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0892.jpg", cols: 3},
           
         ]
