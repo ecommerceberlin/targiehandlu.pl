@@ -16,71 +16,75 @@ import {
   TwoColsLayout as Section,
   MyTypography,
   Markdown,
+  WidgetVerticalTimeline,
   Box
 } from 'eventjuicer-site-components';
 
 
-// import {
-//   NoteAdd, 
-//   Settings,
-//   Public,
-//   Mic,
-//   Assessment,
-//   FaSearch,
-//   FaPoll,
-//   FaTrophy
-// } from '../components/icons'
+import {
+  NoteAdd, 
+  Settings,
+  Public,
+  Mic,
+  Assessment,
+  FaSearch,
+  FaPoll,
+  FaTrophy
+} from '../../components/icons'
 
 
 import settings from '../../settings';
 
 
-const PageSpeaking = () => (
+const PageRegister = () => (
 
   <div>
-    
-    
-
-       
        <Wrapper first label="workshops.hello.title">
-       <Section   
-        left={
-          <div style={{marginTop: '5rem'}}>
-          <MyTypography template="h4" label="workshops.hello.submit" />
-          <Markdown label="workshops.hello.details" />
-          </div>
+       
+       <Section 
+        
+        left={  <div style={{marginTop: '5rem'}}>
+        <MyTypography template="h4" label="workshops.hello.submit" />
+        <Markdown label="workshops.hello.details" />
+
+  
+  </div> }
+        right={ 
+          <WidgetVerticalTimeline 
+          setting="workshopstimeline" 
+          icons={{
+            NoteAdd,
+            Settings,
+            Public,
+            Mic,
+            Assessment
+          }} />
         }
-        right={   
-          <>   
-          {/* <Box mt={2} p={2} style={{border: "2px solid red"}}>
-            
 
-            <Markdown label="workshops.form.closed" />
-            
-            </Box> */}
+      leftCentered={true}
 
-
-            <WidgetRegForm
-            wrapperProps={{label: null}}
-            setting="workshops.registration"
-            />
-
-
-            </>
-        }
       />
+
+        <WidgetRegForm
+          wrapperProps={{label: null}}
+         setting="workshops.registration"
+      />
+
       </Wrapper>
 
       <WidgetFaq setting="workshops.faq" />    
 
-      <WidgetSchedule setting="workshops.schedule" />
+      <WidgetPhotostream setting="workshops.photostream" />
 
-{/*
+      <WidgetVideoWithEventInfo
+          setting="heroExpo"
+          title="presenters.claim.title"
+          subtitle="presenters.claim.description"
+        />
 
+  </div>
+)
     
-
-            
-*/}
 
 
       {/* <WidgetIconGrid setting="workshops.benefits" icons={{
@@ -94,7 +98,7 @@ const PageSpeaking = () => (
    
   {/* <WidgetRegForm setting="visitor.register" /> */}
 {/* <WidgetSchedule /> */}
-<WidgetPhotostream setting="workshops.photostream" />
+
 
 
 
@@ -107,15 +111,11 @@ const PageSpeaking = () => (
 
 
 
-        <WidgetVideoWithEventInfo
-          setting="heroExpo"
-          title="presenters.claim.title"
-          subtitle="presenters.claim.description"
-        />
+       
 
 
-  </div>
-)
+  // </div>
+
 
 
 
@@ -135,4 +135,4 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
 
 })
 
-export default connect()(PageSpeaking);
+export default connect()(PageRegister);
