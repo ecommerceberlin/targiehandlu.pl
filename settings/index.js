@@ -321,6 +321,19 @@ const settings =  {
 
     },
 
+    workshopstimeline: {
+
+        baseLabel: "workshops.timeline",
+
+        items : [
+            {date: "2023-10-05", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2023-10-10", name: "qualification", icon:  "Assessment" },
+            {date: "2023-10-12", name: "workshop-details", icon:  "Settings" },
+            {date: "2023-10-17", name: "attendees", icon:  "Public" },
+
+        ]
+
+    },
 
 
     workshops: {
@@ -374,7 +387,7 @@ const settings =  {
                 {name: "presenter", required: true},  
                 // {name: "bio", required: true},  
                 // {name: "profile_linkedin", required: true},  
-                {name: "presentation_title", required: false},
+                {name: "presentation_title", required: true},
                 // {name: "presentation_description", required: true}
             ],
             
