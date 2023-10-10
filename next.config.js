@@ -20,6 +20,9 @@ const SentryWebpackPluginOptions = {
 
 module.exports = withSentryConfig(withTM({
 
+    experimental: {
+     esmExternals: 'loose',
+    },
 
     eslint: {
       // Warning: Dangerously allow production builds to successfully complete even if

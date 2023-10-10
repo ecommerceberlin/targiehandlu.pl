@@ -14,7 +14,8 @@ import {
     WidgetPresenters,
     WidgetCompanyMeetup,
     WidgetCompanyVip,
-    WidgetSchedule
+    WidgetSchedule,
+    Promoninja
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
@@ -39,7 +40,10 @@ import {
 
       {/* <WidgetSchedule /> */}
 
+    
+        
       <WidgetVideoWithEventInfo setting="heroExpo" />
+
 
       <WidgetFeaturedCompanies />
 
@@ -59,7 +63,7 @@ import {
   
       {/* <WidgetPresenters /> */}
   
-   
+      <Promoninja id={slug} />
 
     </div>
   );
