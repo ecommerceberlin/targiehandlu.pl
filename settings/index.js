@@ -161,7 +161,12 @@ const settings =  {
     
         fingerprint: {
             apiKey: "galA0IaMz2Xd6IuvASz2",
-            endpoint: "https://metrics.targiehandlu.pl"
+            endpoint: "/PQX8ZhfRgmE0oIdq/diFotzNP6rvoEhZn",
+            scriptUrlPattern: "/PQX8ZhfRgmE0oIdq/jwSKBocfRLRjwxMV",
+            subdomain: "metrics."
+        },
+        recaptcha: {
+            apiKey: "6LcevZEoAAAAAGRoMZIAiOmQJUzo9dAPjjNo9LBZ"
         }
     },
 
