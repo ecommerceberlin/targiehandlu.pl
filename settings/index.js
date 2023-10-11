@@ -161,8 +161,6 @@ const settings =  {
     
         fingerprint: {
             apiKey: "galA0IaMz2Xd6IuvASz2",
-            endpoint: "/PQX8ZhfRgmE0oIdq/diFotzNP6rvoEhZn",
-            scriptUrlPattern: "/PQX8ZhfRgmE0oIdq/jwSKBocfRLRjwxMV",
             subdomain: "metrics."
         },
         recaptcha: {
