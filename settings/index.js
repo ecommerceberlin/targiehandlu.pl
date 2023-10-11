@@ -160,7 +160,8 @@ const settings =  {
         og_image : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_limit,w_1024/v1546943854/ebe_og_home.jpg",
     
         fingerprint: {
-            apiKey: "galA0IaMz2Xd6IuvASz2"
+            apiKey: "galA0IaMz2Xd6IuvASz2",
+            endpoint: "https://metrics.targiehandlu.pl"
         }
     },
 
