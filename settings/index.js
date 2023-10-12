@@ -897,12 +897,12 @@ const settings =  {
 
         people : [
             {             
-                name: 'Karolina Michalak',
-                position : 'Relationship Manager',
+                name: 'Karolina Wojtas',
+                position : 'Account Manager',
                 langs : ["pl","en"],
-                avatar: 'https://res.cloudinary.com/eventjuicer/image/upload/v1598009850/targiehandlu_people_km.jpg',
-                phone: '+48 721 945 134',
-                email: 'karolina.michalak@targiehandlu.pl',
+                avatar: 'https://res.cloudinary.com/eventjuicer/image/upload/v1697114443/targiehandlu_people_kw.jpg',
+                phone: '+48 535 801 021',
+                email: 'karolina.wojtas@targiehandlu.pl',
                 chatlio : true
             },
           
