@@ -6,6 +6,8 @@ import {
     reduxWrapper,
     configure,
     WidgetAllOrCurrentExhibitorsColumnList,
+    WidgetSchedule,
+    WidgetVideoWithEventInfo,
     WidgetRegForm
   } from 'eventjuicer-site-components';
   
@@ -18,6 +20,10 @@ import {
     <WidgetAllOrCurrentExhibitorsColumnList threshold={70} first />
 
     <WidgetRegForm setting="visitor.register" /> 
+
+    <WidgetVideoWithEventInfo setting="heroExpo" />
+
+    <WidgetSchedule />
 
   
     {/* <WidgetRoleButtons /> */}
