@@ -138,7 +138,7 @@ const bookingmapShared = {
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
-    show_recent_purchases: 1,
+    // show_recent_purchases: 1,
 
 }
 
@@ -723,8 +723,8 @@ const settings =  {
               name: 'visitors',
               items: [
                 {name: 'visit', to: '/visit'},
-                {name: 'vote', to: '/vote'},
-                // {name: 'schedule', to: '/schedule'},
+                // {name: 'vote', to: '/vote'},
+                {name: 'schedule', to: '/schedule'},
                 // {name: 'workshops', to: '/workshops'},
                 {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
@@ -735,7 +735,7 @@ const settings =  {
               items: [
                 {name: 'exhibit', to: '/exhibit'},
                 // {name: 'sample-visitors', to: '/sample-visitors'},
-                {name: 'exhibitors', to: '/exhibitors'},
+                // {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'premium-services', to: '/premium'},
                 // {name: 'faq', to: '/faq'},
               ]
@@ -897,12 +897,12 @@ const settings =  {
 
         people : [
             {             
-                name: 'Karolina Michalak',
-                position : 'Relationship Manager',
+                name: 'Karolina Wojtas',
+                position : 'Account Manager',
                 langs : ["pl","en"],
-                avatar: 'https://res.cloudinary.com/eventjuicer/image/upload/v1598009850/targiehandlu_people_km.jpg',
-                phone: '+48 721 945 134',
-                email: 'karolina.michalak@targiehandlu.pl',
+                avatar: 'https://res.cloudinary.com/eventjuicer/image/upload/v1697114443/targiehandlu_people_kw.jpg',
+                phone: '+48 535 801 021',
+                email: 'karolina.wojtas@targiehandlu.pl',
                 chatlio : true
             },
           
