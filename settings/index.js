@@ -347,7 +347,7 @@ const settings =  {
 
         apply: {
             disabled: 0,
-            disabledTreshold: 75
+            disabledTreshold: 55
         },
 
         schedule: {
