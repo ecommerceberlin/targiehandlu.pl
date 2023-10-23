@@ -4,9 +4,10 @@ import {
     connect,
     reduxWrapper,
     configure,
-    LinkedInLogin,
-    Wrapper,
-    WidgetPlanner
+    // Wrapper,
+    WidgetPlanner,
+    WidgetSchedule,
+    WidgetAllOrCurrentExhibitorsColumnList
 } from 'eventjuicer-site-components';
 
 
@@ -16,13 +17,14 @@ const PagePlanner = ({email}) => (
 
     <div>
 
-    <Wrapper>
+
     
     <WidgetPlanner email={email} />
 
-    </Wrapper>
+    <WidgetSchedule />
 
-   
+    <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
+
 
     </div>
 
