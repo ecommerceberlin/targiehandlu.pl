@@ -5,19 +5,20 @@ import {
     reduxWrapper,
     configure,
     LinkedInLogin,
-    Wrapper
+    Wrapper,
+    WidgetPlanner
 } from 'eventjuicer-site-components';
 
 
-import settings from '../settings'
+import settings from '../../settings'
 
-const PagePlanner = () => (
+const PagePlanner = ({email}) => (
 
     <div>
 
     <Wrapper>
-
-    <LinkedInLogin />
+    
+    <WidgetPlanner email={email} />
 
     </Wrapper>
 
@@ -28,12 +29,15 @@ const PagePlanner = () => (
 )
 
 
-export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
+export const getServerSideProps = reduxWrapper.getServerSideProps(async (props) => {
 
-return await configure(props, {
+
+await configure(props, {
     settings : settings,
     preload : []
 })
+
+return {props: props.query}
 
 })
 
