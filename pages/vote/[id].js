@@ -52,7 +52,7 @@ const PageVote  = ({id}) => (
   <VotingCategories />
 
  
-<WidgetVisitor setting="visitor.register" />
+{/* <WidgetVisitor setting="visitor.register" /> */}
 
  {/* <WidgetVips limit={12} mobile={4} /> */}
 

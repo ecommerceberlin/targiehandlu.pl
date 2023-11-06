@@ -723,9 +723,9 @@ const settings =  {
             {
               name: 'visitors',
               items: [
-                {name: 'visit', to: '/visit'},
+                // {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
-                {name: 'schedule', to: '/schedule'},
+                // {name: 'schedule', to: '/schedule'},
                 // {name: 'workshops', to: '/workshops'},
                 {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
@@ -882,10 +882,10 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811883511',
-        event_name : '24. Targi eHandlu',
+        event_name : '25. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '27.10.2023',
+        event_date : '11.04.2024',
         event_hours : '10:00-17:00',
 
     },
@@ -926,7 +926,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 

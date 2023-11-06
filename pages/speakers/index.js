@@ -24,7 +24,7 @@ import {
   
     <WidgetVideoWithEventInfo setting="heroExpo" />
   
-    <WidgetRegForm setting="visitor.register" />
+    {/* <WidgetRegForm setting="visitor.register" /> */}
   
   
     </>

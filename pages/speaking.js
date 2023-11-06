@@ -51,7 +51,7 @@ const PageSpeaking = () => (
           <Markdown label="cfp.hello.details" />
 
 
-        <WidgetRegForm
+        {/* <WidgetRegForm
       wrapperProps={{label: null}}
       setting="speakers.callforpapers"
       options={{
@@ -64,7 +64,7 @@ const PageSpeaking = () => (
           'trends',
         ]
        }}
-      />
+      /> */}
 
 
 
@@ -114,7 +114,7 @@ const PageSpeaking = () => (
           label="cfp.featured_presenters"
         />
 
-  <WidgetRegForm
+  {/* <WidgetRegForm
       setting="speakers.callforpapers"
       options={{
         "categories": [
@@ -126,7 +126,7 @@ const PageSpeaking = () => (
           'trends',
         ]
        }}
-      />
+      /> */}
 
         <WidgetVideoWithEventInfo
           setting="heroExpo"

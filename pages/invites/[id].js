@@ -34,7 +34,7 @@ import {
             name: name,
             cname: cname,
             location: 'Warszawa EXPO XXI',
-            date: '27.10.2023',
+            date: '11.04.2024',
           },
         ]}
       >{(data=> <Head>{data}</Head>)}</MyHead>
@@ -58,7 +58,7 @@ import {
 
      }/>
   
-      <WidgetSchedule />
+      {/* <WidgetSchedule /> */}
   
       {/* <WidgetSalesMap /> */}
 

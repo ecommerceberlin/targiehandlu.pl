@@ -21,9 +21,9 @@ import {
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
-    <WidgetRegForm setting="visitor.register" /> 
+    {/* <WidgetRegForm setting="visitor.register" />  */}
 
-    <WidgetSchedule /> 
+    {/* <WidgetSchedule />  */}
 
     {/* <WidgetRegForm setting="visitor.register" />  */}
 
@@ -31,7 +31,7 @@ import {
 
     <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
 
-    <WidgetSalesMap />
+    {/* <WidgetSalesMap /> */}
 
 
   </>
