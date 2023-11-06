@@ -30,15 +30,15 @@ import {
      
       <HeadCompany slug={slug}>{(data) => <Head>{data}</Head>}</HeadCompany> 
  
-      <WidgetCompanyMeetup />
-      <WidgetCompanyVip />
+      {/* <WidgetCompanyMeetup /> */}
+      {/* <WidgetCompanyVip /> */}
       <WidgetCompany slug={slug} />
 
 
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
-      <WidgetSchedule />
+      {/* <WidgetSchedule /> */}
 
     
         
@@ -47,7 +47,7 @@ import {
 
       <WidgetFeaturedCompanies />
 
-      <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
+      {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
 
       {/* <WidgetRegForm setting="visitor.register" /> */}
 
