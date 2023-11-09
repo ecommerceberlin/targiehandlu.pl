@@ -110,20 +110,20 @@ const bookingmapShared = {
     disabledTicketIds : [],
     allowedGroupIds : [385,386,367,388,389],
     boothStyleMapping: {
-        414: "light",
-        415: "standard",
-        416: "hot",
-        417: "superHot",
-        418: "ultra",
-        419: "grand",
-        420: "stage",
-        425: "stage", //stage B
-        426: "stage", //stage D
+        428: "light",
+        429: "standard",
+        430: "hot",
+        431: "superHot",
+        432: "ultra",
+        433: "grand",
+        434: "stage",
+        439: "stage", //stage B
+        440: "stage", //stage D
 
-        422: "networking",
-        424: "networking", //mini networking
-        421: "boothSold", //last minute / buffer
-        423: "boothSold", //test
+        436: "networking",
+        438: "networking", //mini networking
+        435: "boothSold", //last minute / buffer
+        437: "boothSold", //test
     
     },
     benefits: {
@@ -285,13 +285,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.comeback.description"
         },
         disabledTicketIds : [
-            2484, 2485, 2486, 2483, 2481, 2482, //STD
-            2489, 2490, 2491, 2494, 2493, 2492, 2488, //HOT
-            2498, 2499, 2495, 2502, 2501, 2500, 2496, //SH
-            2507, 2508, 2504, 2505, 2509, 2503, //ULTRA
-            2520, 2521, 2517, 2516, 2518, 2533, //GRAND
-            2512, //MINI N
-            2539, 2540, 2541, //STAGE
+            2627, 2628, 2629, 2626, 2624, 2625, //STD
+            2637, 2635, 2636, 2634, 2633, 2632, 2631, //HOT
+            2638, 2639, 2641, 2642, 2645, 2644, 2643, //SH
+            2652, 2651, 2647, 2648, 2650, 2646, //ULTRA
+            2664, 2659, 2660, 2661, 2663, 2676, //GRAND
+            2655, //MINI N
+            2682, 2683, 2684, //STAGE
         ],
     },
 
@@ -302,13 +302,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            2563, 2522, //STD
-            2487, 2525, 2530, //HOT
-            2497, 2524, 2527, //SH
-            2506, 2523, 2531, //ULTRA
-            2519, 2526, 2529, //GRAND
-            2534, //MINI N
-            2510, 2513, 2538, //STAGE
+            2706, 2665, //STD
+            2630, 2668, 2673, //HOT
+            2640, 2670, 2667, //SH
+            2649, 2674, 2666, //ULTRA
+            2662, 2672, 2669, //GRAND
+            2677, //MINI N
+            2653, 2656, 2681, //STAGE
         ],
     },
 
@@ -662,7 +662,7 @@ const settings =  {
                 {name: "phone", required: true}
               ],
             start : [],
-            ticket_id : 2535,
+            ticket_id : 2678,
             right : "/lanyard.jpg",
            
         },
@@ -735,6 +735,7 @@ const settings =  {
               name: 'exhibitors',
               items: [
                 {name: 'exhibit', to: '/exhibit'},
+                // {name: 'premium', to: '/premium'},
                 // {name: 'sample-visitors', to: '/sample-visitors'},
                 // {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'premium-services', to: '/premium'},
@@ -749,7 +750,8 @@ const settings =  {
 
     premium : {
 
-        ticketgroups : [331]
+        ticketgroups : [441],
+        soldout: 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1684149426/Website/PREMIUM%20SERVICES/sold-out.png'
 
     },
 
@@ -831,7 +833,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 2535,
+            ticket_id : 2678,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 
@@ -917,7 +919,7 @@ const settings =  {
         secondaryStyle: null,
       //  iconStyle: "heroIcon",
         links : [
-            {label: "exhibitors.agreement.title", href : "/legal-2023-04-18"},
+            {label: "exhibitors.agreement.title", href : "/legal-2023-11-09"},
             {label: "visitors.legal.title", href : "/legal/visitors"},
             {label: "visitors.legal-gdpr.title", href : "/legal/visitors-data"},
         ]

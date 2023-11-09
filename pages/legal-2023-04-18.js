@@ -9,7 +9,7 @@ import {
 } from 'eventjuicer-site-components'
 
 import settings from '../settings'
-import contents from './_markdown/legal-2023-04-18.md'
+import contents from './_markdown/legal-2023-11-09.md'
 
 const PageLegal = () => (
 
