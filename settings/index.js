@@ -67,7 +67,7 @@ const premiumBenefits =    [{
 
 const networkingBenefits =    [{
     icon : "Space", 
-    primary : "space3"
+    primary : "space4"
     },
     {
     icon : "Furniture",
