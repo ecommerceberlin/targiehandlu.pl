@@ -16,6 +16,14 @@ const standardBenefits =    [{
     primary : "catering"
     },
     {
+    icon : "Done",
+    primary : "vipzone"
+    },
+    {
+    icon : "Done",
+    primary : "c2pinvitations"
+    },
+    {
     icon : "Ids",
     primary : "ids"
     },
@@ -34,11 +42,19 @@ const premiumBenefits =    [{
     },
     {
     icon : "Electricity", 
-    primary : "electricity"
+    primary : "electricity2"
     },
     {
     icon : "Catering", 
     primary : "catering"
+    },
+    {
+    icon : "Done",
+    primary : "vipzone"
+    },
+    {
+    icon : "Done",
+    primary : "c2pinvitations"
     },
     {
     icon : "Ids",
@@ -48,6 +64,73 @@ const premiumBenefits =    [{
     icon : "Catalogue",
     primary : "profile"
 }]
+
+const networkingBenefits =    [{
+    icon : "Space", 
+    primary : "space4"
+    },
+    {
+    icon : "Furniture",
+    primary : "furniture3"
+    },
+    {
+    icon : "Electricity", 
+    primary : "electricity2"
+    },
+    {
+    icon : "Catering", 
+    primary : "catering"
+    },
+    {
+    icon : "Done",
+    primary : "vipzone"
+    },
+    {
+    icon : "Done",
+    primary : "c2pinvitations"
+    },
+    {
+    icon : "Ids",
+    primary : "ids"
+    },
+    {
+    icon : "Catalogue",
+    primary : "profile"
+    }]
+
+
+const mininetworkingBenefits =    [{
+    icon : "Space", 
+    primary : "space3"
+    },
+    {
+    icon : "Furniture",
+    primary : "furniture2"
+    },
+    {
+    icon : "Electricity", 
+    primary : "electricity2"
+    },
+    {
+    icon : "Catering", 
+    primary : "catering"
+    },
+    {
+    icon : "Done",
+    primary : "vipzone"
+    },
+    {
+    icon : "Done",
+    primary : "c2pinvitations"
+    },
+    {
+    icon : "Ids",
+    primary : "ids"
+    },
+    {
+    icon : "Catalogue",
+    primary : "profile"
+    }]
 
 
  const stageBenefits =   [
@@ -127,14 +210,17 @@ const bookingmapShared = {
     
     },
     benefits: {
-        415: standardBenefits,
-        416: standardBenefits,
-        417: standardBenefits,
-        418: standardBenefits,
-        419: premiumBenefits,
-        420: stageBenefits,
-        425: openStageBenefits,
-        426: openStageBenefits
+        428: standardBenefits,
+        429: standardBenefits,
+        430: standardBenefits,
+        431: standardBenefits,
+        432: standardBenefits,
+        433: premiumBenefits,
+        434: stageBenefits,
+        439: openStageBenefits,
+        440: openStageBenefits,
+        436: networkingBenefits,
+        438: mininetworkingBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
@@ -723,7 +809,7 @@ const settings =  {
             {
               name: 'visitors',
               items: [
-                // {name: 'visit', to: '/visit'},
+                {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
                 // {name: 'schedule', to: '/schedule'},
                 // {name: 'workshops', to: '/workshops'},
