@@ -21,7 +21,7 @@ import {
   
 <div>
 
-{/* <WidgetRegForm setting="visitor.register" /> */}
+<WidgetRegForm setting="visitor.register" />
 {/* <WidgetSchedule />  */}
 
 <WidgetVideoWithEventInfo setting="heroExpo" />
