@@ -388,7 +388,7 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            2706, 2665, //STD
+            2706, 2665, 2717, 2718, //STD
             2630, 2668, 2673, //HOT
             2640, 2670, 2667, //SH
             2649, 2674, 2666, //ULTRA
