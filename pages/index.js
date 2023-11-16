@@ -21,6 +21,8 @@ import {
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
+    <WidgetSalesMap />
+
     {/* <WidgetRegForm setting="visitor.register" />  */}
 
     {/* <WidgetSchedule />  */}
@@ -31,7 +33,7 @@ import {
 
     <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
 
-    {/* <WidgetSalesMap /> */}
+  
 
 
   </>
@@ -42,8 +44,9 @@ import {
   
     return await configure(props, {
       settings : settings,
+      preload : ['bookingmap']
       // preload : ['exhibitors', 'allexhibitors']
-      preload : ['presenters']
+      // preload : ['presenters']
     })
   
   })
