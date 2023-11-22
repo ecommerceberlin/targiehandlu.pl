@@ -978,8 +978,8 @@ const settings =  {
 
     },
 
-
-    sales_support : {
+   
+    footer : {
 
         title: 'event.support.hello',
         description: 'event.support.description',
@@ -995,11 +995,8 @@ const settings =  {
                 chatlio : true
             },
           
-          ]
-    },
+        ],
 
-   
-    footer : {
         iconStyle : "black",
         primaryStyle: null,
         secondaryStyle: null,
