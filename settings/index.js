@@ -239,7 +239,7 @@ const settings =  {
         },
         lang_api_endpoint : 'https://api.eventjuicer.com/proxy?url=https%3A%2F%2Flocalise.biz%2Fapi%2Fexport%2Fall.json%3Fformat%3Dmulti%26pretty%26key%3DSHiwxgKaPMx_KThQH2zcdzwiKEMzuNBm',    
         api : "https://api.eventjuicer.com/v1/public/hosts/targiehandlu.pl",
-        proxy: "",
+        proxy: "https://api.eventjuicer.workers.dev?url=",
         // api : "http://eventjuicer-api.test/v1/public/hosts/targiehandlu.pl",
         post_api : "https://api.eventjuicer.com/v1/public/hosts/targiehandlu.pl/register",
         service_api : "https://api.eventjuicer.com/v1/services",
