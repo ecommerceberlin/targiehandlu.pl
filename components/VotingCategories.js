@@ -6,6 +6,7 @@ import EmojiObjects from '@material-ui/icons/EmojiObjects';
 import VolumeUp from '@material-ui/icons/VolumeUp';
 import Power from '@material-ui/icons/Power';
 import LocalShippingIcon from '@material-ui/icons/LocalShipping';
+import SettingsEthernet from '@material-ui/icons/SettingsEthernet';
 
 const settings = require('../settings').default;
   
@@ -20,7 +21,8 @@ const VotingCategories  = (props) => ( <WidgetContestantCategories
       payments: EuroSymbol,
       trends: EmojiObjects,
       marketing: VolumeUp,
-      it: Power
+      it: Power,
+      ai: SettingsEthernet
     }}
     {...props}
   />) 
