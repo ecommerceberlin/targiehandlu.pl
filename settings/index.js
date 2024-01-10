@@ -403,12 +403,12 @@ const settings =  {
         baseLabel: "cfp.timeline",
 
         items : [
-            {date: "2023-09-05", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2023-09-15", name: "qualification", icon:  "Assessment" },
-            {date: "2023-09-21", name: "public-voting", icon:  "Public" },
+            {date: "2024-01-10", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2024-01-26", name: "qualification", icon:  "Assessment" },
+            {date: "2024-01-31", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2023-10-03", name: "results", icon:  "Mic", active: false },
-            {date: "2023-10-04", name: "formal", icon:  "Settings", active: false }
+            {date: "2024-02-14", name: "results", icon:  "Mic", active: false },
+            {date: "2024-02-15", name: "formal", icon:  "Settings", active: false }
 
         ]
 
@@ -629,13 +629,13 @@ const settings =  {
               start: [
                 'presenter',
                 "profile_linkedin",
-                 'presentation_title', 
+                //  'presentation_title', 
                 // 'presentation_description',
                 'presentation_category',
 
             ],
 
-            ticket_id : 2532,
+            ticket_id : 2675,
             email_template : "pl-presenters-application",
 
         },
@@ -802,7 +802,7 @@ const settings =  {
                 name: 'general',
                 items: [
                   {name: 'home', to: '/'},
-                //   {name: 'speaking', to: '/speaking'},
+                  {name: 'speaking', to: '/speaking'},
                 ]
             },
 
