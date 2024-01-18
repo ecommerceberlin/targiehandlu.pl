@@ -51,7 +51,7 @@ const PageSpeaking = () => (
           <Markdown label="cfp.hello.details" />
 
 
-        {/* <WidgetRegForm
+        <WidgetRegForm
       wrapperProps={{label: null}}
       setting="speakers.callforpapers"
       options={{
@@ -62,9 +62,10 @@ const PageSpeaking = () => (
           'payments',
           'it',
           'trends',
+          'ai',
         ]
        }}
-      /> */}
+      />
 
 
 
@@ -124,6 +125,7 @@ const PageSpeaking = () => (
           'payments',
           'it',
           'trends',
+          'ai',
         ]
        }}
       /> */}
