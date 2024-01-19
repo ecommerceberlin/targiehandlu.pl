@@ -191,7 +191,7 @@ const bookingmapShared = {
         "access"
     ],
     disabledTicketIds : [],
-    allowedGroupIds : [385,386,367,388,389],
+    allowedGroupIds : [428, 429, 430, 431, 432],
     boothStyleMapping: {
         428: "light",
         429: "standard",
@@ -1011,7 +1011,7 @@ const settings =  {
     appbar : {
         profile: ["logout"],
         links: [
-            // {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
         ],
     },
 
