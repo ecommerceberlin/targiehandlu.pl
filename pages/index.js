@@ -23,13 +23,13 @@ import {
 
     <WidgetSalesMap />
 
-    {/* <WidgetRegForm setting="visitor.register" />  */}
+    <WidgetFeaturedCompanies />
+
+    <WidgetRegForm setting="visitor.register" /> 
 
     {/* <WidgetSchedule />  */}
 
     {/* <WidgetRegForm setting="visitor.register" />  */}
-
-    <WidgetFeaturedCompanies />
 
     <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
 
