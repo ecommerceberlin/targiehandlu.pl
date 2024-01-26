@@ -404,11 +404,11 @@ const settings =  {
 
         items : [
             {date: "2024-01-10", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2024-01-26", name: "qualification", icon:  "Assessment" },
-            {date: "2024-01-31", name: "public-voting", icon:  "Public" },
+            {date: "2024-02-02", name: "qualification", icon:  "Assessment" },
+            {date: "2024-02-05", name: "public-voting", icon:  "Public" },
             // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2024-02-14", name: "results", icon:  "Mic", active: false },
-            {date: "2024-02-15", name: "formal", icon:  "Settings", active: false }
+            {date: "2024-02-16", name: "results", icon:  "Mic", active: false },
+            {date: "2024-02-19", name: "formal", icon:  "Settings", active: false }
 
         ]
 
