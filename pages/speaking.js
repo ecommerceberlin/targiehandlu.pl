@@ -16,7 +16,8 @@ import {
   WidgetPhotostream,
   WidgetVerticalTimeline,
   TwoColsLayout as Section,
-  MyTypography
+  MyTypography,
+  RecentSubmissions
 } from 'eventjuicer-site-components';
 
 
@@ -42,7 +43,7 @@ const PageSpeaking = () => (
        
        <Section 
         
-        left={  <div style={{marginTop: '5rem'}}>
+        left={  <div style={{marginTop: '1rem'}}>
 
           <MyTypography template="h4" label="cfp.hello.submit" />
          
@@ -50,7 +51,7 @@ const PageSpeaking = () => (
   
           <Markdown label="cfp.hello.details" />
 
-
+        
         <WidgetRegForm
       wrapperProps={{label: null}}
       setting="speakers.callforpapers"
@@ -72,6 +73,11 @@ const PageSpeaking = () => (
   
           </div> }
         right={ 
+
+          <>
+          <RecentSubmissions />
+
+
           <WidgetVerticalTimeline 
           setting="cfptimeline" 
           icons={{
@@ -81,6 +87,8 @@ const PageSpeaking = () => (
             Mic,
             Assessment
           }} />
+
+          </> 
         }
 
       leftCentered={true}
@@ -98,7 +106,7 @@ const PageSpeaking = () => (
   </Wrapper>
 
   
-        <WidgetJurors minToShow={4} />
+        {/* <WidgetJurors minToShow={4} /> */}
 
 
         <WidgetFaq setting="speakers.cfpfaq" />
