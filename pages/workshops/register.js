@@ -65,10 +65,10 @@ const PageRegister = () => (
 
       />
 
-        {/* <WidgetRegForm
+        <WidgetRegForm
           wrapperProps={{label: null}}
          setting="workshops.registration"
-      /> */}
+      />
 
       </Wrapper>
 
@@ -87,11 +87,11 @@ const PageRegister = () => (
     
 
 
-      {/* <WidgetIconGrid setting="workshops.benefits" icons={{
-            // FaSearch: FaSearch, 
-            // FaPoll: FaPoll, 
-            // FaTrophy: FaTrophy
-        }} /> */}
+      { <WidgetIconGrid setting="workshops.benefits" icons={{
+             FaSearch: FaSearch, 
+             FaPoll: FaPoll, 
+             FaTrophy: FaTrophy
+        }} /> }
 
 
 

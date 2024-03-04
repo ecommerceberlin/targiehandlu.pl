@@ -419,10 +419,11 @@ const settings =  {
         baseLabel: "workshops.timeline",
 
         items : [
-            {date: "2023-10-05", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2023-10-10", name: "qualification", icon:  "Assessment" },
-            {date: "2023-10-12", name: "workshop-details", icon:  "Settings" },
-            {date: "2023-10-17", name: "attendees", icon:  "Public" },
+            {date: "2024-03-04", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2024-03-08", name: "submissions-closed", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2024-03-12", name: "qualification", icon:  "Assessment" },
+            {date: "2024-03-15", name: "workshop-details", icon:  "Settings" },
+            {date: "2024-03-21", name: "attendees", icon:  "Public" },
 
         ]
 
@@ -487,13 +488,12 @@ const settings =  {
             
             start: [
                 'presenter',
-                "profile_linkedin",
                 'presentation_title', 
 
 
             ],
 
-            ticket_id : 2536,
+            ticket_id : 2679,
             email_template : "pl-workshops-application",
        },
 
@@ -810,7 +810,7 @@ const settings =  {
               name: 'visitors',
               items: [
                 {name: 'visit', to: '/visit'},
-                {name: 'vote', to: '/vote'},
+                // {name: 'vote', to: '/vote'},
                 // {name: 'schedule', to: '/schedule'},
                 // {name: 'workshops', to: '/workshops'},
                 {name: 'exhibitors', to: '/exhibitors'},
