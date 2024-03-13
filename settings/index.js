@@ -595,7 +595,7 @@ const settings =  {
             label: "presenters.list_featured",
             secondaryLabel: "presenters.list_description"
         },
-        og_template: "template_teh24_spkr",
+        og_template: "template_teh25_spkr",
 
 
 
@@ -870,7 +870,7 @@ const settings =  {
               },
             ]
         },
-        ogTemplate: "template_teh24_exhibitor_",
+        ogTemplate: "template_teh25_exhibitor_",
         benefits : {
             baseLabel: "exhibitors.benefits",
             items: [
