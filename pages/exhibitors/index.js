@@ -19,11 +19,11 @@ import {
   
     <WidgetAllOrCurrentExhibitorsColumnList threshold={70} first />
 
-    {/* <WidgetRegForm setting="visitor.register" />  */}
+    <WidgetRegForm setting="visitor.register" /> 
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
-    {/* <WidgetSchedule /> */}
+    <WidgetSchedule />
 
   
     {/* <WidgetRoleButtons /> */}
