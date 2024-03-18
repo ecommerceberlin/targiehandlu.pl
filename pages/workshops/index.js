@@ -43,8 +43,8 @@ const PageSpeaking = () => (
 <WidgetFaq setting="workshops.faq_participant" />     
 {/* <WidgetSchedule setting="workshops.schedule" /> */}
 
-{/* <WidgetRegForm setting="visitor.register" /> */}
-{/* <WidgetSchedule /> */}
+<WidgetRegForm setting="visitor.register" />
+<WidgetSchedule />
 <WidgetPhotostream setting="workshops.photostream" />
 
 <WidgetVideoWithEventInfo

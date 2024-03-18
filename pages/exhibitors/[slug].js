@@ -30,15 +30,15 @@ import {
      
       <HeadCompany slug={slug}>{(data) => <Head>{data}</Head>}</HeadCompany> 
  
-      {/* <WidgetCompanyMeetup /> */}
+      <WidgetCompanyMeetup />
       {/* <WidgetCompanyVip /> */}
       <WidgetCompany slug={slug} />
 
 
 
-      {/* <WidgetRegForm setting="visitor.register" /> */}
+      <WidgetRegForm setting="visitor.register" />
 
-      {/* <WidgetSchedule /> */}
+      <WidgetSchedule />
 
     
         

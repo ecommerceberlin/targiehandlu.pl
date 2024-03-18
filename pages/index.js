@@ -27,7 +27,7 @@ import {
 
     <WidgetRegForm setting="visitor.register" /> 
 
-    {/* <WidgetSchedule />  */}
+    <WidgetSchedule /> 
 
     {/* <WidgetRegForm setting="visitor.register" />  */}
 
