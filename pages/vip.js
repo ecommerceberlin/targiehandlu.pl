@@ -23,7 +23,7 @@ const PageVisit = () => (
 
 {/* <WidgetRegForm setting="vips.register" /> */}
 <WidgetVideoWithEventInfo setting="heroExpo" />
-{/* <WidgetSchedule /> */}
+<WidgetSchedule />
 {/* <WidgetSalesMap /> */}
 <WidgetFeaturedCompanies />
 {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}

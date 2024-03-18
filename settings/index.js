@@ -447,14 +447,14 @@ const settings =  {
     
                 // 15+10+10 = 35!!!
                 // 
-                // '10:25': 'presentation',
-                '11:15': 'presentation',
-                '12:00': 'presentation',
-                '12:45': 'presentation',
-                '13:30': 'presentation',
-                '14:15': 'presentation',
-                '15:00': 'presentation',
-                '15:45': 'presentation'
+                '11:00': 'presentation',
+                '11:45': 'presentation',
+                '12:30': 'presentation',
+                '13:15': 'presentation',
+                '14:00': 'presentation',
+                '14:45': 'presentation',
+                '15:30': 'presentation',
+                // '15:45': 'presentation'
               }, 
               venues : {
                 W1: { company_id: 0 },
@@ -811,7 +811,7 @@ const settings =  {
               items: [
                 {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
-                // {name: 'schedule', to: '/schedule'},
+                {name: 'schedule', to: '/schedule'},
                 // {name: 'workshops', to: '/workshops'},
                 {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'offers', to: '/offers'}
