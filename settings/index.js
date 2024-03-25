@@ -433,7 +433,7 @@ const settings =  {
     workshops: {
 
         apply: {
-            disabled: 0,
+            disabled: 1,
             disabledTreshold: 75
         },
 
