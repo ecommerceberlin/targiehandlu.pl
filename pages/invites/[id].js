@@ -54,13 +54,15 @@ import {
   
      <WidgetVisitor setting="visitor.register"  right={
 
+
 <WidgetEventInfo  orientation="v" style={{ marginTop: 50 }} primaryStyle={null} secondaryStyle={null}  iconStyle="black" />
 
      }/>
   
-      {/* <WidgetSchedule /> */}
   
       {/* <WidgetSalesMap /> */}
+
+      <WidgetSchedule />
 
 
    <WidgetVisitor setting="visitor.register"  right={
