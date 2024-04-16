@@ -191,40 +191,40 @@ const bookingmapShared = {
         "access"
     ],
     disabledTicketIds : [],
-    allowedGroupIds : [428, 429, 430, 431, 432],
+    allowedGroupIds : [469, 468, 467, 466, 465],
     boothStyleMapping: {
-        428: "light",
-        429: "standard",
-        430: "hot",
-        431: "superHot",
-        432: "ultra",
-        433: "grand",
-        434: "stage",
-        439: "stage", //stage B
-        440: "stage", //stage D
+        469: "light",
+        468: "standard",
+        467: "hot",
+        466: "superHot",
+        465: "ultra",
+        464: "grand",
+        463: "stage",
+        458: "stage", //stage B
+        457: "stage", //stage D
 
-        436: "networking",
-        438: "networking", //mini networking
-        435: "boothSold", //last minute / buffer
-        437: "boothSold", //test
+        461: "networking",
+        459: "networking", //mini networking
+        462: "boothSold", //last minute / buffer
+        460: "boothSold", //test
     
     },
     benefits: {
-        428: standardBenefits,
-        429: standardBenefits,
-        430: standardBenefits,
-        431: standardBenefits,
-        432: standardBenefits,
-        433: premiumBenefits,
-        434: stageBenefits,
-        439: openStageBenefits,
-        440: openStageBenefits,
-        436: networkingBenefits,
-        438: mininetworkingBenefits
+        469: standardBenefits,
+        468: standardBenefits,
+        467: standardBenefits,
+        466: standardBenefits,
+        465: standardBenefits,
+        464: premiumBenefits,
+        463: stageBenefits,
+        458: openStageBenefits,
+        457: openStageBenefits,
+        461: networkingBenefits,
+        459: mininetworkingBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
-    show_recent_purchases: 1,
+    show_recent_purchases: 0,
 
 }
 
@@ -371,13 +371,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.comeback.description"
         },
         disabledTicketIds : [
-            2627, 2628, 2629, 2626, 2624, 2625, //STD
-            2637, 2635, 2636, 2634, 2633, 2632, 2631, //HOT
-            2638, 2639, 2641, 2642, 2645, 2644, 2643, //SH
-            2652, 2651, 2647, 2648, 2650, 2646, //ULTRA
-            2664, 2659, 2660, 2661, 2663, 2676, //GRAND
-            2655, //MINI N
-            2682, 2683, 2684, //STAGE
+            2853, 2854, 2855, 2852, 2850, 2851, 2949, //STD
+            2858, 2859, 2860, 2863, 2862, 2861, 2857, 2948, //HOT
+            2866, 2867, 2864, 2870, 2869, 2868, 2865, 2950, //SH
+            2875, 2876, 2872, 2873, 2877, 2871, //ULTRA
+            2888, 2889, 2885, 2884, 2886, 2901, //GRAND
+            2880, //MINI N
+            2909, 2908, 2907, //STAGE
         ],
     },
 
@@ -388,13 +388,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            2706, 2665, 2717, 2718, 2627, 2628, 2629, 2626, 2624, //STD
-            2630, 2668, 2673, 2632, 2633, 2634, 2637, 2636, 2635, //HOT
-            2640, 2670, 2667, 2641, 2642, 2638, 2645, 2644, 2643,  //SH
-            2649, 2674, 2666, 2650, 2651, 2647, 2648, 2652, //ULTRA
-            2662, 2672, 2669, //GRAND
-            2677, //MINI N
-            2653, 2656, 2681, //STAGE
+            2890, 2942, 2943, //STD
+            2856, 2893, 2898, //HOT
+            2931, 2892, 2895, //SH
+            2874, 2891, 2899, //ULTRA
+            2887, 2894, 2897, //GRAND
+            2902, //MINI N
+            2906, 2881, 2878, //STAGE
         ],
     },
 
@@ -806,22 +806,22 @@ const settings =  {
                 ]
             },
 
-            {
-              name: 'visitors',
-              items: [
-                {name: 'visit', to: '/visit'},
-                // {name: 'vote', to: '/vote'},
-                {name: 'schedule', to: '/schedule'},
-                {name: 'workshops', to: '/workshops'},
-                {name: 'exhibitors', to: '/exhibitors'},
-                // {name: 'offers', to: '/offers'}
-              ]
-            },
+            // {
+            //   name: 'visitors',
+            //   items: [
+            //     // {name: 'visit', to: '/visit'},
+            //     // {name: 'vote', to: '/vote'},
+            //     // {name: 'schedule', to: '/schedule'},
+            //     // {name: 'workshops', to: '/workshops'},
+            //     // {name: 'exhibitors', to: '/exhibitors'},
+            //     // {name: 'offers', to: '/offers'}
+            //   ]
+            // },
             {
               name: 'exhibitors',
               items: [
                 {name: 'exhibit', to: '/exhibit'},
-                // {name: 'premium', to: '/premium'},
+                {name: 'premium', to: '/premium'},
                 // {name: 'sample-visitors', to: '/sample-visitors'},
                 // {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'premium-services', to: '/premium'},
@@ -836,7 +836,7 @@ const settings =  {
 
     premium : {
 
-        ticketgroups : [441],
+        ticketgroups : [456],
         soldout: 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1684149426/Website/PREMIUM%20SERVICES/sold-out.png'
 
     },
@@ -970,10 +970,10 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811883511',
-        event_name : '25. Targi eHandlu',
+        event_name : '26. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '11.04.2024',
+        event_date : '25.10.2024',
         event_hours : '10:00-17:00',
 
     },
@@ -1008,12 +1008,12 @@ const settings =  {
         ]
     },
 
-    appbar : {
-        profile: ["logout"],
-        links: [
-            {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
-        ],
-    },
+    // appbar : {
+    //     profile: ["logout"],
+    //     links: [
+    //         {label: "common.menu.visitors.visit", color: "primary",  href: "/visit", as: "/visit", variant: "contained"}
+    //     ],
+    // },
 
     cfpphotostream : {
 

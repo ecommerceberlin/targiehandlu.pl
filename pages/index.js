@@ -25,17 +25,17 @@ import {
 
     {/* <WidgetFeaturedCompanies /> */}
 
-    <WidgetRegForm setting="visitor.register" /> 
+    {/* <WidgetRegForm setting="visitor.register" />  */}
 
-    <WidgetSchedule /> 
+    {/* <WidgetSchedule />  */}
 
     <WidgetSalesMap />
 
     <WidgetFeaturedCompanies />
 
-    <WidgetRegForm setting="visitor.register" /> 
+    {/* <WidgetRegForm setting="visitor.register" />  */}
 
-    <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
+    {/* <WidgetAllOrCurrentExhibitorsColumnList threshold={70} /> */}
 
   
 
