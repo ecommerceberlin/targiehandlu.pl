@@ -15,6 +15,7 @@ import {
     WidgetCompanyMeetup,
     WidgetCompanyVip,
     WidgetSchedule,
+    WidgetSalesMap,
     Promoninja
   } from 'eventjuicer-site-components';
   
@@ -30,40 +31,42 @@ import {
      
       <HeadCompany slug={slug}>{(data) => <Head>{data}</Head>}</HeadCompany> 
  
-      <WidgetCompanyMeetup />
-      <WidgetCompanyVip />
+      {/* <WidgetCompanyMeetup /> */}
+      {/* <WidgetCompanyVip /> */}
       <WidgetCompany slug={slug} />
 
 
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
-      <WidgetSchedule />
+      {/* <WidgetSchedule /> */}
 
     
         
       <WidgetVideoWithEventInfo setting="heroExpo" />
 
 
-      <WidgetFeaturedCompanies />
+      {/* <WidgetFeaturedCompanies /> */}
 
       {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
 
       {/* <WidgetRegForm setting="visitor.register" /> */}
 
 
-       {/* <WidgetSalesMap
+       <WidgetSalesMap
         label="exhibitors.map.title2"
         secondaryLabel="exhibitors.map.opensales"
-      />  */}
+      /> 
       
-      <WidgetRoleButtons />
+      <WidgetFeaturedCompanies />
+
+      {/* <WidgetRoleButtons /> */}
       
       {/* <WidgetVisitor secondaryLabel="event.parties" /> */}
   
       {/* <WidgetPresenters /> */}
   
-      <Promoninja id={slug} />
+      {/* <Promoninja id={slug} /> */}
 
     </div>
   );

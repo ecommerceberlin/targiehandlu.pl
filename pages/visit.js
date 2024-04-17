@@ -21,16 +21,16 @@ import {
   
 <div>
 
-<WidgetRegForm setting="visitor.register" />
-<WidgetSchedule /> 
+{/* <WidgetRegForm setting="visitor.register" /> */}
+{/* <WidgetSchedule />  */}
 
 <WidgetVideoWithEventInfo setting="heroExpo" />
 <WidgetFeaturedCompanies />
-<WidgetRegForm setting="visitor.register" />
+{/* <WidgetRegForm setting="visitor.register" /> */}
 {/* <WidgetFeaturedPresenters /> */}
 {/* <WidgetVips limit={12} mobile={4} /> */}
-<WidgetPresenters />
-<WidgetIconGrid setting="visitor.benefits" />
+{/* <WidgetPresenters /> */}
+{/* <WidgetIconGrid setting="visitor.benefits" /> */}
 {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
 {/* <WidgetVisitor label="visitors.register" first /> */}
 

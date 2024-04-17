@@ -83,7 +83,7 @@ module.exports = withSentryConfig(withTM({
         },
         {
           source: '/legal',
-          destination: '/legal-2023-11-09',
+          destination: '/legal-2024-04-16',
           permanent: false,
         },
         {

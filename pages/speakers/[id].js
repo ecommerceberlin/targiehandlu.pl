@@ -32,11 +32,11 @@ import {
       {/* <WidgetSalesMap /> */}
 
 
-      <WidgetSchedule />
+      {/* <WidgetSchedule /> */}
 
       {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } /> */}
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
   </>
 )

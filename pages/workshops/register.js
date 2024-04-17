@@ -41,7 +41,7 @@ const PageRegister = () => (
   <div>
        <Wrapper first label="workshops.hello.title">
        
-       <Section 
+       {/* <Section 
         
         left={  <div style={{marginTop: '5rem'}}>
         <MyTypography template="h4" label="workshops.hello.submit" />
@@ -63,12 +63,12 @@ const PageRegister = () => (
 
       leftCentered={true}
 
-      />
+      /> */}
 
-        <WidgetRegForm
+        {/* <WidgetRegForm
           wrapperProps={{label: null}}
          setting="workshops.registration"
-      />
+      /> */}
 
       </Wrapper>
 
