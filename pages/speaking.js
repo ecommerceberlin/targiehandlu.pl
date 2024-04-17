@@ -45,14 +45,14 @@ const PageSpeaking = () => (
         
         left={  <div style={{marginTop: '1rem'}}>
 
-          <MyTypography template="h4" label="cfp.hello.submit" />
+          {/* <MyTypography template="h4" label="cfp.hello.submit" />
          
           <MyTypography template="subtitle1" label="cfp.hello.needs" />
   
-          <Markdown label="cfp.hello.details" />
+          <Markdown label="cfp.hello.details" /> */}
 
         
-        <WidgetRegForm
+        {/* <WidgetRegForm
       wrapperProps={{label: null}}
       setting="speakers.callforpapers"
       options={{
@@ -66,7 +66,7 @@ const PageSpeaking = () => (
           'ai',
         ]
        }}
-      />
+      /> */}
 
 
 
@@ -75,9 +75,9 @@ const PageSpeaking = () => (
         right={ 
 
           <>
-          <RecentSubmissions />
+          {/* <RecentSubmissions /> */}
 
-
+{/* 
           <WidgetVerticalTimeline 
           setting="cfptimeline" 
           icons={{
@@ -86,7 +86,7 @@ const PageSpeaking = () => (
             Public,
             Mic,
             Assessment
-          }} />
+          }} /> */}
 
           </> 
         }

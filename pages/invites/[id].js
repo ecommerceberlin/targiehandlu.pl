@@ -34,7 +34,7 @@ import {
             name: name,
             cname: cname,
             location: 'Warszawa EXPO XXI',
-            date: '11.04.2024',
+            date: '25.11.2024',
           },
         ]}
       >{(data=> <Head>{data}</Head>)}</MyHead>
@@ -52,24 +52,24 @@ import {
        
       </Wrapper>
   
-     <WidgetVisitor setting="visitor.register"  right={
+     {/* <WidgetVisitor setting="visitor.register"  right={ */}
 
 
-<WidgetEventInfo  orientation="v" style={{ marginTop: 50 }} primaryStyle={null} secondaryStyle={null}  iconStyle="black" />
+{/* <WidgetEventInfo  orientation="v" style={{ marginTop: 50 }} primaryStyle={null} secondaryStyle={null}  iconStyle="black" /> */}
 
-     }/>
+     {/* }/> */}
   
   
       {/* <WidgetSalesMap /> */}
 
-      <WidgetSchedule />
+      {/* <WidgetSchedule /> */}
 
 
-   <WidgetVisitor setting="visitor.register"  right={
+   {/* <WidgetVisitor setting="visitor.register"  right={ */}
 
-<WidgetEventInfo  orientation="v" style={{ marginTop: 50 }} primaryStyle={null} secondaryStyle={null}  iconStyle="black" />
+{/* <WidgetEventInfo  orientation="v" style={{ marginTop: 50 }} primaryStyle={null} secondaryStyle={null}  iconStyle="black" /> */}
 
-     }/>
+     {/* }/> */}
   
 
 
