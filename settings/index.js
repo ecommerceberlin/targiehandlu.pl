@@ -224,7 +224,7 @@ const bookingmapShared = {
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
-    show_recent_purchases: 0,
+    show_recent_purchases: 1,
 
 }
 
@@ -388,11 +388,11 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            2890, 2942, 2943, //STD
-            2856, 2893, 2898, //HOT
-            2931, 2892, 2895, //SH
+            2890, 2942, 2943,2854, 2853,  //STD
+            2856, 2893, 2898, 2858, 2860, 2859, //HOT
+            2931, 2892, 2895, 2864, 2867, 2866, //SH
             2874, 2891, 2899, //ULTRA
-            2887, 2894, 2897, //GRAND
+            2887, 2894, 2897, 2888, 2889, 2885, //GRAND
             2902, //MINI N
             2906, 2881, 2878, //STAGE
         ],
