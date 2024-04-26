@@ -389,7 +389,7 @@ const settings =  {
         },
         disabledTicketIds : [
             2890, 2942, 2943,2854, 2853,  //STD
-            2856, 2893, 2898, 2858, 2860, 2859, //HOT
+            2856, 2893, 2898, 2858, 2860, 2859, 2863, //HOT
             2931, 2892, 2895, 2864, 2867, 2866, 2870, //SH
             2874, 2891, 2899, 2876, 2875, 2872, //ULTRA
             2887, 2894, 2897, 2888, 2889, 2885, //GRAND
@@ -823,7 +823,7 @@ const settings =  {
                 {name: 'exhibit', to: '/exhibit'},
                 {name: 'premium', to: '/premium'},
                 // {name: 'sample-visitors', to: '/sample-visitors'},
-                // {name: 'exhibitors', to: '/exhibitors'},
+                {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'premium-services', to: '/premium'},
                 // {name: 'faq', to: '/faq'},
               ]
