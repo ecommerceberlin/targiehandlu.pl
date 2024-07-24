@@ -403,12 +403,12 @@ const settings =  {
         baseLabel: "cfp.timeline",
 
         items : [
-            {date: "2024-01-10", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2024-02-02", name: "qualification", icon:  "Assessment" },
-            {date: "2024-02-05", name: "public-voting", icon:  "Public" },
-            // {date: "2020-10-26", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2024-02-16", name: "results", icon:  "Mic", active: false },
-            {date: "2024-02-19", name: "formal", icon:  "Settings", active: false }
+            {date: "2024-07-22", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            // {date: "2024-02-02", name: "qualification", icon:  "Assessment" },
+            {date: "2024-09-13", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2024-09-16", name: "public-voting", icon:  "Public" },
+            {date: "2024-09-27", name: "results", icon:  "Mic", active: false },
+            // {date: "2024-02-19", name: "formal", icon:  "Settings", active: false }
 
         ]
 
@@ -635,7 +635,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2675,
+            ticket_id : 2900,
             email_template : "pl-presenters-application",
 
         },
@@ -670,6 +670,7 @@ const settings =  {
             items: [
                 {label: 'exhibitor-status'},
                 {label: 'fee',},
+                {label: 'stages',},
                 { label: 'submission-limits' },
                 { label: 'co-presenter' },
                 { label: 'ranking' },
@@ -1026,18 +1027,19 @@ const settings =  {
         cols: 12,
 
         items : [
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999866/www/speaking/witold_wrodarczyk.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999863/www/speaking/robert_stolarczyk.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999861/www/speaking/sempai.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999860/www/speaking/jakub_gierszynski.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999860/www/speaking/dominik_cison.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999860/www/speaking/felix_hubner.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999857/www/speaking/ireneusz_klimczak.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999855/www/speaking/freshworks.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999855/www/speaking/openstage.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999854/www/speaking/lead360.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999852/www/speaking/damian_wiszowaty.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1598999851/www/speaking/artur_jablonski.jpg", cols: 3}
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713348899/teh25_photos/michal_burda/1187-_AOG8896-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713308228/teh25_photos/adcookie/1000-_AOG8770-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713308657/teh25_photos/stages/1052-_AOG8815-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713384471/teh25_photos/oskar_lipinski/eHandel_11042024_fot-Joanna-Nowicka_01201.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713299485/teh25_photos/trusted_shops/0483-_AOG8532-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713382583/teh25_photos/lukasz_plutecki/eHandel_11042024_fot-Joanna-Nowicka_00906.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713308244/teh25_photos/adcookie/1005-_AOG8774-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713307466/teh25_photos/sebastian_horoszko/0916-_AOG8719-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713302193/teh25_photos/pawel_kubiak/0630-_AOG8569-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713371030/teh25_photos/stages/eHandel_11042024_fot-Joanna-Nowicka_00354.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713371835/teh25_photos/piotr_markiewicz/eHandel_11042024_fot-Joanna-Nowicka_00501_Easy-Resize.com.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1713309688/teh25_photos/stages/1105-_AOG8845-eventshooters-eventshooters-TEH2024.jpg", cols: 3}
+
         ]
     },
 

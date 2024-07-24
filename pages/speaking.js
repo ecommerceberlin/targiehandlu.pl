@@ -39,91 +39,98 @@ import settings from '../settings';
 const PageSpeaking = () => (
 
   <div>
-       <Wrapper first label="cfp.hello.title">
-       
-       <Section 
-        
-        left={  <div style={{marginTop: '1rem'}}>
-
-          {/* <MyTypography template="h4" label="cfp.hello.submit" />
-         
-          <MyTypography template="subtitle1" label="cfp.hello.needs" />
-  
-          <Markdown label="cfp.hello.details" /> */}
-
-        
-        {/* <WidgetRegForm
-      wrapperProps={{label: null}}
-      setting="speakers.callforpapers"
-      options={{
-        "categories": [
-          'conversion',
-          'marketing',
-          'logistics',
-          'payments',
-          'it',
-          'trends',
-          'ai',
-        ]
-       }}
-      /> */}
-
-
-
-  
-          </div> }
-        right={ 
-
-          <>
-          {/* <RecentSubmissions /> */}
-
-{/* 
-          <WidgetVerticalTimeline 
-          setting="cfptimeline" 
-          icons={{
-            NoteAdd,
-            Settings,
-            Public,
-            Mic,
-            Assessment
-          }} /> */}
-
-          </> 
+    <Wrapper first label="cfp.hello.title">
+      <Section 
+        left={
+          <div style={{marginTop: '1rem'}}>
+            <MyTypography template="h4" label="cfp.hello.submit" />
+            <MyTypography template="subtitle1" label="cfp.hello.needs" />
+            <Markdown label="cfp.hello.details" />
+          </div>
         }
-
-      leftCentered={true}
-
+        right={
+          <>
+            {/* <RecentSubmissions /> */}
+            <WidgetVerticalTimeline 
+              setting="cfptimeline" 
+              icons={{
+                NoteAdd,
+                Settings,
+                Public,
+                Mic,
+                Assessment
+              }} 
+            />
+          </>
+        }
+        leftCentered={true}
       />
 
+    
+    <WidgetPresentersAll 
+      filter={(item) => parseInt(item.featured_cfp)} 
+      limit="24" 
+      label="cfp.featured_presenters" 
+    />
 
-      </Wrapper>
+    <Wrapper first label="cfp.regform.title">
+      <Section
+        left={
+          <>
+            {/* <MyTypography template="h4" label="cfp.regform.header" /> */}
+            <WidgetRegForm
+              wrapperProps={{label: null}}
+              setting="speakers.callforpapers"
+              options={{
+                "categories": [
+                  'conversion',
+                  'marketing',
+                  'logistics',
+                  'payments',
+                  'it',
+                  'trends',
+                  'ai',
+                ]
+              }}
+            />
+          </>
+        }
+        right={
+          <>
+            {/* <MyTypography template="h4" label="presenters.competition.rules.title" /> */}
+            <Markdown label="presenters.competition.rules.content" />
+          </>
+        }
+      />
+    </Wrapper>
+    </Wrapper>
 
+    {/* <WidgetPresentersAll 
+      filter={(item) => parseInt(item.featured_cfp)} 
+      limit="24" 
+      label="cfp.featured_presenters" 
+    /> */}
 
-  <WidgetPhotostream setting="cfpphotostream" />
+    {/* <Wrapper label="presenters.competition.rules.title">
+      <Markdown label="presenters.competition.rules.content" />
+    </Wrapper> */}
+    
+    <WidgetIconGrid 
+      setting="speakers.benefits" 
+      icons={{
+        FaSearch: FaSearch, 
+        FaPoll: FaPoll, 
+        FaTrophy: FaTrophy
+      }} 
+    />
+    
+    {/* <WidgetJurors minToShow={4} /> */}
 
-  <Wrapper label="presenters.competition.rules.title">
-  <Markdown label="presenters.competition.rules.content" />
-  </Wrapper>
+    <WidgetFaq setting="speakers.cfpfaq" />
 
-  
-        {/* <WidgetJurors minToShow={4} /> */}
+    <WidgetPhotostream setting="cfpphotostream" />
 
-
-        <WidgetFaq setting="speakers.cfpfaq" />
-
-        <WidgetIconGrid setting="speakers.benefits" icons={{
-            FaSearch: FaSearch, 
-            FaPoll: FaPoll, 
-            FaTrophy: FaTrophy
-        }} />
-
-
-        <WidgetPresentersAll 
-          filter={(item)=> parseInt(item.featured_cfp) } limit="24" 
-          label="cfp.featured_presenters"
-        />
-
-  {/* <WidgetRegForm
+    {/* <WidgetRegForm
       setting="speakers.callforpapers"
       options={{
         "categories": [
@@ -138,23 +145,18 @@ const PageSpeaking = () => (
        }}
       /> */}
 
-        <WidgetVideoWithEventInfo
-          setting="heroExpo"
-          title="presenters.claim.title"
-          subtitle="presenters.claim.description"
-        />
+    <WidgetVideoWithEventInfo
+      setting="heroExpo"
+      title="presenters.claim.title"
+      subtitle="presenters.claim.description"
+    />
 
-        <WidgetRoleButtons first={false} />
-
+    <WidgetRoleButtons first={false} />
   </div>
 )
 
 
-
-
-
 export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
-
   await configure(store, {
     settings : settings,
     preload : ["exhibitors"]
