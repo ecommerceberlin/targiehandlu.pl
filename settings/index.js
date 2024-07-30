@@ -803,21 +803,21 @@ const settings =  {
                 name: 'general',
                 items: [
                   {name: 'home', to: '/'},
-                //   {name: 'speaking', to: '/speaking'},
+                  {name: 'speaking', to: '/speaking'},
                 ]
             },
 
-            // {
-            //   name: 'visitors',
-            //   items: [
-            //     // {name: 'visit', to: '/visit'},
+            {
+              name: 'visitors',
+              items: [
+                {name: 'visit', to: '/visit'},
             //     // {name: 'vote', to: '/vote'},
             //     // {name: 'schedule', to: '/schedule'},
             //     // {name: 'workshops', to: '/workshops'},
             //     // {name: 'exhibitors', to: '/exhibitors'},
             //     // {name: 'offers', to: '/offers'}
-            //   ]
-            // },
+              ]
+            },
             {
               name: 'exhibitors',
               items: [
@@ -920,7 +920,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 2678,
+            ticket_id : 2903,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 
