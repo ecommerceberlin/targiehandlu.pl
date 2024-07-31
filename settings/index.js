@@ -388,7 +388,7 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            2890, 2942, 2943,2854, 2853,  //STD
+            2890, 2942, 2943,2854, 2853, 2855, 2852,  //STD
             2856, 2893, 2898, 2858, 2860, 2859, 2863, 2862, //HOT
             2931, 2892, 2895, 2864, 2867, 2866, 2870, 2869, //SH
             2874, 2891, 2899, 2876, 2875, 2872, 2873, //ULTRA
@@ -803,21 +803,21 @@ const settings =  {
                 name: 'general',
                 items: [
                   {name: 'home', to: '/'},
-                //   {name: 'speaking', to: '/speaking'},
+                  {name: 'speaking', to: '/speaking'},
                 ]
             },
 
-            // {
-            //   name: 'visitors',
-            //   items: [
-            //     // {name: 'visit', to: '/visit'},
+            {
+              name: 'visitors',
+              items: [
+                {name: 'visit', to: '/visit'},
             //     // {name: 'vote', to: '/vote'},
             //     // {name: 'schedule', to: '/schedule'},
             //     // {name: 'workshops', to: '/workshops'},
             //     // {name: 'exhibitors', to: '/exhibitors'},
             //     // {name: 'offers', to: '/offers'}
-            //   ]
-            // },
+              ]
+            },
             {
               name: 'exhibitors',
               items: [
@@ -920,7 +920,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 2678,
+            ticket_id : 2903,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 

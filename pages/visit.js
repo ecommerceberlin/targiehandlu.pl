@@ -21,10 +21,10 @@ import {
   
 <div>
 
-{/* <WidgetRegForm setting="visitor.register" /> */}
+<WidgetRegForm setting="visitor.register" />
 {/* <WidgetSchedule />  */}
 
-<WidgetVideoWithEventInfo setting="heroExpo" />
+{/* <WidgetVideoWithEventInfo setting="heroExpo" /> */}
 <WidgetFeaturedCompanies />
 {/* <WidgetRegForm setting="visitor.register" /> */}
 {/* <WidgetFeaturedPresenters /> */}
@@ -36,7 +36,7 @@ import {
 
 <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
 {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
-
+<WidgetVideoWithEventInfo setting="heroExpo" />
 </div>
 
   )
