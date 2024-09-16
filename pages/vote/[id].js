@@ -35,15 +35,15 @@ const PageVote  = ({id}) => (
   
   <div>
 
-  <HeadVote id={id} template="template_teh26_cfp_pl">{(data) => <Head>{data}</Head>}</HeadVote> 
+  <HeadVote id={id} template="template_teh26_callforpapers_pl">{(data) => <Head>{data}</Head>}</HeadVote> 
    
   <WidgetVotable
       id={id}
       asPath={`/vote/${id}`}
-      // vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={40} onVoted={onVoted} />}
-      vote={null} 
+      vote={<DynamicWidgetVoteWithLinkedIn id={id} max_votes={50} onVoted={onVoted} />}
+      // vote={null} 
       status={false}
-      show_votes={true}
+      show_votes={false}
     />
 
  {/* <WidgetSalesMap wrapperProps={{label: "exhibitors.map.title_alt"}} /> */}
@@ -52,7 +52,7 @@ const PageVote  = ({id}) => (
   <VotingCategories />
 
  
-{/* <WidgetVisitor setting="visitor.register" /> */}
+<WidgetVisitor setting="visitor.register" />
 
  {/* <WidgetVips limit={12} mobile={4} /> */}
 
