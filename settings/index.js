@@ -419,11 +419,11 @@ const settings =  {
         baseLabel: "workshops.timeline",
 
         items : [
-            {date: "2024-03-04", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2024-03-08", name: "submissions-closed", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2024-03-12", name: "qualification", icon:  "Assessment" },
-            {date: "2024-03-15", name: "workshop-details", icon:  "Settings" },
-            {date: "2024-03-21", name: "attendees", icon:  "Public" },
+            {date: "2024-09-30", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2024-10-04", name: "submissions-closed", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2024-10-07", name: "qualification", icon:  "Assessment" },
+            {date: "2024-10-10", name: "workshop-details", icon:  "Settings" },
+            {date: "2024-10-14", name: "attendees", icon:  "Public" },
 
         ]
 
@@ -493,7 +493,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2679,
+            ticket_id : 2991,
             email_template : "pl-workshops-application",
        },
 
@@ -552,11 +552,20 @@ const settings =  {
         cols: 12,
 
         items : [
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147180/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0552.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1669103280/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_NET-0384.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1681427181/teh23_photos/workshops/eTargi_06042023_fot_Joanna_Nowicka_1019.jpg", cols: 3},
-            {src: "https://res.cloudinary.com/eventjuicer/image/upload/v1668147181/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0892.jpg", cols: 3},
-          
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1681427181/teh23_photos/workshops/eTargi_06042023_fot_Joanna_Nowicka_1019.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1681426942/teh23_photos/workshops/eTargi_06042023_fot_Joanna_Nowicka_1017.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1681427092/teh23_photos/workshops/eTargi_06042023_fot_Joanna_Nowicka_1041.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1681552919/teh23_photos/vip_zone/Targi-eHandlu-2023-palej-pl-DSC06414_.jpg", cols: 3},
+
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1713383643/teh25_photos/workshops/eHandel_11042024_fot-Joanna-Nowicka_01048.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1713349001/teh25_photos/workshops/1209-PLJ09646-eventshooters-eventshooters-TEH2024.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1698889800/teh24_photos/vip_zone/eHandel_27102023_fot_Joanna_Nowicka_NET-0969.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1698890024/teh24_photos/workshops/eHandel_27102023_fot_Joanna_Nowicka_NET-0964.jpg", cols: 3},
+
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1668147180/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0552.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1669103280/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_NET-0384.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1681427181/teh23_photos/workshops/eTargi_06042023_fot_Joanna_Nowicka_1019.jpg", cols: 3},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1668147181/teh22_photos/vip_zone/eHandel_27102022_fot_Joanna_Nowicka_0892.jpg", cols: 3},
         ]
         },
 
@@ -811,7 +820,7 @@ const settings =  {
               name: 'visitors',
               items: [
                 {name: 'visit', to: '/visit'},
-                {name: 'vote', to: '/vote'},
+                // {name: 'vote', to: '/vote'},
             //     // {name: 'schedule', to: '/schedule'},
             //     // {name: 'workshops', to: '/workshops'},
             //     // {name: 'exhibitors', to: '/exhibitors'},
