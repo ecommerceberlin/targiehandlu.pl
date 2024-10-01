@@ -297,18 +297,18 @@ const settings =  {
             // 15+10+10 = 35!!!
             // 
             // '10:25': 'presentation',
-            '10:40': 'presentation',
-            '11:15': 'presentation',
-            '11:50': 'presentation',
-            '12:15': 'break_25',
-            '12:40': 'presentation',
-            '13:15': 'presentation',
-            '13:40': 'break_25',
-            '14:05': 'presentation',
-            '14:40': 'presentation',
-            '15:05': 'break_25',
-            '15:30': 'presentation',
-            '16:05': 'presentation'
+            '10:30': 'presentation',
+            '11:05': 'presentation',
+            '11:40': 'presentation',
+            '12:05': 'break_25',
+            '12:30': 'presentation',
+            '13:05': 'presentation',
+            '13:30': 'break_25',
+            '13:55': 'presentation',
+            '14:30': 'presentation',
+            '14:55': 'break_25',
+            '15:20': 'presentation',
+            '15:55': 'presentation'
           }, 
           venues : {
             A: { company_id: 0 },
@@ -604,7 +604,7 @@ const settings =  {
             label: "presenters.list_featured",
             secondaryLabel: "presenters.list_description"
         },
-        og_template: "template_teh25_spkr",
+        og_template: "template_teh26_spkr",
 
 
 

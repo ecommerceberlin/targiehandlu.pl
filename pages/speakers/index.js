@@ -20,11 +20,11 @@ import {
 
      <MyHead>{(data)=><Head>{data}</Head>}</MyHead>
 
-    {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } /> */}
+    <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } />
   
+    <WidgetRegForm setting="visitor.register" />
+
     <WidgetVideoWithEventInfo setting="heroExpo" />
-  
-    {/* <WidgetRegForm setting="visitor.register" /> */}
   
   
     </>

@@ -29,13 +29,13 @@ import {
     >{(data)=><Head>{data}</Head>}</MyHead> */}
 
 
-      {/* <WidgetSchedule /> */}
+      <WidgetSchedule />
 
-      {/* <WidgetRegForm setting="visitor.register" /> */}
-
-      <WidgetVideoWithEventInfo setting="heroExpo" />
+      <WidgetRegForm setting="visitor.register" />
 
       <WidgetAllOrCurrentExhibitorsColumnList threshold={70} /> 
+
+      <WidgetVideoWithEventInfo setting="heroExpo" />
 
 
   </>
