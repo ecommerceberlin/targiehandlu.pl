@@ -821,7 +821,7 @@ const settings =  {
               items: [
                 {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
-            //     // {name: 'schedule', to: '/schedule'},
+                {name: 'schedule', to: '/schedule'},
             //     // {name: 'workshops', to: '/workshops'},
             //     // {name: 'exhibitors', to: '/exhibitors'},
             //     // {name: 'offers', to: '/offers'}
@@ -880,7 +880,7 @@ const settings =  {
               },
             ]
         },
-        ogTemplate: "template_teh25_exhibitor_",
+        ogTemplate: "template_teh26_exhibitor_",
         benefits : {
             baseLabel: "exhibitors.benefits",
             items: [
