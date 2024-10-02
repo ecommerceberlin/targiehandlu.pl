@@ -22,7 +22,7 @@ import {
 <div>
 
 <WidgetRegForm setting="visitor.register" />
-{/* <WidgetSchedule />  */}
+<WidgetSchedule /> 
 
 {/* <WidgetVideoWithEventInfo setting="heroExpo" /> */}
 <WidgetFeaturedCompanies />
@@ -30,12 +30,13 @@ import {
 {/* <WidgetFeaturedPresenters /> */}
 {/* <WidgetVips limit={12} mobile={4} /> */}
 {/* <WidgetPresenters /> */}
-{/* <WidgetIconGrid setting="visitor.benefits" /> */}
+<WidgetIconGrid setting="visitor.benefits" />
+<WidgetRegForm setting="visitor.register" />
 {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
 {/* <WidgetVisitor label="visitors.register" first /> */}
 
 <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
-{/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
+<WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
 <WidgetVideoWithEventInfo setting="heroExpo" />
 </div>
 

@@ -37,28 +37,23 @@ import {
 
 
 
-      {/* <WidgetRegForm setting="visitor.register" /> */}
+      <WidgetRegForm setting="visitor.register" />
 
-      {/* <WidgetSchedule /> */}
+      <WidgetSchedule />
 
-    
-        
-      <WidgetVideoWithEventInfo setting="heroExpo" />
+      <WidgetFeaturedCompanies />
 
+      <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
 
-      {/* <WidgetFeaturedCompanies /> */}
-
-      {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} /> */}
-
-      {/* <WidgetRegForm setting="visitor.register" /> */}
+      <WidgetRegForm setting="visitor.register" />
 
 
-       <WidgetSalesMap
+       {/* <WidgetSalesMap
         label="exhibitors.map.title2"
         secondaryLabel="exhibitors.map.opensales"
-      /> 
+      />  */}
       
-      <WidgetFeaturedCompanies />
+      {/* <WidgetFeaturedCompanies /> */}
 
       {/* <WidgetRoleButtons /> */}
       
@@ -67,6 +62,8 @@ import {
       {/* <WidgetPresenters /> */}
   
       {/* <Promoninja id={slug} /> */}
+
+      <WidgetVideoWithEventInfo setting="heroExpo" />
 
     </div>
   );
