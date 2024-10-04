@@ -61,7 +61,7 @@ import {
   
       {/* <WidgetPresenters /> */}
   
-      {/* <Promoninja id={slug} /> */}
+      <Promoninja id={slug} />
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 
