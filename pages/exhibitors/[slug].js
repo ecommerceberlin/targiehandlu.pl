@@ -32,7 +32,7 @@ import {
       <HeadCompany slug={slug}>{(data) => <Head>{data}</Head>}</HeadCompany> 
  
       {/* <WidgetCompanyMeetup /> */}
-      {/* <WidgetCompanyVip /> */}
+      <WidgetCompanyVip />
       <WidgetCompany slug={slug} />
 
 
