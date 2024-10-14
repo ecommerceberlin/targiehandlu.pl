@@ -18,15 +18,15 @@ const PageVip = ({code}) => (
 
   <>
   
-  {/* <WidgetOrganizerVip code={code} setting="vips.register" /> */}
+  <WidgetOrganizerVip code={code} setting="vips.register" />
 
-  {/* <WidgetSchedule /> */}
+  <WidgetSchedule />
 
   <WidgetVideoWithEventInfo  setting="heroExpo" />
 
   <WidgetAllOrCurrentExhibitorsColumnList />
 
-  {/* <WidgetOrganizerVip code={code} setting="vips.register" /> */}
+  <WidgetOrganizerVip code={code} setting="vips.register" />
   
   </>
 
