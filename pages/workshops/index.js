@@ -41,11 +41,11 @@ const PageSpeaking = () => (
     
     
 <WidgetFaq setting="workshops.faq_participant" />     
-{/* <WidgetSchedule setting="workshops.schedule" /> */}
-
-{/* <WidgetRegForm setting="visitor.register" /> */}
-{/* <WidgetSchedule /> */}
+<WidgetSchedule setting="workshops.schedule" />
 <WidgetPhotostream setting="workshops.photostream" />
+<WidgetRegForm setting="visitor.register" />
+<WidgetSchedule />
+
 
 <WidgetVideoWithEventInfo
 setting="heroExpo"
