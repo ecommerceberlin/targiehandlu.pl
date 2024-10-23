@@ -184,12 +184,12 @@ const openStageBenefits =   [
 const bookingmapShared = {
 
     height : 400,
-    steps : [
-        "choose_booth",
-        "confirm",
-        "pay",
-        "access"
-    ],
+    // steps : [
+    //     "choose_booth",
+    //     "confirm",
+    //     "pay",
+    //     "access"
+    // ],
     disabledTicketIds : [],
     allowedGroupIds : [469, 468, 467, 466, 465],
     boothStyleMapping: {
@@ -224,7 +224,7 @@ const bookingmapShared = {
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
-    show_recent_purchases: 1,
+    show_recent_purchases: 0,
 
 }
 
@@ -831,7 +831,7 @@ const settings =  {
               name: 'exhibitors',
               items: [
                 {name: 'exhibit', to: '/exhibit'},
-                {name: 'premium', to: '/premium'},
+                // {name: 'premium', to: '/premium'},
                 // {name: 'sample-visitors', to: '/sample-visitors'},
                 {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'premium-services', to: '/premium'},
