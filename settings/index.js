@@ -226,7 +226,7 @@ const bookingmapShared = {
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
-    show_recent_purchases: 0,
+    show_recent_purchases: 1,
 
 }
 
