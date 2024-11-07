@@ -21,9 +21,9 @@ import {
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
-    {/* <WidgetSalesMap /> */}
+    <WidgetSalesMap />
 
-    {/* <WidgetFeaturedCompanies /> */}
+    <WidgetFeaturedCompanies />
 
     <WidgetRegForm setting="visitor.register" /> 
 
@@ -31,7 +31,7 @@ import {
 
     {/* <WidgetSalesMap /> */}
 
-    <WidgetFeaturedCompanies />
+    {/* <WidgetFeaturedCompanies /> */}
 
     {/* <WidgetRegForm setting="visitor.register" />  */}
 
