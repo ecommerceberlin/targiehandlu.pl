@@ -184,43 +184,45 @@ const openStageBenefits =   [
 const bookingmapShared = {
 
     height : 400,
-    steps : [
-        "choose_booth",
-        "confirm",
-        "pay",
-        "access"
-    ],
+    // steps : [
+    //     "choose_booth",
+    //     "confirm",
+    //     "pay",
+    //     "access"
+    // ],
     disabledTicketIds : [],
-    allowedGroupIds : [469, 468, 467, 466, 465],
+    allowedGroupIds : [485, 484, 483, 482, 481, 480],
     boothStyleMapping: {
-        469: "light",
-        468: "standard",
-        467: "hot",
-        466: "superHot",
-        465: "ultra",
-        464: "grand",
-        463: "stage",
-        458: "stage", //stage B
-        457: "stage", //stage D
+        485: "light",
+        484: "standard",
+        483: "hot",
+        482: "superHot",
+        481: "ultra",
+        480: "grand",
+        479: "stage",
+        474: "stage", //stage B
+        473: "stage", //stage D
+        486: "stage", //stage C
 
-        461: "networking",
-        459: "networking", //mini networking
-        462: "boothSold", //last minute / buffer
-        460: "boothSold", //test
+        477: "networking",
+        475: "networking", //mini networking
+        478: "boothSold", //last minute / buffer
+        476: "boothSold", //test
     
     },
     benefits: {
-        469: standardBenefits,
-        468: standardBenefits,
-        467: standardBenefits,
-        466: standardBenefits,
-        465: standardBenefits,
-        464: premiumBenefits,
-        463: stageBenefits,
-        458: openStageBenefits,
-        457: openStageBenefits,
-        461: networkingBenefits,
-        459: mininetworkingBenefits
+        485: standardBenefits,
+        484: standardBenefits,
+        483: standardBenefits,
+        482: standardBenefits,
+        481: standardBenefits,
+        480: premiumBenefits,
+        479: stageBenefits,
+        474: openStageBenefits,
+        473: openStageBenefits,
+        486: openStageBenefits,
+        477: networkingBenefits,
+        475: mininetworkingBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
@@ -371,13 +373,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.comeback.description"
         },
         disabledTicketIds : [
-            2853, 2854, 2855, 2852, 2850, 2851, 2949, //STD
-            2858, 2859, 2860, 2863, 2862, 2861, 2857, 2948, //HOT
-            2866, 2867, 2864, 2870, 2869, 2868, 2865, 2950, //SH
-            2875, 2876, 2872, 2873, 2877, 2871, //ULTRA
-            2888, 2889, 2885, 2884, 2886, 2901, //GRAND
+            3007, 3008, 3009, 3010, 3011, 3012, 3106, //STD
+            3014, 3015, 3016, 3017, 3018, 3019, 3020, 3105, //HOT
+            3021, 3022, 3023, 3024, 3025, 3026, 3027, 3107, //SH
+            3028, 3029, 3030, 3032, 3033, 3034, 3104, //ULTRA
+            3041, 3042, 3043, 3045, 3046, 3058, //GRAND
             2880, //MINI N
-            2909, 2908, 2907, //STAGE
+            3066, 3065, 3064, 3112, //STAGE
         ],
     },
 
@@ -388,13 +390,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            2890, 2942, 2943,2854, 2853, 2855, 2852,  //STD
-            2856, 2893, 2898, 2858, 2860, 2859, 2863, 2862, //HOT
-            2931, 2892, 2895, 2864, 2867, 2866, 2870, 2869, //SH
-            2874, 2891, 2899, 2876, 2875, 2872, 2873, //ULTRA
-            2887, 2894, 2897, 2888, 2889, 2885, //GRAND
-            2902, //MINI N
-            2906, 2881, 2878, //STAGE
+            3047, 3099, 3100, 3010, 3011, 3012,  //STD
+            3013, 3050, 3055, 3015, 3016, 3017, 3020,  //HOT
+            3049, 3052, 3088, 3023, 3021, 3024, 3027, 3026, //SH
+            3031, 3048, 3110, 3030, 3033, 3029, 3032, //ULTRA
+            3044, 3051, 3054, 3045, 3042, 3046, //GRAND
+            3059, //MINI N
+            3063, 3038, 3035, 3111, //STAGE
         ],
     },
 
@@ -821,7 +823,7 @@ const settings =  {
               items: [
                 {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
-                {name: 'schedule', to: '/schedule'},
+                // {name: 'schedule', to: '/schedule'},
             //     // {name: 'workshops', to: '/workshops'},
             //     // {name: 'exhibitors', to: '/exhibitors'},
             //     // {name: 'offers', to: '/offers'}
@@ -833,7 +835,7 @@ const settings =  {
                 {name: 'exhibit', to: '/exhibit'},
                 {name: 'premium', to: '/premium'},
                 // {name: 'sample-visitors', to: '/sample-visitors'},
-                {name: 'exhibitors', to: '/exhibitors'},
+                // {name: 'exhibitors', to: '/exhibitors'},
                 // {name: 'premium-services', to: '/premium'},
                 // {name: 'faq', to: '/faq'},
               ]
@@ -846,7 +848,7 @@ const settings =  {
 
     premium : {
 
-        ticketgroups : [456],
+        ticketgroups : [472],
         soldout: 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1684149426/Website/PREMIUM%20SERVICES/sold-out.png'
 
     },
@@ -929,7 +931,7 @@ const settings =  {
               {name: "phone", required: true}
             ],
             start : ['email', 'fname'],
-            ticket_id : 2903,
+            ticket_id : 3060,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
 
@@ -980,10 +982,10 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811883511',
-        event_name : '26. Targi eHandlu',
+        event_name : '27. Targi eHandlu',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '25.10.2024',
+        event_date : '3.04.2025',
         event_hours : '10:00-17:00',
 
     },
@@ -1012,7 +1014,7 @@ const settings =  {
         secondaryStyle: null,
       //  iconStyle: "heroIcon",
         links : [
-            {label: "exhibitors.agreement.title", href : "/legal-2024-04-16"},
+            {label: "exhibitors.agreement.title", href : "/legal-2024-11-05"},
             {label: "visitors.legal.title", href : "/legal/visitors"},
             {label: "visitors.legal-gdpr.title", href : "/legal/visitors-data"},
         ]

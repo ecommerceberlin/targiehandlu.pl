@@ -21,19 +21,19 @@ import {
 
     <WidgetVideoWithEventInfo setting="heroExpo" />
 
-    {/* <WidgetSalesMap /> */}
-
-    {/* <WidgetFeaturedCompanies /> */}
-
-    <WidgetRegForm setting="visitor.register" /> 
-
-    <WidgetSchedule /> 
-
     <WidgetSalesMap />
 
     <WidgetFeaturedCompanies />
 
     <WidgetRegForm setting="visitor.register" /> 
+
+    {/* <WidgetSchedule />  */}
+
+    {/* <WidgetSalesMap /> */}
+
+    {/* <WidgetFeaturedCompanies /> */}
+
+    {/* <WidgetRegForm setting="visitor.register" />  */}
 
     {/* <WidgetAllOrCurrentExhibitorsColumnList threshold={70} /> */}
 
