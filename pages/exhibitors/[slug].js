@@ -115,7 +115,7 @@ import {
         props : {
             slug :slug
         },
-        revalidate : 10
+        revalidate : 300
     }
   
   })

@@ -48,9 +48,10 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ['bookingmap', "companies", "allexhibitors", "purchases", "exhibitors2"]
+      preload : ['bookingmap', "companies", "allexhibitors", "purchases", "exhibitors2"],
       // preload : ['exhibitors', 'allexhibitors']
-      // preload : ['presenters']
+      // preload : ['presenters'],
+      cache: 300
     })
   
   })

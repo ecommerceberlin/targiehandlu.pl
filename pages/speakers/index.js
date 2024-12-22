@@ -34,7 +34,8 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ["presenters"]
+      preload : ["presenters"],
+      cache: 300
     })
   
   })

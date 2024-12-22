@@ -13,6 +13,7 @@ import {
   } from 'eventjuicer-site-components';
   
   import Head from 'next/head'
+import { cache } from 'react';
 
 
   const settings = require('../../settings').default;
@@ -58,7 +59,8 @@ export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
 
     return await configure(props, {
       settings : settings,
-      preload : [resource, "presenters"]
+      preload : [resource, "presenters"],
+      cache: 300
     })
   
   })

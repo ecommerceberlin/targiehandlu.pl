@@ -71,7 +71,7 @@ import {
         props : {
             keyword : "keyword" in params? params.keyword : ""
         },
-        revalidate: 1
+        revalidate: 300
     }
   
   })

@@ -32,7 +32,8 @@ export const getStaticProps = reduxWrapper.getStaticProps(async ({ store }) => {
   
   return await configure(store, {
     settings: settings,
-    preload: []
+    preload: [],
+    cache: 300
   })
   
 })

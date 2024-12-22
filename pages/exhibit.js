@@ -44,7 +44,8 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ['bookingmap']
+      preload : ['bookingmap'],
+      cache: 300
     })
   
   })
