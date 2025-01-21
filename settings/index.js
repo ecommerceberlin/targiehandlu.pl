@@ -390,8 +390,8 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            3047, 3099, 3100, 3010, 3011, 3012,  //STD
-            3013, 3050, 3055, 3015, 3016, 3017, 3020,  //HOT
+            3047, 3099, 3100, 3010, 3011, 3012, 3009,  //STD
+            3013, 3050, 3055, 3015, 3016, 3017, 3020, 3019,  //HOT
             3049, 3052, 3088, 3023, 3021, 3024, 3027, 3026, //SH
             3031, 3048, 3110, 3030, 3033, 3029, 3032, //ULTRA
             3044, 3051, 3054, 3045, 3042, 3046, //GRAND
@@ -405,11 +405,11 @@ const settings =  {
         baseLabel: "cfp.timeline",
 
         items : [
-            {date: "2024-07-22", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2025-01-21", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
             // {date: "2024-02-02", name: "qualification", icon:  "Assessment" },
-            {date: "2024-09-13", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2024-09-16", name: "public-voting", icon:  "Public" },
-            {date: "2024-09-27", name: "results", icon:  "Mic", active: false },
+            {date: "2025-02-10", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2025-02-12", name: "public-voting", icon:  "Public" },
+            {date: "2025-02-25", name: "results", icon:  "Mic", active: false },
             // {date: "2024-02-19", name: "formal", icon:  "Settings", active: false }
 
         ]
@@ -646,7 +646,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2900,
+            ticket_id : 3057,
             email_template : "pl-presenters-application",
 
         },
