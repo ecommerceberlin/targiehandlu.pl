@@ -407,9 +407,9 @@ const settings =  {
         items : [
             {date: "2025-01-21", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
             // {date: "2024-02-02", name: "qualification", icon:  "Assessment" },
-            {date: "2025-02-14", name: "jury-voting", icon:  "HowToVote" },
-            {date: "2025-02-17", name: "public-voting", icon:  "Public" },
-            {date: "2025-02-27", name: "results", icon:  "Mic", active: false },
+            {date: "2025-02-10", name: "jury-voting", icon:  "HowToVote" },
+            {date: "2025-02-12", name: "public-voting", icon:  "Public" },
+            {date: "2025-02-25", name: "results", icon:  "Mic", active: false },
             // {date: "2024-02-19", name: "formal", icon:  "Settings", active: false }
 
         ]
