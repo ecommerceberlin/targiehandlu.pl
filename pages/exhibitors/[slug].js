@@ -61,7 +61,7 @@ import {
   
       {/* <WidgetPresenters /> */}
   
-      {/* <Promoninja id={slug} /> */}
+      <Promoninja id={slug} />
 
       <WidgetVideoWithEventInfo setting="heroExpo" />
 
@@ -115,7 +115,7 @@ import {
         props : {
             slug :slug
         },
-        revalidate : 10
+        revalidate : 300
     }
   
   })

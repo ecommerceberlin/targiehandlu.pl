@@ -31,7 +31,7 @@ import {
 <TwoColsLayout 
 
 left={<>
-{/* <TicketDownload code={code} /> */}
+<TicketDownload code={code} />
 {/* <Resignation code={code} /> */}
 </>}
 
@@ -44,7 +44,7 @@ right={
 {/* <Invite person={person} text="Będę!" template="teh25_visitor_template"/> */}
 </Wrapper>
 
-{/* <WidgetSchedule /> */}
+<WidgetSchedule />
 {/* <WidgetSalesMap /> */}
 {/* <WidgetVisitor setting="visitor.register" /> */}
 </>)

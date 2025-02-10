@@ -14,6 +14,7 @@ import {
   } from 'eventjuicer-site-components';
   
   import settings from '../settings'
+import { cache } from 'react';
   
   //setting="bookingmap_top30" 
 
@@ -43,7 +44,8 @@ import {
   
     return await configure(props, {
       settings : settings,
-      preload : ['bookingmap']
+      preload : ['bookingmap'],
+      cache: 300
     })
   
   })

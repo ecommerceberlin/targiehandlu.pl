@@ -110,7 +110,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
     props : {
         category : category
     },
-    revalidate: 15
+    revalidate: 300
   }
 
 })

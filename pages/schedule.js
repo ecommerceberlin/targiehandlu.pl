@@ -49,7 +49,7 @@ export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
     return await configure(props, {
       settings : settings,
       preload : ["presenters"],
-      cache: 10
+      cache: 300
     })
 
   })
