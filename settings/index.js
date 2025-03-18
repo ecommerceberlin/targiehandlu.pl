@@ -248,7 +248,7 @@ const settings =  {
         og_image : "https://res.cloudinary.com/ecommerceberlin/image/upload/c_limit,w_1024/v1546943854/ebe_og_home.jpg",
     
         fingerprint: {
-            apiKey: "IQPk4AaewZU7xg4CxEN0",
+            apiKey: "OWW4rlCshv8k9OqaljFK",
             subdomain: "metrics."
         },
         recaptcha: {
@@ -855,6 +855,8 @@ const settings =  {
 
 
     exhibitors : {
+        disableMeetups: true,
+        meetupApplicationURL: "https://ecwe.pl/people/exhibitors",
         faq: {
 
             wrapperProps: {
