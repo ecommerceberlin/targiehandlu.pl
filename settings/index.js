@@ -421,11 +421,11 @@ const settings =  {
         baseLabel: "workshops.timeline",
 
         items : [
-            {date: "2024-09-30", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2024-10-04", name: "submissions-closed", icon:  "NoteAdd", dotColor: 'primary', active: true },
-            {date: "2024-10-07", name: "qualification", icon:  "Assessment" },
-            {date: "2024-10-10", name: "workshop-details", icon:  "Settings" },
-            {date: "2024-10-14", name: "attendees", icon:  "Public" },
+            {date: "2025-03-10", name: "submissions", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2025-03-14", name: "submissions-closed", icon:  "NoteAdd", dotColor: 'primary', active: true },
+            {date: "2025-03-17", name: "qualification", icon:  "Assessment" },
+            {date: "2025-03-20", name: "workshop-details", icon:  "Settings" },
+            {date: "2025-03-24", name: "attendees", icon:  "Public" },
 
         ]
 
@@ -435,7 +435,7 @@ const settings =  {
     workshops: {
 
         apply: {
-            disabled: 0,
+            disabled: 1,
             disabledTreshold: 120
         },
 
@@ -495,7 +495,7 @@ const settings =  {
 
             ],
 
-            ticket_id : 2991,
+            ticket_id : 3109,
             email_template : "pl-workshops-application",
        },
 
@@ -606,7 +606,7 @@ const settings =  {
             label: "presenters.list_featured",
             secondaryLabel: "presenters.list_description"
         },
-        og_template: "template_teh26_spkr",
+        og_template: "template_teh27_spkr",
 
 
 
@@ -825,7 +825,7 @@ const settings =  {
                 // {name: 'vote', to: '/vote'},
                 // {name: 'schedule', to: '/schedule'},
             //     // {name: 'workshops', to: '/workshops'},
-            //     // {name: 'exhibitors', to: '/exhibitors'},
+                {name: 'exhibitors', to: '/exhibitors'},
             //     // {name: 'offers', to: '/offers'}
               ]
             },
@@ -884,7 +884,7 @@ const settings =  {
               },
             ]
         },
-        ogTemplate: "template_teh26_exhibitor_",
+        ogTemplate: "template_teh27_exhibitor_",
         benefits : {
             baseLabel: "exhibitors.benefits",
             items: [

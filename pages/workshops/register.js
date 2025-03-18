@@ -65,10 +65,10 @@ const PageRegister = () => (
 
       />
 
-        {/* <WidgetRegForm
+        <WidgetRegForm
           wrapperProps={{label: null}}
          setting="workshops.registration"
-      /> */}
+      />
 
       </Wrapper>
 
