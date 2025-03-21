@@ -12,6 +12,7 @@
 * imię,
 * nazwisko,
 * adres e-mail,
+* numer telefonu
 * stanowisko w firmie,
 * reprezentowana marka (firma pracodawcy lub własna firma),
 * numer NIP reprezentowanej marki.
@@ -46,19 +47,17 @@ Jednak bez ich podania, głosowanie w Konkursie będzie niemożliwe.
 
 8) w celu obsługi ewentualnych Twoich reklamacji, zapytań, wniosków, a ponadto analizy, ustalania lub obrony przed roszczeniami.
 
-## Przekazywanie danych osobowych wystawcom Targów
+## Przekazywanie danych osobowych wystawcom i uczestnikom Targów
 
-8. Przekazujemy wystawcom Targów następujące dane osobowe Uczestników (lista wystawców dostępna jest na stronie Targów www.targiehandlu.pl):
-imię, nazwisko, stanowisko i nazwa reprezentowanej marki (firma pracodawcy lub własna firma).
+8. Przekazujemy wystawcom oraz uczestnikom Targów następujące dane osobowe Uczestników:
+   - imię,
+   - nazwisko,
+   - stanowisko,
+   - nazwa reprezentowanej marki (firma pracodawcy lub własna firma).
 
-9. Przekazanie danych, o których mowa w pkt 8 polega na udostępnieniu Wystawcom aplikacji zawierającej ww. dane Uczestników.
-Za pośrednictwem aplikacji wystawcy mogą kontaktować się z Uczestnikami w celu umówienia spotkania biznesowego podczas Targów, prosząc Administratora o przesłanie wiadomości e-mail.
-Wystawcy nie mają jednak dostępu do adresów e-mail Uczestników. E-maile wysyłane są przez Administratora.
-Odpowiedź wysyłana jest tylko wtedy, gdy Uczestnik wyrazi chęć kontaktu z danym wystawcą.
-Komunikacja ta realizowana jest za pośrednictwem prywatnej poczty elektronicznej Uczestnika, bez wiedzy Administratora (Administrator nie ma dostępu do tej korespondencji i nie jest w nią zaangażowany).
+9. Przekazanie danych, o których mowa w pkt 8, polega na udostępnieniu aplikacji zawierającej ww. dane Uczestników. Zarówno wystawcy, jak i uczestnicy mogą zapraszać się nawzajem do nawiązania kontaktu poprzez kliknięcie przycisku **"Connect"** w aplikacji. Osoba zapraszana otrzymuje powiadomienie i może zaakceptować lub odrzucić zaproszenie. Po akceptacji obie strony uzyskują dostęp do danych kontaktowych wymienionych w pkt 3.
 
-10. Podczas Wydarzenia wystawcy Targów mają możliwość skanowania kodów QR znajdujących się na biletach Uczestników. 
-Skanowanie kodu QR odbywa się za zgodą Uczestnika przy użyciu smartphone'a. Po zeskanowaniu dane Uczestnika podane podczas rejestracji i wymienione w pkt 3 są udostępniane Wystawcy w aplikacji, z której mogą zostać przez niego pobrane. 
+10. Podczas Wydarzenia wystawcy oraz uczestnicy mają możliwość skanowania kodów QR znajdujących się na biletach Uczestników. Skanowanie kodu QR odbywa się za zgodą Uczestnika przy użyciu smartfona. Po zeskanowaniu dane Uczestnika podane podczas rejestracji (wymienione w pkt 3) są udostępniane w aplikacji, z której mogą zostać pobrane.
 
 ## Podstawa prawna przetwarzania danych osobowych
 
