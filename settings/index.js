@@ -855,7 +855,7 @@ const settings =  {
 
 
     exhibitors : {
-        disableMeetups: true,
+        disableMeetups: false,
         meetupApplicationURL: "https://ecwe.pl/people/exhibitors",
         faq: {
 
