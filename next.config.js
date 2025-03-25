@@ -76,6 +76,14 @@ module.exports = withSentryConfig(withTM({
 
     async redirects() {
       return [
+
+
+        {
+          source: '/tickets/:token',
+          destination: 'https://ecwe.pl/tickets/:token',
+          permanent: true,
+        },
+
         {
           source: '/workshop',
           destination: '/workshops',
