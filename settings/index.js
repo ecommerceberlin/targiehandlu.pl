@@ -435,7 +435,7 @@ const settings =  {
     workshops: {
 
         apply: {
-            disabled: 1,
+            disabled: 0,
             disabledTreshold: 120
         },
 
@@ -824,7 +824,7 @@ const settings =  {
                 {name: 'visit', to: '/visit'},
                 // {name: 'vote', to: '/vote'},
                 {name: 'schedule', to: '/schedule'},
-            //     // {name: 'workshops', to: '/workshops'},
+                {name: 'workshops', to: '/workshops'},
                 {name: 'exhibitors', to: '/exhibitors'},
             //     // {name: 'offers', to: '/offers'}
               ]
