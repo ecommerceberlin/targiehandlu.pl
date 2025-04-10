@@ -23,9 +23,9 @@ import {
 
     <WidgetSalesMap />
 
-    <WidgetFeaturedCompanies />
-
     <WidgetIconGrid setting="exhibitors.benefits" />
+
+    <WidgetFeaturedCompanies />
   
    <WidgetFaq setting="exhibitors.faq" /> 
   

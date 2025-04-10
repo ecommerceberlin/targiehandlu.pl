@@ -142,10 +142,10 @@ const mininetworkingBenefits =    [{
         icon : "Done", 
         primary : "presentation"
     },
-    {
-        icon : "Done", 
-        primary : "stage"
-    },
+    // {
+    //     icon : "Done", 
+    //     primary : "stage"
+    // },
     {
         icon : "Done", 
         primary : "decoration"
@@ -168,10 +168,10 @@ const openStageBenefits =   [
         icon : "Done", 
         primary : "presentation"
     },
-    {
-        icon : "Done", 
-        primary : "stage"
-    },
+    // {
+    //     icon : "Done", 
+    //     primary : "stage"
+    // },
 
 
     {
@@ -191,7 +191,7 @@ const bookingmapShared = {
     //     "access"
     // ],
     disabledTicketIds : [],
-    allowedGroupIds : [515, 514, 513, 512, 511],
+    // allowedGroupIds : [515, 514, 513, 512, 511],
     boothStyleMapping: {
         516: "light",
         515: "standard",
@@ -373,13 +373,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.comeback.description"
         },
         disabledTicketIds : [
-            3007, 3008, 3009, 3010, 3011, 3012, 3106, //STD
-            3014, 3015, 3016, 3017, 3018, 3019, 3020, 3105, //HOT
-            3021, 3022, 3023, 3024, 3025, 3026, 3027, 3107, //SH
-            3028, 3029, 3030, 3032, 3033, 3034, 3104, //ULTRA
-            3041, 3042, 3043, 3045, 3046, 3058, //GRAND
-            2880, //MINI N
-            3066, 3065, 3064, 3112, //STAGE
+            3353, 3259, 3258, 3257, 3256, 3255, 3254, //STD
+            3352, 3267, 3266, 3265, 3264, 3263, 3262, 3261, //HOT
+            3354, 3274, 3273, 3272, 3271, 3270, 3269, 3268, //SH
+            3351, 3281, 3280, 3279, 3277, 3276, 3275, //ULTRA
+            3305, 3293, 3292, 3290, 3289, 3288, //GRAND
+            3283, //N
+            3311, 3312, 3313, 3359, //STAGE
         ],
     },
 
@@ -390,13 +390,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            3047, 3099, 3100, 3010, 3011, 3012, 3009,  //STD
-            3013, 3050, 3055, 3015, 3016, 3017, 3020, 3019,  //HOT
-            3049, 3052, 3088, 3023, 3021, 3024, 3027, 3026, //SH
-            3031, 3048, 3110, 3030, 3033, 3029, 3032, //ULTRA
-            3044, 3051, 3054, 3045, 3042, 3046, //GRAND
+            3294, 3346, 3347,  //STD
+            3260, 3297, 3302,  //HOT
+            3296, 3299, 3335, //SH
+            3278, 3295, 3357, //ULTRA
+            3291, 3298, 3301, //GRAND
             3059, //MINI N
-            3063, 3038, 3035, 3111, //STAGE
+            3310, 3285, 3282, 3358, //STAGE
         ],
     },
 
@@ -870,18 +870,18 @@ const settings =  {
                 important: true,
                 buttons: [],
               },
+              { label: 'payment' },
               {
                 baseLabel: 'exhibitors.faq.before_event',
                 label: 'additional_paid_services',
               },
-              { label: 'payment' },
               { label: 'onboarding' },
-              { label: 'resignation' },
-              { label: 'promo_benefits' },
+            //   { label: 'resignation' },
               {
                 baseLabel: 'exhibitors.faq.before_event',
                 label: 'public_profile',
               },
+              { label: 'promo_benefits' },
             ]
         },
         ogTemplate: "template_teh27_exhibitor_",
@@ -984,7 +984,7 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811883511',
-        event_name : 'E-commerce Warsaw EXPO (Targi eHandlu)',
+        event_name : 'E-commerce Warsaw Expo (Targi eHandlu)',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
         event_date : '24.10.2025',
