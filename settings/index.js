@@ -191,38 +191,38 @@ const bookingmapShared = {
     //     "access"
     // ],
     disabledTicketIds : [],
-    allowedGroupIds : [485, 484, 483, 482, 481, 480],
+    allowedGroupIds : [515, 514, 513, 512, 511],
     boothStyleMapping: {
-        485: "light",
-        484: "standard",
-        483: "hot",
-        482: "superHot",
-        481: "ultra",
-        480: "grand",
-        479: "stage",
-        474: "stage", //stage B
-        473: "stage", //stage D
-        486: "stage", //stage C
+        516: "light",
+        515: "standard",
+        514: "hot",
+        513: "superHot",
+        512: "ultra",
+        511: "grand",
+        510: "stage",
+        505: "stage", //stage B
+        504: "stage", //stage D
+        517: "stage", //stage C
 
-        477: "networking",
-        475: "networking", //mini networking
-        478: "boothSold", //last minute / buffer
-        476: "boothSold", //test
+        508: "networking",
+        506: "networking", //mini networking
+        509: "boothSold", //last minute / buffer
+        506: "boothSold", //test
     
     },
     benefits: {
-        485: standardBenefits,
-        484: standardBenefits,
-        483: standardBenefits,
-        482: standardBenefits,
-        481: standardBenefits,
-        480: premiumBenefits,
-        479: stageBenefits,
-        474: openStageBenefits,
-        473: openStageBenefits,
-        486: openStageBenefits,
-        477: networkingBenefits,
-        475: mininetworkingBenefits
+        516: standardBenefits,
+        515: standardBenefits,
+        514: standardBenefits,
+        513: standardBenefits,
+        512: standardBenefits,
+        511: premiumBenefits,
+        510: stageBenefits,
+        505: openStageBenefits,
+        504: openStageBenefits,
+        517: openStageBenefits,
+        508: networkingBenefits,
+        506: mininetworkingBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
     ecommerce: "ecommerce",
@@ -818,28 +818,28 @@ const settings =  {
                 ]
             },
 
-            {
-              name: 'visitors',
-              items: [
-                {name: 'visit', to: '/visit'},
-                // {name: 'vote', to: '/vote'},
-                {name: 'schedule', to: '/schedule'},
-                {name: 'workshops', to: '/workshops'},
-                {name: 'exhibitors', to: '/exhibitors'},
-            //     // {name: 'offers', to: '/offers'}
-              ]
-            },
-            {
-              name: 'exhibitors',
-              items: [
-                {name: 'exhibit', to: '/exhibit'},
-                {name: 'premium', to: '/premium'},
-                // {name: 'sample-visitors', to: '/sample-visitors'},
-                // {name: 'exhibitors', to: '/exhibitors'},
-                // {name: 'premium-services', to: '/premium'},
-                // {name: 'faq', to: '/faq'},
-              ]
-            }
+            // {
+            //   name: 'visitors',
+            //   items: [
+            //     {name: 'visit', to: '/visit'},
+            //     // {name: 'vote', to: '/vote'},
+            //     {name: 'schedule', to: '/schedule'},
+            //     {name: 'workshops', to: '/workshops'},
+            //     {name: 'exhibitors', to: '/exhibitors'},
+            // //     // {name: 'offers', to: '/offers'}
+            //   ]
+            // },
+            // {
+            //   name: 'exhibitors',
+            //   items: [
+            //     {name: 'exhibit', to: '/exhibit'},
+            //     {name: 'premium', to: '/premium'},
+            //     // {name: 'sample-visitors', to: '/sample-visitors'},
+            //     // {name: 'exhibitors', to: '/exhibitors'},
+            //     // {name: 'premium-services', to: '/premium'},
+            //     // {name: 'faq', to: '/faq'},
+            //   ]
+            // }
 
 
   
@@ -848,7 +848,7 @@ const settings =  {
 
     premium : {
 
-        ticketgroups : [472],
+        ticketgroups : [503],
         soldout: 'https://res.cloudinary.com/ecommerceberlin/image/upload/v1684149426/Website/PREMIUM%20SERVICES/sold-out.png'
 
     },
@@ -984,10 +984,10 @@ const settings =  {
         organizer_name : 'Infoguru Sp. z o.o.',
         organizer_address : 'POLAND, Poznań, Truskawiecka 13',
         organizer_regno : 'VAT ID 7811883511',
-        event_name : '27. Targi eHandlu',
+        event_name : 'E-commerce Warsaw EXPO (Targi eHandlu)',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '3.04.2025',
+        event_date : '24.10.2025',
         event_hours : '10:00-17:00',
 
     },
