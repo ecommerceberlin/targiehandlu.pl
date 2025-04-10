@@ -24,7 +24,7 @@ import { cache } from 'react';
 
     <WidgetSalesMap setting="bookingmap_top30" />
 
-    <WidgetSalesMap />
+    {/* <WidgetSalesMap /> */}
 
     <WidgetIconGrid setting="exhibitors.benefits" />
 
