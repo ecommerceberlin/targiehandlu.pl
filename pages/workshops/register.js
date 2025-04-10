@@ -49,26 +49,26 @@ const PageRegister = () => (
 
   
   </div> }
-        right={ 
-          <WidgetVerticalTimeline 
-          setting="workshopstimeline" 
-          icons={{
-            NoteAdd,
-            Settings,
-            Public,
-            Mic,
-            Assessment
-          }} />
-        }
+        // right={ 
+        //   <WidgetVerticalTimeline 
+        //   setting="workshopstimeline" 
+        //   icons={{
+        //     NoteAdd,
+        //     Settings,
+        //     Public,
+        //     Mic,
+        //     Assessment
+        //   }} />
+        // }
 
       leftCentered={true}
 
       />
 
-        <WidgetRegForm
+        {/* <WidgetRegForm
           wrapperProps={{label: null}}
          setting="workshops.registration"
-      />
+      /> */}
 
       </Wrapper>
 

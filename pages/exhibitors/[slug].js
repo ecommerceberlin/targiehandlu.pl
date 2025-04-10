@@ -37,7 +37,7 @@ import {
 
 
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
       <WidgetSchedule />
 
@@ -45,7 +45,7 @@ import {
 
       <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } limit={12} />
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
 
        {/* <WidgetSalesMap
