@@ -24,7 +24,7 @@ import { cache } from 'react';
       <HeadSpeaker setting="speakers" id={id} path="/speakers">{(data)=><Head>{data}</Head> }</HeadSpeaker>
       <WidgetPresenterNew id={id} path="/speakers" />
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
 
       {/* <WidgetVideoWithEventInfo setting="heroExpo" /> */}
@@ -37,7 +37,7 @@ import { cache } from 'react';
 
       {/* <WidgetPresenters setting="speakers" link={(item) => `/speakers/${item.id}` } /> */}
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
   </>
 )

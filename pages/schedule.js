@@ -31,7 +31,7 @@ import {
 
       <WidgetSchedule />
 
-      <WidgetRegForm setting="visitor.register" />
+      {/* <WidgetRegForm setting="visitor.register" /> */}
 
       <WidgetAllOrCurrentExhibitorsColumnList threshold={70} /> 
 
