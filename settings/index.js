@@ -281,6 +281,7 @@ const settings =  {
             {name: "phone", required: true},
 
             {name: "cname", required: true},
+            {name: "cname2", required: true},
             {name: "nip", required: true},
 
             {name: "accept", required: true, type: "confirm"}
