@@ -1006,7 +1006,7 @@ const settings =  {
                 langs : ["pl","en"],
                 avatar: 'https://res.cloudinary.com/eventjuicer/image/upload/v1697114443/targiehandlu_people_kw.jpg',
                 phone: '+48 535 801 021',
-                email: 'karolina.wojtas@targiehandlu.pl',
+                email: 'hello@ecommercewarsaw.com',
                 chatlio : true
             },
           
@@ -1017,7 +1017,7 @@ const settings =  {
         secondaryStyle: null,
       //  iconStyle: "heroIcon",
         links : [
-            {label: "exhibitors.agreement.title", href : "/legal-2024-11-05"},
+            {label: "exhibitors.agreement.title", href : "/legal-2025-04-14"},
             {label: "visitors.legal.title", href : "/legal/visitors"},
             {label: "visitors.legal-gdpr.title", href : "/legal/visitors-data"},
         ]

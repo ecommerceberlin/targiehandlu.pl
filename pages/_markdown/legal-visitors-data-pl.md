@@ -3,11 +3,11 @@
 1. Administratorem Twoich danych jest Infoguru Sp. z o.o. z siedzibą w Poznaniu, ul. Truskawiecka 13, 
 60-478 Poznań, KRS 0000452046.
 
-2. Możesz skontaktować się z nami drogą e-mailową: hello@targiehandlu.com.pl, lub pisząc do nas na adres: ul. Truskawiecka 13, 60-478 Poznań (Polska).
+2. Możesz skontaktować się z nami drogą e-mailową: hello@ecommercewarsaw.com, lub pisząc do nas na adres: ul. Truskawiecka 13, 60-478 Poznań (Polska).
 
 ## Kategorie danych osobowych, jakie przetwarzamy oraz dobrowolność ich przekazania 
 
-3. Organizujemy Targi E-commerce Warsaw Expo - Targi eHandlu („Targi”). Jeśli chcesz uczestniczyć w Targach jako Uczestnik – Zwiedzający („Uczestnik”), możesz to zrobić bezpłatnie, po zarejestrowaniu się na stronie Targów i podaniu następujących danych osobowych:
+3. Organizujemy targi E-commerce Warsaw Expo („Targi”). Jeśli chcesz uczestniczyć w Targach jako Uczestnik – Zwiedzający („Uczestnik”), możesz to zrobić bezpłatnie, po zarejestrowaniu się na stronie Targów i podaniu następujących danych osobowych:
 
 * imię,
 * nazwisko,
@@ -63,7 +63,7 @@ Jednak bez ich podania, głosowanie w Konkursie będzie niemożliwe.
 
 11. Twoje dane osobowe przetwarzamy w oparciu o różne podstawy prawne. Wśród
 nich należy wymienić:
-* niezbędność do wykonania umowy zawartej pomiędzy nami a Tobą jako Uczestnikiem, zawieranej podczas rejestracji na stronie Targiehandlu.pl. Warunki umowy określa Regulamin dla Zwiedzających,
+* niezbędność do wykonania umowy zawartej pomiędzy nami a Tobą jako Uczestnikiem, zawieranej podczas rejestracji na stronie ecommercewarsaw.com. Warunki umowy określa Regulamin dla Zwiedzających,
 * realizację naszych prawnie uzasadnionych interesów, w szczególności marketing bezpośredni, zapobieganie oszustwom, ustalanie, dochodzenie lub obrona przed roszczeniami. Marketing bezpośredni polega na przekazywaniu drogą mailową informacji o Targach, w tym o kolejnych edycjach imprezy, w szczególności informacji zachęcających adresatów do udziału w Targach.
 * Twoją zgodę, gdy zgadzasz się na przetwarzanie Twoich danych w określonych celach, np. zgadzasz się na zeskanowanie kodu QR znajdującego się Twoim bilecie lub oddajesz głosy w Konkursie.
 
