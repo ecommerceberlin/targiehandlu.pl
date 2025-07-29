@@ -940,6 +940,27 @@ const settings =  {
 
         },
 
+        waitinglist: {
+
+            wrapperProps: {
+                label : "visitors.waitinglist",
+            },
+            fields : [
+              {name: "email", required: true},
+              {name: "fname", required: true},
+              {name: "lname", required: true},
+              {name: "cname2", required: true},
+              {name: "position", required: true},
+              {name: "nip", required: false},
+              {name: "phone", required: true}
+            ],
+            start : ['email', 'fname'],
+            ticket_id : 3370,
+            // email_template : "pl-visitors-registration",
+            // right : "/lanyard.jpg",
+
+        },
+
         benefits : {
 
             baseLabel: "visitors.benefits",
