@@ -27,6 +27,8 @@ import {
 
     <WidgetSalesMap />
 
+    <WidgetRegForm setting="visitor.waitinglist" /> 
+
     <WidgetFeaturedCompanies />
 
     {/* <WidgetRegForm setting="visitor.register" />  */}

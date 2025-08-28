@@ -392,8 +392,8 @@ const settings =  {
         },
         disabledTicketIds : [
             3294, 3346, 3347, 3257, 3258, 3259, 3256,  //STD
-            3260, 3297, 3302, 3262, 3263, 3264, 3267,  //HOT
-            3296, 3299, 3335, 3270, 3271, 3268, 3274, //SH
+            3260, 3297, 3302, 3262, 3263, 3264, 3267, 3266,  //HOT
+            3296, 3299, 3335, 3270, 3271, 3268, 3274, 3273, //SH
             3278, 3295, 3357, 3279, 3280, 3276, 3277, //ULTRA
             3291, 3298, 3301, 3292, 3293, 3289, //GRAND
             3362, // N
@@ -937,6 +937,27 @@ const settings =  {
             ticket_id : 3060,
             email_template : "pl-visitors-registration",
             right : "/lanyard.jpg",
+
+        },
+
+        waitinglist: {
+
+            wrapperProps: {
+                label : "visitors.waitinglist",
+            },
+            fields : [
+              {name: "email", required: true},
+              {name: "fname", required: true},
+              {name: "lname", required: true},
+              {name: "cname2", required: true},
+              {name: "position", required: true},
+              {name: "nip", required: false},
+              {name: "phone", required: true}
+            ],
+            start : ['email', 'fname'],
+            ticket_id : 3370,
+            // email_template : "pl-visitors-registration",
+            // right : "/lanyard.jpg",
 
         },
 
