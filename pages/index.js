@@ -53,7 +53,7 @@ import {
       preload : ['bookingmap', "companies", "allexhibitors", "purchases", "exhibitors2"],
       // preload : ['exhibitors', 'allexhibitors']
       // preload : ['presenters'],
-      cache: 300
+      cache: 3600
     })
   
   })

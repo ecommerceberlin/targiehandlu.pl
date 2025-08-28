@@ -77,6 +77,11 @@ module.exports = withSentryConfig(withTM({
     async redirects() {
       return [
 
+        {
+          source: '/',
+          destination: 'https://ecommercewarsaw.com',
+          permanent: false,
+        },
 
         {
           source: '/tickets/:token',
