@@ -19,11 +19,13 @@ import {
   
    <>
 
-    <WidgetVideoWithEventInfo setting="heroExpo" />
 
-    {/* <WidgetRegForm setting="visitor.register" />  */}
 
-    {/* <WidgetSchedule />  */}
+    {/* <WidgetVideoWithEventInfo setting="heroExpo" />
+
+    <WidgetRegForm setting="visitor.register" /> 
+
+    <WidgetSchedule /> 
 
     <WidgetSalesMap />
 
@@ -31,33 +33,43 @@ import {
 
     <WidgetFeaturedCompanies />
 
-    {/* <WidgetRegForm setting="visitor.register" />  */}
+    <WidgetRegForm setting="visitor.register" /> 
 
-    {/* <WidgetSalesMap /> */}
+    <WidgetSalesMap />
 
-    {/* <WidgetFeaturedCompanies /> */}
+    <WidgetFeaturedCompanies />
 
-    {/* <WidgetRegForm setting="visitor.register" />  */}
+    <WidgetRegForm setting="visitor.register" /> 
 
-    {/* <WidgetAllOrCurrentExhibitorsColumnList threshold={70} /> */}
+    <WidgetAllOrCurrentExhibitorsColumnList threshold={70} />
 
-  
+   */}
 
 
   </>
   
   )
   
-  export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
+  // export const getStaticProps = reduxWrapper.getStaticProps(async (props) => {
   
-    return await configure(props, {
-      settings : settings,
-      preload : ['bookingmap', "companies", "allexhibitors", "purchases", "exhibitors2"],
-      // preload : ['exhibitors', 'allexhibitors']
-      // preload : ['presenters'],
-      cache: 3600
-    })
+  //   return await configure(props, {
+  //     settings : settings,
+  //     // preload : ['bookingmap', "companies", "allexhibitors", "purchases", "exhibitors2"],
+  //     // preload : ['exhibitors', 'allexhibitors']
+  //     // preload : ['presenters'],
+  //     cache: 3600
+  //   })
   
-  })
+  // })
+
+
+  export async function getServerSideProps(context) {
+    return {
+      redirect: {
+        destination: 'https://ecommercewarsaw.com',
+        permanent: false, // 302 redirect
+      }
+    }
+  }
   
   export default connect()(PageIndex);
