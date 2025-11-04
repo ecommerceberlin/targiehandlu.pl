@@ -33,7 +33,7 @@ import {
   
     {/* <WidgetAllExhibitorsColumnList /> */}
 
-    <WidgetVideoWithEventInfo setting="heroExpo" />
+    {/* <WidgetVideoWithEventInfo setting="heroExpo" /> */}
 
   
   </>

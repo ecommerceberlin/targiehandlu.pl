@@ -194,34 +194,34 @@ const bookingmapShared = {
     // allowedGroupIds : [515, 514, 513, 512, 511],
     boothStyleMapping: {
         516: "light",
-        515: "standard",
-        514: "hot",
-        513: "superHot",
-        512: "ultra",
-        511: "grand",
-        510: "stage",
-        505: "stage", //stage B
-        504: "stage", //stage D
-        517: "stage", //stage C
+        530: "standard",
+        529: "hot",
+        528: "superHot",
+        527: "ultra",
+        526: "grand",
+        525: "stage",
+        520: "stage", //stage B
+        532: "stage", //stage D
+        519: "stage", //stage C
 
-        508: "networking",
+        523: "networking",
         506: "networking", //mini networking
-        509: "boothSold", //last minute / buffer
+        524: "boothSold", //last minute / buffer
         506: "boothSold", //test
     
     },
     benefits: {
-        516: standardBenefits,
-        515: standardBenefits,
-        514: standardBenefits,
-        513: standardBenefits,
+        530: standardBenefits,
+        529: standardBenefits,
+        528: standardBenefits,
+        527: standardBenefits,
         512: standardBenefits,
-        511: premiumBenefits,
-        510: stageBenefits,
-        505: openStageBenefits,
-        504: openStageBenefits,
-        517: openStageBenefits,
-        508: networkingBenefits,
+        526: premiumBenefits,
+        525: stageBenefits,
+        519: openStageBenefits,
+        532: stageBenefits,
+        520: openStageBenefits,
+        523: networkingBenefits,
         506: mininetworkingBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
@@ -374,13 +374,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.comeback.description"
         },
         disabledTicketIds : [
-            3353, 3259, 3258, 3257, 3256, 3255, 3254, //STD
-            3352, 3267, 3266, 3265, 3264, 3263, 3262, 3261, //HOT
-            3354, 3274, 3273, 3272, 3271, 3270, 3269, 3268, //SH
-            3351, 3281, 3280, 3279, 3277, 3276, 3275, //ULTRA
-            3305, 3293, 3292, 3290, 3289, 3288, //GRAND
-            3283, //N
-            3311, 3312, 3313, 3359, //STAGE
+            3393, 3394, 3395, 3392, 3390, 3391, //STD
+            3398, 3399, 3400, 3403, 3402, 3401, 3397, //HOT
+            3406, 3407, 3404, 3410, 3409, 3408, 3405, //SH
+            3415, 3416, 3412, 3413, 3417, 3411, //ULTRA
+            3428, 3429, 3425, 3424, 3426, //GRAND
+            3419, //N
+            3449, 3448, 3447, 3495, //STAGE
         ],
     },
 
@@ -391,13 +391,13 @@ const settings =  {
             secondaryLabel: "exhibitors.map.opensales"
         },
         disabledTicketIds : [
-            3294, 3346, 3347, 3257, 3258, 3259, 3256,  //STD
-            3260, 3297, 3302, 3262, 3263, 3264, 3267, 3266,  //HOT
-            3296, 3299, 3335, 3270, 3271, 3268, 3274, 3273, //SH
-            3278, 3295, 3357, 3279, 3280, 3276, 3277, //ULTRA
-            3291, 3298, 3301, 3292, 3293, 3289, //GRAND
-            3362, // N
-            3310, 3285, 3282, 3358, //STAGE
+            3430, 3483, //STD
+            3396, 3433, 3438, //HOT
+            3471, 3435, 3432, //SH
+            3414, 3431, 3493, //ULTRA
+            3427, 3434, //GRAND
+            3498, //N
+            3418, 3421, 3494, 3446, //STAGE
         ],
     },
 
