@@ -218,8 +218,8 @@ const bookingmapShared = {
         512: standardBenefits,
         526: premiumBenefits,
         525: stageBenefits,
-        519: stageBenefits,
-        532: openStageBenefits,
+        519: openStageBenefits,
+        532: stageBenefits,
         520: openStageBenefits,
         523: networkingBenefits,
         506: mininetworkingBenefits
