@@ -1,125 +1,135 @@
-## Informacje o Administratorze danych
+# Informacja o przetwarzaniu danych osobowych (RODO) – E-commerce Warsaw Expo
 
-1. Administratorem Twoich danych jest Infoguru Sp. z o.o. z siedzibą w Poznaniu, ul. Truskawiecka 13, 
-60-478 Poznań, KRS 0000452046.
+### 1. Informacje o Administratorze danych
 
-2. Możesz skontaktować się z nami drogą e-mailową: hello@ecommercewarsaw.com, lub pisząc do nas na adres: ul. Truskawiecka 13, 60-478 Poznań (Polska).
+Administratorem Twoich danych jest Infoguru Sp. z o.o. z siedzibą w Poznaniu, ul. Truskawiecka 13, 60-478 Poznań, KRS 0000452046, NIP 7811883511.
 
-## Kategorie danych osobowych, jakie przetwarzamy oraz dobrowolność ich przekazania 
+Kontakt: hello@ecommercewarsaw.com lub korespondencyjnie: Infoguru Sp. z o.o. ul. Truskawiecka 13, 60-478 Poznań (Polska).
 
-3. Organizujemy targi E-commerce Warsaw Expo („Targi”). Jeśli chcesz uczestniczyć w Targach jako Uczestnik – Zwiedzający („Uczestnik”), możesz to zrobić bezpłatnie, po zarejestrowaniu się na stronie Targów i podaniu następujących danych osobowych:
+Administrator nie wyznaczył inspektora ochrony danych. W sprawach ochrony danych skontaktuj się poprzez kanały wskazane wyżej.
 
-* imię,
-* nazwisko,
-* adres e-mail,
-* numer telefonu
-* stanowisko w firmie,
-* reprezentowana marka (firma pracodawcy lub własna firma),
-* numer NIP reprezentowanej marki.
+## 2. Kategorie danych i dobrowolność podania
 
-4. Spółka jest również organizatorem konkursu Call for Papers („Konkurs”),
-w którym każda osoba posiadająca aktywny profil na LinkedIn, może oddać sześć głosów.
-W związku z Konkursem przetwarzamy adres e-mail głosującego.
+Organizujemy targi E-commerce Warsaw Expo („Targi”). Udział w charakterze Zwiedzającego („Uczestnik”) jest odpłatny (bilet Standard / Provider). Przy rejestracji i zakupie biletu prosimy o:
 
-5. Podanie danych osobowych jest dobrowolne. 
-Jednak bez ich podania niemożliwe będzie zawarcie umowy pomiędzy Administratorem a Uczestnikiem, w ramach której Uczestnik otrzyma bilet wstępu na Targi.
+imię, nazwisko,
 
-6. W związku z Konkursem podanie danych osobowych jest dobrowolne.
-Jednak bez ich podania, głosowanie w Konkursie będzie niemożliwe.
+adres e-mail,
 
-## Cele w jakich przetwarzane są dane osobowe
+numer telefonu,
 
-7. Dane osobowe, o których mowa w pkt 3 powyżej służą wyłącznie do następujących celów:
+stanowisko,
 
-1) wygenerowanie dla Ciebie jako Uczestnika indywidualnego biletu wstępu na Targi zgodnie z Regulaminem dla Zwiedzających,
+nazwa firmy/marki (pracodawcy lub własna),
 
-2) w celu weryfikacji tożsamości Uczestnika przy wejściu na Targi, zgodnie z Regulaminem Zwiedzających,
+NIP (jeśli dotyczy),
 
-3) w celu realizacji komunikacji związanej z Targami, zgodnie z Regulaminem dla Zwiedzających,
+dane do faktury (jeśli różne od powyższych).
 
-4) do wysyłania e-maili, o których mowa w pkt. 9, zgodnie z Regulaminem dla Zwiedzających,
+Nie przechowujemy danych kart płatniczych – te przetwarza dostawca płatności (Mollie B.V.).
 
-5) w celu realizacji działań marketingu bezpośredniego usług Administratora – komunikacja mailowa związana z bieżącą i kolejnymi edycjami Targów,
+Prowadzimy również Konkurs „Call for Papers” („Konkurs”), w którym osoby z aktywnym profilem na LinkedIn mogą oddać głosy. W związku z Konkursem przetwarzamy adres e-mail głosującego (oraz techniczne dane anty-nadużyciowe, jeśli to konieczne).
 
-6) w celu sprawdzenia, czy głosujący oddał głos w Konkursie,
+Podanie danych jest dobrowolne, ale niezbędne do zawarcia umowy (zakup biletu) albo do udziału w Konkursie. Brak podania danych uniemożliwia odpowiednio: zakup biletu/udział w Targach lub oddanie głosu w Konkursie. Udział przeznaczony jest dla osób pełnoletnich.
 
-7) w celu promocji wydarzenia w mediach społecznościowych,
+## 3. Cele przetwarzania
 
-8) w celu obsługi ewentualnych Twoich reklamacji, zapytań, wniosków, a ponadto analizy, ustalania lub obrony przed roszczeniami.
+Dane, o których mowa wyżej, przetwarzamy w następujących celach:
 
-## Przekazywanie danych osobowych wystawcom i uczestnikom Targów
+rejestracja i wygenerowanie biletu na Targi, weryfikacja tożsamości przy wejściu – realizacja umowy (Regulamin Zwiedzających);
 
-8. Przekazujemy wystawcom oraz uczestnikom Targów następujące dane osobowe Uczestników:
-   - imię,
-   - nazwisko,
-   - stanowisko,
-   - nazwa reprezentowanej marki (firma pracodawcy lub własna firma).
+komunikacja operacyjna związana z Targami (potwierdzenia, informacje organizacyjne, istotne zmiany, bezpieczeństwo wydarzenia);
 
-9. Przekazanie danych, o których mowa w pkt 8, polega na udostępnieniu aplikacji zawierającej ww. dane Uczestników. Zarówno wystawcy, jak i uczestnicy mogą zapraszać się nawzajem do nawiązania kontaktu poprzez kliknięcie przycisku **"Connect"** w aplikacji. Osoba zapraszana otrzymuje powiadomienie i może zaakceptować lub odrzucić zaproszenie. Po akceptacji obie strony uzyskują dostęp do danych kontaktowych wymienionych w pkt 3.
+wysyłka wiadomości e-mail niezbędnych do realizacji umowy (np. bilet, potwierdzenie płatności, kwestie serwisowe);
 
-10. Podczas Wydarzenia wystawcy oraz uczestnicy mają możliwość skanowania kodów QR znajdujących się na biletach Uczestników. Skanowanie kodu QR odbywa się za zgodą Uczestnika przy użyciu smartfona. Po zeskanowaniu dane Uczestnika podane podczas rejestracji (wymienione w pkt 3) są udostępniane w aplikacji, z której mogą zostać pobrane.
+marketing bezpośredni usług Administratora dotyczący bieżącej i przyszłych edycji Targów (patrz też pkt 12–13 w zakresie podstaw i kanałów komunikacji);
 
-## Podstawa prawna przetwarzania danych osobowych
+obsługa reklamacji, zapytań, wniosków; ustalanie, dochodzenie lub obrona przed roszczeniami;
 
-11. Twoje dane osobowe przetwarzamy w oparciu o różne podstawy prawne. Wśród
-nich należy wymienić:
-* niezbędność do wykonania umowy zawartej pomiędzy nami a Tobą jako Uczestnikiem, zawieranej podczas rejestracji na stronie ecommercewarsaw.com. Warunki umowy określa Regulamin dla Zwiedzających,
-* realizację naszych prawnie uzasadnionych interesów, w szczególności marketing bezpośredni, zapobieganie oszustwom, ustalanie, dochodzenie lub obrona przed roszczeniami. Marketing bezpośredni polega na przekazywaniu drogą mailową informacji o Targach, w tym o kolejnych edycjach imprezy, w szczególności informacji zachęcających adresatów do udziału w Targach.
-* Twoją zgodę, gdy zgadzasz się na przetwarzanie Twoich danych w określonych celach, np. zgadzasz się na zeskanowanie kodu QR znajdującego się Twoim bilecie lub oddajesz głosy w Konkursie.
+obsługa Konkursu (weryfikacja oddanych głosów, przeciwdziałanie nadużyciom);
 
-## Okres przetwarzania danych osobowych
+promocja wydarzenia w mediach społecznościowych (np. publikacja materiałów foto/wideo);
 
-12. Twoje dane osobowe, które pozyskujemy w celu prawidłowej realizacji umowy zawartej z Tobą, przetwarzamy przez okres jej wykonywania i okres przedawnienia roszczeń (3 lata). Jeśli wybrane dane osobowe są objęte wymaganą przepisami prawa dokumentacją podatkową lub księgową, przez okres przechowywania takich dokumentów (5 lat). 
-Twoje dane, które pozyskujemy w celu realizacji naszych prawnie uzasadnionych interesów, przetwarzamy do czasu wniesienia przez Ciebie sprzeciwu (w pewnych przypadkach do czasu uwzględnienia takiego sprzeciwu albo - w razie istnienia innej przesłanki przetwarzania – do czasu gdy ona istnieje).
-Twoje dane, które pozyskujemy na podstawie Twojej zgody, przetwarzamy do czasu jej cofnięcia.
+realizacja funkcji networkingowych (patrz pkt 9–11).
 
-## Miejsce przechowywania danych osobowych oraz inni odbiorcy Twoich danych
+## 4. Networking, „Connect” i skanowanie QR
 
-13. Twoje dane są przechowywane na serwerach dzierżawionych od Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Niemcy i znajdują się na [https://www.hetzner.com/rechtliches/impressum?country=us](https://www.hetzner.com/rechtliches/impressum?country=us)
+W ramach opcji „bilet sponsorowany” przekazujemy wybranemu przez Ciebie Wystawcy wyłącznie: imię, nazwisko, nazwa firmy – bez danych kontaktowych (bez e-mail/telefonu).
 
-Twoje dane przekazujemy również innym dostawcom usług IT, w szczególności oprogramowania i usług chmurowych, oraz dostawcom usług prawnych i księgowych, bez których to usług nie moglibyśmy zorganizować skutecznie Targów.
+W aplikacji networkingowej Organizatora (należącej do Infoguru) udostępniamy Wystawcom i zarejestrowanym Uczestnikom niekontaktowe dane profilowe (imię, nazwisko, stanowisko, nazwa firmy). Uczestnicy i Wystawcy mogą wysyłać sobie zaproszenia „Connect”. Po akceptacji zaproszenia obie strony uzyskują wzajemny dostęp do danych kontaktowych (e-mail/telefon) – w zakresie, w jakim zostały podane przy rejestracji.
 
-## Prawa osób, których dane przetwarzamy
+Podczas Targów Wystawcy i Uczestnicy mogą skanować kod QR z biletu Uczestnika (za jego zgodą, przy użyciu smartfona). Po zeskanowaniu, w aplikacji Organizatora udostępniane są dane podane przy rejestracji (pkt 4). Dane te mogą zostać pobrane przez stronę skanującą.
 
-14. Każda osoba, której dane osobowe przetwarzamy ma prawo wnieść skargę na nasze działania lub zaniechania do właściwego organu nadzorczego, tj. Prezesa Urzędu Ochrony Danych Osobowych.
-Biuro Prezesa Urzędu Ochrony Danych Osobowych mieści się pod adresem: ul. Stawki 2, 00-193 Warszawa.
+## 5. Podstawy prawne
 
-15. Każda osoba, której dane przetwarzamy, ma prawo uzyskać od nas potwierdzenie, czy jej dane osobowe są przetwarzane i jeśli tak jest,
-jest uprawniona do uzyskania dostępu do danych oraz uzyskania informacji zawartych w niniejszym dokumencie.
+Przetwarzamy dane na podstawie:
 
-16. Każda osoba, której dane osobowe przetwarzamy ma prawo żądać od nas niezwłocznego sprostowania nieprawidłowych danych.
-Ponadto, z uwagi na cele przetwarzania, osoba, której dane dotyczą, ma prawo żądania uzupełnienia niekompletnych danych osobowych, w tym poprzez przedstawienie dodatkowego oświadczenia.
+art. 6 ust. 1 lit. b RODO – wykonanie umowy (rejestracja, bilet, wejście na Targi, komunikacja operacyjna);
 
-17. Każda osoba, której dane dotyczą, ma prawo do „bycia zapomnianym”.
-Oznacza to, że każdy, kogo dane dotyczą, może zażądać od nas usunięcia jego danych osobowych, a zrobimy to niezwłocznie, pod warunkiem, że:
+art. 6 ust. 1 lit. c RODO – obowiązki prawne (rachunkowość, podatki, archiwizacja dokumentów sprzedaży);
 
-* dane osobowe nie są już niezbędne do celów, o których mowa w pkt 7 powyżej,
-* osoba, której dane dotyczą, cofa zgodę, na podstawie której przetwarzamy dane, i nie ma innej podstawy przetwarzania,
-* osoba, której dane dotyczą, sprzeciwiła się przetwarzaniu przez nas danych (patrz pkt 20 poniżej)
-* dane przetwarzane są niezgodnie z prawem,
-* żądanie usunięcia danych wynika z faktu, że nie dopełniliśmy ciążącego na nas obowiązku prawnego wynikającego z prawa Unii Europejskiej lub prawa polskiego,
-* dane osobowe zostały pozyskane w wyniku oferowania usług społeczeństwa informacyjnego osobie poniżej 18 roku życia.
+art. 6 ust. 1 lit. f RODO – nasz prawnie uzasadniony interes (organizacja i bezpieczeństwo wydarzenia, ochrona przed nadużyciami, ustalanie/dochodzenie/obrona roszczeń, analiza statystyczna, marketing własny);
 
-18. Osoba, której dane dotyczą, ma prawo żądać od nas ograniczenia przetwarzania w następujących sytuacjach:
+art. 6 ust. 1 lit. a RODO – zgoda, gdy ma zastosowanie (np. skan QR, udział w Konkursie, zgoda na kanał komunikacji marketingowej e-mail/SMS, jeśli wymagana przepisami poza-RODO).
 
-* osoba, której dane dotyczą, kwestionuje prawidłowość danych osobowych – na czas potrzebny nam do weryfikacji tych danych,
-* przetwarzanie jest niezgodne z prawem, a osoba, której dane dotyczą, sprzeciwia się ich usunięciu, żądając w zamian ograniczenia ich wykorzystania,
-* nie potrzebujemy już danych osobowych do celów przetwarzania, ale osoba, której dotyczą, potrzebuje ich do formułowania, dochodzenia lub obrony roszczeń,
-* osoba, której dane dotyczą, wniosła sprzeciw wobec przetwarzania przez nas danych (patrz pkt 21) – tak długo, jak będzie to konieczne do ustalenia, czy prawnie uzasadnione podstawy po stronie Administratora są nadrzędne wobec podstawy sprzeciwu osoby, której dane dotyczą.
+Marketing e-mail/SMS. Przetwarzanie danych do celów marketingu bezpośredniego może opierać się na art. 6 ust. 1 lit. f RODO (uzasadniony interes). Jednocześnie wysyłka informacji handlowych określonym kanałem (e-mail/SMS/telefon) wymaga wcześniejszej zgody zgodnie z art. 10 ustawy o świadczeniu usług drogą elektroniczną i art. 172 Prawa telekomunikacyjnego. Dlatego przy rejestracji możemy prosić o oddzielną zgodę na kanał. Zgody możesz w każdej chwili wycofać (unsubscribe).
 
-19. Osoba, której dane dotyczą, ma prawo otrzymać od nas – w ustrukturyzowanym, powszechnie używanym,
-w formacie nadającym się do odczytu maszynowego – dane osobowe, które podała oraz ma prawo przesłać te dane osobowe innej administracji, a także żądać – o ile jest to technicznie możliwe – abyśmy przesłali te dane bezpośrednio innemu administratorowi, pod warunkiem, że:
+Konkurs: przetwarzanie danych głosującego opiera się na zgodzie (art. 6 ust. 1 lit. a RODO) oraz uzasadnionym interesie (art. 6 ust. 1 lit. f) w zakresie zapobiegania nadużyciom i weryfikacji głosów.
 
-* dane przetwarzane są na podstawie zgody lub w celu wykonania zawartej z nami umowy,
-* dane przetwarzane są automatycznie.
+## 6. Okres przechowywania
 
-20. Przetwarzamy zgromadzone dane osobowe w celu marketingu bezpośredniego, więc osoba, której dane dotyczą, ma prawo wnieść sprzeciw wobec przetwarzania jej danych osobowych, w zakresie, w jakim przetwarzanie jest dokonywane celem marketingu bezpośredniego.
-W takim przypadku niezwłocznie przestaniemy przetwarzać ich dane osobowe w tym celu.
+Dane „umowne” (rejestracja/bilet) – przez czas trwania umowy oraz okres przedawnienia roszczeń (co do zasady 3 lata liczone od końca roku kalendarzowego).
 
-21. Jeśli podstawą przetwarzania przez nas Twoich danych osobowych jest Twoja zgoda, wówczas masz prawo w dowolnym momencie cofnąć tę zgodę.
+Dane w dokumentacji księgowej/podatkowej – 5 lat (liczone zgodnie z przepisami).
 
-Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania, którego dokonaliśmy na podstawie Twojej zgody przed jej wycofaniem.
+Dane przetwarzane na podstawie uzasadnionego interesu – do czasu skutecznego wniesienia sprzeciwu albo upływu odpowiednich terminów dochodzenia roszczeń.
 
-## Informacje o zmianach niniejszej informacji o przetwarzaniu danych
+Dane przetwarzane na podstawie zgody – do wycofania zgody.
 
-22. Dokonujemy stałych przeglądów niniejszej informacji o przetwarzaniu danych osobowych oraz dokonujemy jej aktualizacji w razie potrzeby. O wszelkich zmianach będziemy informować na stronach naszego portalu, a w razie istotnych zmian, możemy wysłać Tobie dodatkowe powiadomienie mailowe, o ile posiadamy Twój adres e-mail.
+Dane techniczne/analityczne i anty-fraud – przez okres niezbędny do celów bezpieczeństwa i rozliczalności.
+
+## 7. Miejsce przetwarzania i odbiorcy danych
+
+Dane przechowujemy na serwerach dzierżawionych od Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Niemcy (EOG). Informacje prawne Hetzner: https://www.hetzner.com/rechtliches/impressum?country=us
+
+Odbiorcy/Podmioty przetwarzające:
+
+Hetzner Online GmbH – dostawca hostingu (podmiot przetwarzający);
+
+Fakturownia sp. z o.o. – system wystawiania faktur (podmiot przetwarzający);
+
+dostawcy usług IT/serwisowych (np. utrzymanie, backup), prawnicy i księgowi – wyłącznie w niezbędnym zakresie, na podstawie umów powierzenia.
+
+Niezależni administratorzy:
+
+Mollie B.V. – operator płatności online (administrator w zakresie danych płatniczych i rozliczeń swojej usługi). Dane kart nie trafiają do nas.
+
+Nie przekazujemy danych poza Europejski Obszar Gospodarczy. Jeśli kiedykolwiek miałoby to nastąpić, zastosujemy mechanizmy z rozdz. V RODO (np. standardowe klauzule umowne).
+
+## 8. Prawa osób, których dane dotyczą
+
+Masz prawo:
+
+* dostępu do danych, kopii danych i informacji (art. 15 RODO),
+* sprostowania/uzupełnienia (art. 16),
+* usunięcia („bycia zapomnianym”) w przypadkach z art. 17,
+* ograniczenia przetwarzania (art. 18),
+* przenoszenia danych (art. 20) – gdy podstawą jest zgoda lub umowa i przetwarzamy automatycznie,
+* sprzeciwu wobec przetwarzania opartego na art. 6 ust. 1 lit. f (w tym sprzeciw wobec marketingu bezpośredniego – skutkuje natychmiastowym zaprzestaniem),
+* wycofania zgody w dowolnym momencie (bez wpływu na zgodność z prawem przetwarzania sprzed cofnięcia).
+
+Masz prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa).
+
+## 9. Dodatkowe informacje
+
+Nie prowadzimy zautomatyzowanego podejmowania decyzji wywołującego skutki prawne wobec Uczestników, ani profilowania w tym znaczeniu RODO.
+
+Wizerunek: udział w wydarzeniu wiąże się z możliwością utrwalenia i publikacji Twojego wizerunku w materiałach Organizatora (cele dokumentacyjne/promocyjne). Jeżeli uznasz, że publikacja nadmiernie ingeruje w Twoje dobra osobiste, skontaktuj się z nami – rozpatrzymy wniosek o ograniczenie zakresu publikacji.
+
+Uczestnictwo/zakup biletów oraz zasady networkingu/QR reguluje Regulamin Zwiedzających (dostępny na stronie wydarzenia).
+
+Uczestnictwo jest przeznaczone dla osób pełnoletnich; nie pozyskujemy świadomie danych osób <18 lat.
+
+## 10. Zmiany niniejszej informacji
+
+Regularnie przeglądamy niniejszą informację i aktualizujemy ją w razie potrzeby. O zmianach poinformujemy na stronie wydarzenia; w przypadku istotnych zmian – dodatkowo e-mailem (jeśli go posiadamy).

@@ -96,7 +96,7 @@ module.exports = withSentryConfig(withTM({
         },
         {
           source: '/legal',
-          destination: '/legal-2025-04-14',
+          destination: '/legal-2025-11-04',
           permanent: false,
         },
         {
