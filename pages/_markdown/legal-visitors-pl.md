@@ -1,60 +1,146 @@
-# Regulamin dla uczestników
-             
-### 1. Definicje
+**Informacje skrócone (nie stanowią części Regulaminu):**
 
-1.1 Organizator - Infoguru Sp. z o.o. z siedzibą w Poznaniu, ul. Truskawiecka 13, 60-478 Poznań, wpisana do Rejestru pod numerem KRS 0000452046, NIP 7811883511, REGON 302360360,  której akta rejestrowe przechowywane są przez Sąd Rejonowy Poznań – Nowe Miasto i Wilda w Poznaniu, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego. 
+* Brak prawa odstąpienia od umowy (art. 38 pkt 12 u.p.k.).
+* Faktury PDF wysyłane do 7 dni od płatności.
+* Bilety wysyłane najpóźniej 3 dni przed Wydarzeniem.
+* Płatności online Mollie; przelew od 100 PLN netto.
+* W bilecie sponsorowanym udostępniane są jedynie: imię, nazwisko i nazwa firmy.
 
-1.2 Serwis – serwis internetowy dostępny w Internecie pod adresem [www.ecommercewarsaw.com](www.ecommercewarsaw.com), w ramach którego administrator umożliwia rejestrację na Wydarzenie.
+# REGULAMIN ZAKUPU BILETÓW I UCZESTNICTWA W E-COMMERCE WARSAW EXPO
 
-1.3 Wydarzenie – wydarzenie organizowane lub współorganizowane przez Organizatora, o którym informacje zawarte są w Serwisie – w szczególności o organizacji i godzinach dostępności dla Uczestników.
+(wersja obowiązująca od dnia publikacji, aktualizacja: 2025-11-04)
 
-1.4 Bilet wstępu – zamówiony za pośrednictwem Serwisu i nieodpłatnie wygenerowany przez Organizatora bilet uprawniający do jednorazowego wejścia na Wydarzenie w charakterze uczestnika w dniu jego organizacji.
+## §1. POSTANOWIENIA OGÓLNE
 
-1.5 Użytkownik – osoba fizyczna, która korzysta z Serwisu w jakimkolwiek celu, w tym w szczególności w celu uzyskania Biletu wstępu.
+Niniejszy regulamin („Regulamin”) określa zasady zakupu biletów oraz uczestnictwa w wydarzeniu E-commerce Warsaw Expo („Wydarzenie”) organizowanym przez Infoguru Sp. z o.o. z siedzibą w Poznaniu, ul. Truskawiecka 13, 60-478 Poznań, wpisaną do KRS pod numerem 0000452046, NIP 7811883511, REGON 302360360, której akta rejestrowe prowadzi Sąd Rejonowy Poznań – Nowe Miasto i Wilda w Poznaniu, VIII Wydział Gospodarczy KRS („Organizator”).
 
-1.6 Uczestnik – osoba fizyczna, która otrzymała Bilet wstępu oraz bierze bierny udział w Wydarzeniu w charakterze innym niż wystawca.
+Regulamin stanowi integralną część umowy zawieranej pomiędzy Organizatorem a osobą dokonującą zakupu biletu („Uczestnik”).
 
-1.7 Regulamin – niniejszy dokument określający zasady nabywania Biletów wstępu na Wydarzenie oraz prawa i obowiązki Uczestników związane z ich udziałem w Wydarzeniu. 
+Zakup biletu oznacza akceptację postanowień Regulaminu.
+
+**Kontakt z Organizatorem: hello@ecommercewarsaw.com**
+
+Sprzedaż biletów prowadzona jest wyłącznie poprzez serwisy: https://ecommercewarsaw.com oraz https://en.ecommercewarsaw.com
 
 
-### 2. Postanowienia ogólne
+## §2. DEFINICJE
 
-2.1 Organizator udostępnia adres e-mail: hello@ecommercewarsaw.com, przeznaczony do utrzymywania z nim kontaktu, w szczególności zgłaszania problemów z korzystaniem z Serwisu oraz wszelkich nieprawidłowości związanych z zamawianiem Biletu wstępu.
+**Serwis** – serwis internetowy Organizatora, w którym prowadzona jest sprzedaż biletów.
 
-2.2 Do prawidłowego korzystania z Serwisu i zamówienia Biletu wstępu niezbędne jest posiadanie urządzenia podłączonego do sieci Internet, które umożliwia korzystanie z jej zasobów oraz posiadanie aktywnego konta e-mail.
+**Wydarzenie** – „E-commerce Warsaw Expo”, konferencja i targi branżowe odbywające się 23 kwietnia 2026 w miejscu i godzinach wskazanych w Serwisie.
 
-2.3 Korzystanie z Serwisu jest bezpłatne.
+**Bilet Standard** – bilet płatny dla uczestników niebędących dostawcami usług lub narzędzi dla branży e-commerce, w szczególności właścicieli i pracowników sklepów internetowych oraz osób zainteresowanych zakupem takich usług i produktów.
 
-### 3. Zamówienie Biletu wstępu
+**Bilet Provider** – bilet płatny dla profesjonalnych uczestników będących dostawcami usług, narzędzi lub rozwiązań dla branży e-commerce, którzy nie są wystawcami Wydarzenia.
 
-3.1 W celu zamówienia Biletu wstępu na stronie Serwisu [www.ecommercewarsaw.com ](www.ecommercewarsaw.com ) należy wypełnić formularz rejestracyjny zawierający następujące dane: adres e-mail, imię, nazwisko, stanowisko, nazwa firmy, NIP, nr telefonu, a następnie kliknąć „Zarejestruj się bezpłatnie”.
+**Uczestnik** – osoba fizyczna biorąca udział w Wydarzeniu na podstawie zakupionego biletu, działająca jako konsument lub w imieniu przedsiębiorcy.
 
-3.2 Klikając „Zarejestruj się bezpłatnie” Użytkownik akceptuje niniejszy regulamin.
+**Siła wyższa** – zdarzenie zewnętrzne, nagłe i niemożliwe do przewidzenia ani zapobieżenia (mu. klęski żywiołowe, strajki, epidemie, akty władzy publicznej, wojny, przerwy w dostawach energii lub internetu).
 
-3.3 Zamówiony Bilet wstępu zostanie wysłany najpóźniej na jeden dzień przed Wydarzeniem na adres e-mail podany przez Użytkownika w formularzu rejestracyjnym.
+**Dane osobowe** – dane w rozumieniu RODO – Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.
 
-### 4. Bilet wstępu i udział w Wydarzeniu
+## §3. RODZAJE BILETÓW I ZASADY ZAKUPU
 
-4.1 Bilet wstępu jest jedynym dokumentem uprawniającym do wzięcia udziału w Wydarzeniu, tj. wstępu w godzinach ustalonych przez Organizatora na dostępny dla Uczestników teren na których odbywa się Wydarzenie.
+Dostępne są dwa rodzaje biletów: Bilet Standard i Bilet Provider.
 
-4.2 W Wydarzeniu może wziąć udział wyłącznie osoba, która otrzymała wiadomość e-mail z potwierdzeniem rejestracji.
+Bilet Provider mogą zakupić wyłącznie podmioty świadczące usługi, narzędzia lub rozwiązania dla branży e-commerce. Organizator zastrzega prawo do weryfikacji statusu Uczestnika. W przypadku zakupu Biletu Standard przez osobę nieuprawnioną Organizator może (1) wezwać do dopłaty różnicy w cenie lub (2) anulować bilet i zwrócić cenę.
 
-4.3 Warunkiem uczestnictwa w Wydarzeniu jest posiadanie wydrukowanego Biletu i okazanie go przy wejściu osobie upoważnionej przez Organizatora do kontroli Biletu wraz z dokumentem tożsamości zawierającym dane zgodne z danymi na Bilecie (imię i nazwisko).
+Bilety są imienne i wymagają podania m.in. adresu e-mail, imienia, nazwiska, stanowiska, nazwy firmy (jeśli dotyczy), NIP (jeśli dotyczy), numeru telefonu i danych do faktury.
 
-4.4 Osoby uczestniczące w Wydarzeniu zobowiązane są do przestrzegania Regulaminu dla uczestników.
+Zakup biletów odbywa się wyłącznie online w Serwisie. Ceny określa aktualny cennik dostępny w Serwisie.
 
-### 5. Problemy techniczne i reklamacje.
+Umowa sprzedaży zostaje zawarta z chwilą potwierdzenia przyjęcia zamówienia przez Organizatora i dokonania płatności.
 
-5.1 Wszelkie problemy techniczne i reklamacje związane z działaniem Serwisu należy zgłaszać Organizatorowi na adres e-mail podany w punkcie 2.1.
+Brak zwrotów: z uwagi na charakter usługi związanej z wydarzeniem o ściśle oznaczonym terminie, Uczestnikowi będącemu konsumentem nie przysługuje prawo odstąpienia od umowy (art. 38 pkt 12 ustawy o prawach konsumenta).
 
-5.2 Organizator niezwłocznie, nie później niż 14 dni od dnia otrzymania zawiadomienia, odpowie wysyłając wiadomość e-mail na adres, z którego otrzymał zgłoszenie.
+Bilety są wysyłane elektronicznie na adres e-mail Uczestnika najpóźniej 3 dni przed Wydarzeniem.
 
-### 6. Dane osobowe
+Opcja „bilet sponsorowany” oznacza dobrowolne udostępnienie Organizatorowi zgody na przekazanie wybranemu wystawcy imienia, nazwiska i nazwy firmy Uczestnika – bez danych kontaktowych.
 
-Wszystkie informacje dotyczące ochrony danych osobowych i prywatności znajdują się w zakładce [https://ecommercewarsaw.com/legal/visitors-data](https://ecommercewarsaw.com/legal/visitors-data) Informacje o ochronie danych osobowych
+## §4. PŁATNOŚCI I FAKTURY
 
-### 7. Postanowienia końcowe
+Płatności online obsługuje pośrednik Mollie B.V. (mollie.com), udostępniający m.in. metody Przelewy24, BLIK, karty płatnicze i Apple Pay.
 
-7.1 Niniejszy regulamin jest dostępny na [https://ecommercewarsaw.com/legal/visitors](https://ecommercewarsaw.com/legal/visitors) oraz w biurze Organizatora.
+Dostępna jest również płatność przelewem tradycyjnym dla zamówień o wartości co najmniej 100 PLN netto.
 
-7.2 Administrator umożliwia każdemu pobranie niniejszego regulaminu i zapisanie go na własnym nośniku danych.
+Uczestnik ponosi odpowiedzialność za poprawność wprowadzonych danych osobowych i danych do faktury.
+
+Faktury VAT wystawiane są ręcznie i wysyłane wyłącznie w formie PDF na adres e-mail Uczestnika w terminie do 7 dni od zakupu/płatności.
+
+Organizator nie wystawia paragonów fiskalnych.
+
+## §5. ZWROTY, REKLAMACJE I PRZENOSZENIE BILETÓW
+
+Poza przypadkami określonymi w § 8 Organizator nie przewiduje zwrotów biletów.
+
+Reklamacje dotyczące zakupu biletów lub działania Serwisu można zgłaszać e-mailem na adres wskazany w § 1 w ciągu 14 dni od wystąpienia problemu. Reklamacja powinna zawierać dane Uczestnika, adres e-mail, numer transakcji i opis problemu.
+
+Bilety są imienne i co do zasady nie podlegają przeniesieniu na inne osoby bez zgody Organizatora.
+
+Odsprzedaż biletów osobom trzecim jest zabroniona.
+
+## §6. WEJŚCIE NA WYDARZENIE
+
+Bilet (kod wstępu) jest jedynym dokumentem uprawniającym do udziału w Wydarzeniu.
+
+Uczestnik musi okazać bilet (wersja elektroniczna lub papierowa) przed wejściem do Hali Targowej.
+
+Organizator może udostępnić punkt wydruku biletów na miejscu.
+
+Udział w Wydarzeniu przysługuje wyłącznie osobie wskazanej na bilecie.
+
+Organizator ma prawo zweryfikować tożsamość Uczestnika.
+
+## §7. ZASADY UCZESTNICTWA I PORZĄDKOWE
+
+Wydarzenie przeznaczone jest dla osób pełnoletnich.
+
+Uczestnik jest zobowiązany do przestrzegania przepisów BHP i PPOŻ, poleceń Organizatora oraz do powstrzymania się od działań zakłócających przebieg Wydarzenia.
+
+Fotografowanie i nagrywanie Wydarzenia jest dozwolone pod warunkiem poszanowania praw osób trzecich.
+
+Organizator może usunąć z terenu Wydarzenia Uczestnika naruszającego Regulamin bez prawa do zwrotu ceny biletu.
+
+## §8. ZMIANY, SIŁA WYŻSZA I ODWOŁANIE
+
+Organizator dokłada starań, aby Wydarzenie odbyło się zgodnie z planem.
+
+Organizator nie przewiduje zmiany terminu ani formy Wydarzenia.
+
+W razie odwołania Wydarzenia z przyczyn leżących po stronie Organizatora, Uczestnikowi przysługuje zwrot pełnej ceny biletu w tej samej formie płatności w terminie do 30 dni.
+
+W przypadku odwołania Wydarzenia z powodu siły wyższej, Organizator zwróci Uczestnikowi 50% ceny biletu, zatrzymując pozostałą część na pokrycie kosztów organizacyjnych poniesionych przed wystąpieniem zdarzenia.
+
+## §9. WIZERUNEK I DANE OSOBOWE
+
+Uczestnik biorąc udział w Wydarzeniu wyraża zgodę na nieodpłatne utrwalanie i rozpowszechnianie swojego wizerunku w celach promocyjnych, dokumentacyjnych i marketingowych Organizatora.
+
+Administratorem danych osobowych jest Organizator (Infoguru Sp. z o.o.).
+
+Dane przetwarzane są na podstawie art. 6 ust. 1 lit. b, c i f RODO – w celu realizacji umowy, rozliczeń oraz prawnie uzasadnionych interesów Organizatora.
+
+W ramach biletu sponsorowanego udostępniane są wyłącznie dane: imię, nazwisko, nazwa firmy – bez kontaktowych.
+
+Odbiorcy danych: Mollie B.V. (operacje płatnicze) oraz Fakturownia Sp. z o.o. (wystawianie faktur). Aplikacje Organizatora nie przekazują danych innym podmiotom.
+
+Dane nie są przekazywane poza Europejski Obszar Gospodarczy.
+
+Szczegółowe informacje: https://ecommercewarsaw.com/legal/visitors-data
+
+Uczestnik ma prawo do dostępu, sprostowania, ograniczenia przetwarzania, sprzeciwu oraz wniesienia skargi do Prezesa UODO.
+
+## §10. ODPOWIEDZIALNOŚĆ
+
+Organizator nie ponosi odpowiedzialności za szkody niezawinione lub powstałe z przyczyn niezależnych od niego.
+
+Odpowiedzialność Organizatora ograniczona jest do wysokości ceny biletu.
+
+Organizator nie ponosi odpowiedzialności za utracone korzyści Uczestnika.
+
+## §11. POSTANOWIENIA KOŃCOWE
+
+Regulamin jest dostępny pod adresem: https://ecommercewarsaw.com/legal/visitors
+
+W sprawach nieuregulowanych stosuje się prawo polskie, w tym Kodeks cywilny, ustawę o prawach konsumenta oraz RODO.
+
+Organizator zastrzega prawo do zmiany Regulaminu; zmiany obowiązują od momentu publikacji w Serwisie.
