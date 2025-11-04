@@ -194,34 +194,34 @@ const bookingmapShared = {
     // allowedGroupIds : [515, 514, 513, 512, 511],
     boothStyleMapping: {
         516: "light",
-        515: "standard",
-        514: "hot",
-        513: "superHot",
-        512: "ultra",
-        511: "grand",
-        510: "stage",
-        505: "stage", //stage B
-        504: "stage", //stage D
-        517: "stage", //stage C
+        530: "standard",
+        529: "hot",
+        528: "superHot",
+        527: "ultra",
+        526: "grand",
+        525: "stage",
+        520: "stage", //stage B
+        532: "stage", //stage D
+        519: "stage", //stage C
 
-        508: "networking",
+        523: "networking",
         506: "networking", //mini networking
-        509: "boothSold", //last minute / buffer
+        524: "boothSold", //last minute / buffer
         506: "boothSold", //test
     
     },
     benefits: {
-        516: standardBenefits,
-        515: standardBenefits,
-        514: standardBenefits,
-        513: standardBenefits,
+        530: standardBenefits,
+        529: standardBenefits,
+        528: standardBenefits,
+        527: standardBenefits,
         512: standardBenefits,
-        511: premiumBenefits,
-        510: stageBenefits,
-        505: openStageBenefits,
-        504: openStageBenefits,
-        517: openStageBenefits,
-        508: networkingBenefits,
+        526: premiumBenefits,
+        525: stageBenefits,
+        519: stageBenefits,
+        532: openStageBenefits,
+        520: openStageBenefits,
+        523: networkingBenefits,
         506: mininetworkingBenefits
     },
     api : "https://stoiska.targiehandlu.pl/preorder",
