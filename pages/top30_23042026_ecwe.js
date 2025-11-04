@@ -35,7 +35,7 @@ import { cache } from 'react';
     {/* <WidgetAllExhibitorsAvatarlist label="exhibitors.list_full" /> */}
 
 
-    <WidgetVideoWithEventInfo setting="heroExpo" />
+    {/* <WidgetVideoWithEventInfo setting="heroExpo" /> */}
 
   
   </>
