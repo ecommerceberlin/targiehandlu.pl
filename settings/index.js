@@ -1009,8 +1009,8 @@ const settings =  {
         event_name : 'E-commerce Warsaw Expo (Targi eHandlu)',
         event_name_short: "TeH",
         event_location : 'EXPO XXI Warszawa, Prądzyńskiego 12/14',
-        event_date : '24.10.2025',
-        event_hours : '10:00-17:00',
+        event_date : '23.04.2026',
+        event_hours : '09:00-17:00',
 
     },
 
@@ -1022,10 +1022,10 @@ const settings =  {
 
         people : [
             {             
-                name: 'Karolina Wojtas',
+                name: 'Patrycja Chojnicka',
                 position : 'Account Manager',
                 langs : ["pl","en"],
-                avatar: 'https://res.cloudinary.com/eventjuicer/image/upload/v1697114443/targiehandlu_people_kw.jpg',
+                avatar: 'https://res.cloudinary.com/eventjuicer/image/upload/v1767370283/people_pc_rlhbog.jpg',
                 phone: '+48 535 801 021',
                 email: 'hello@ecommercewarsaw.com',
                 chatlio : true
